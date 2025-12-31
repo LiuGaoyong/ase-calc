@@ -1,0 +1,59 @@
+#
+#  Library of parameters for AA-CLP force field of Gavezzotti
+#  See New. J. Chem., 35, 1360-1368 (2011) for details of theory
+#
+#  NB: Do not change the type numbers in this file! Some of the special charge rules depend on them.
+#
+#  Notes when using AA-CLP:
+#
+#  - The method only defines intermolecular interactions and so is designed for a single point energy calculation only
+#  - Strictly speaking the covalent bonds to hydrogen (X-H) should be standardised in the structure
+#
+keyword mole eht
+aaclp_species                   #  Gavezotti type number and description
+H1  core 0.39 0.500 0.60  0.20   #   1   acetylene CH
+H2  core 0.39 0.500 0.62  0.10   #   2   =CH2, aromatic CH
+H3  core 0.39 0.500 0.64  0.05   #   3   aliphatic CH, CH2, CH3
+H4  core 0.39 0.500 0.75  0.99   #   5   ROH, RSH alcohol, thiol
+H5  core 0.39 0.500 0.80  0.99   #   6   COO-H acid
+H6  core 0.39 0.500 0.80  0.90   #   7   CON-H amide
+H7  core 0.39 0.500 0.80  0.99   #   8   H2NH, RNH2, (R_3N+)H
+H8  core 0.39 0.500 0.80  0.99   #   9   water
+C1  core 1.05 0.414 1.00  0.00   #  10   carbonyl 
+C2  core 1.35 0.414 1.00  0.00   #  11   C with triple bond
+C3  core 1.35 0.414 1.00  0.00   #  12   sp2 or allene
+C4  core 1.05 0.414 1.00  0.00   #  13   sp3
+C5  core 1.90 0.414 1.00  0.00   #  14   aromatic
+N1  core 0.95 0.534 0.63  0.00   #  16   (R_nH_4-n)N^+ i.e. N with four groups bonded
+N2  core 0.95 0.534 0.63 -0.97   #  17   (R_nH_3-n)N   i.e. N with three groups bonded
+N3  core 0.95 0.534 0.58 -0.99   #  18   aromatic N, R=N(H)
+N4  core 0.95 0.534 0.70 -0.70   #  19   -N=N or cyanide N
+N5  core 0.95 0.534 0.63  0.00   #  20   nitro N
+N6  core 0.95 0.534 0.63 -0.85   #  21   amide N
+O1  core 0.75 0.500 0.45 -0.90   #  23   -O- 
+O2  core 0.75 0.500 0.70 -0.99   #  24   water
+O3  core 0.75 0.500 0.50 -0.99   #  27   C=O, COO^-
+O4  core 0.75 0.500 0.50 -0.90   #  28   COOH
+O5  core 0.75 0.500 0.45 -0.99   #  29   R-O-H
+O6  core 0.75 0.500 0.50 -0.95   #  30   N=O
+O7  core 0.75 0.500 0.75 -0.90   #  31   S=O
+O8  core 0.75 0.500 0.75 -0.90   #  32   P=O
+S1  core 3.00 0.381 2.00 -0.50   #  34   -S-
+S2  core 3.00 0.381 2.00 -0.50   #  35   C=S
+S3  core 3.00 0.381 2.50  0.00   #  36   O=S
+S4  core 3.00 0.381 2.00 -0.50   #  37   R-S-H
+P1  core 1.54 0.386 3.00  0.00   #  38
+As1 core 3.50 0.400 5.00  0.00   #  39
+Se1 core 3.50 0.400 6.00  0.00   #  40
+F1  core 0.55 0.640 0.20  0.00   #  41
+Cl1 core 2.50 0.477 2.40 -0.20   #  42
+Br1 core 3.27 0.434 1.50  0.00   #  43
+I1  core 5.00 0.384 5.00  0.00   #  44
+B1  core 1.60 0.305 1.00  0.00   #  46
+Si1 core 2.00 0.280 1.00  0.00   #  47
+aaclp_two inter
+X core X core 0.0 40.0
+element
+vsip H -10.0 0.0
+end
+

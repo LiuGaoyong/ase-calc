@@ -1,0 +1,3296 @@
+#
+#  OPLS-AA library in GULP format
+#  Generated from parameters in Tinker library
+#
+#  NB: Species labels with _A are secondary species that apply to multiple primary species 
+#      This will be handled automatically when GULP reads the library file.
+#  NB: Requires use of GULP version 6.1 onwards! 
+#
+keyword molmec
+#
+version 6.1
+#
+species
+H1     core    0.4100 H_A1    # SPC Water H                   
+H2     core    0.3400 H_A178  # Ammonia NH3                   
+H3     core    0.0600 H_A180  # Alkane H-C                    
+H4     core    0.1150 H_A180  # Alkene H-C=                   
+H5     core    0.1150 H_A153  # Aromatic H-C                  
+H6     core    0.4180 H_A174  # Alcohol -OH                   
+H7     core    0.0400 H_A180  # Methanol CH3-                 
+H8     core    0.4286 H_A174  # Trifluoroethanol -OH          
+H9     core    0.0825 H_A180  # Trifluoroethanol -CH2-        
+H10    core    0.4350 H_A174  # Phenol -OH                    
+H11    core    0.4350 H_A174  # Diol -OH                      
+H12    core    0.4650 H_A174  # Triol -OH                     
+H13    core    0.0600 H_A180  # Diol & Triol H-COH            
+H14    core    0.0300 H_A180  # Alkyl Ether H-COR             
+H15    core    0.4350 H_A174  # Hemiacetal -OH                
+H16    core    0.1000 H_A180  # Acetal RO-CH2-OR              
+H17    core    0.1000 H_A180  # Hemiacetal RO-CH2-OH          
+H18    core    0.1000 H_A180  # Acetal RO-CHR-OR              
+H19    core    0.1000 H_A180  # Hemiacetal RO-CHR-OH          
+H20    core    0.1550 H_A144  # Thiol -SH                     
+H21    core    0.2350 H_A144  # Hydrogen Sulfide H2S          
+H22    core    0.3800 H_A178  # Amide -CO-NH2                 
+H23    core    0.3000 H_A178  # Amide -CO-NHR                 
+H24    core    0.3330 H_A178  # Urea -NH2                     
+H25    core    0.3700 H_A178  # Imide -NH-                    
+H26    core    0.0600 H_A180  # Formimide H-C=O               
+H27    core    0.4500 H_A174  # Carboxylic Acid -COOH         
+H28    core    0.0000 H_A180  # Aldehyde/Formamide H-C=O      
+H29    core    0.0600 H_A180  # Acyl H-C-COX                  
+H30    core    0.3500 H_A168  # Ammonium NH4+                 
+H31    core    0.3300 H_A168  # Ammonium RNH3+                
+H32    core    0.4600 H_A168  # Guanidinium -NH2              
+H33    core    0.4400 H_A168  # Guanidinium -NHR              
+H34    core    0.3100 H_A168  # Ammonium R2NH2+               
+H35    core    0.3700 H_A178  # Diaminopyridine -NH2          
+H36    core    0.1000 H_A153  # Diaminopyridine H3            
+H37    core    0.1000 H_A153  # Diaminopyridine H4            
+H38    core    0.4100 H_A178  # Uracil & Thymine HN1          
+H39    core    0.3600 H_A178  # Uracil & Thymine HN3          
+H40    core    0.1000 H_A180  # Uracil & Thymine HC5          
+H41    core    0.1000 H_A180  # Uracil & Thymine HC6          
+H42    core    0.0800 H_A180  # Thymine CH3-                  
+H43    core    0.3800 H_A178  # Cytosine HN1                  
+H44    core    0.3850 H_A178  # Cytosine NH2- (N3)            
+H45    core    0.3550 H_A178  # Cytosine NH2- (C5)            
+H46    core    0.1000 H_A180  # Cytosine HC5                  
+H47    core    0.1000 H_A63   # Cytosine HC6                  
+H48    core    0.2000 H_A51   # Adenine HC2                   
+H49    core    0.3850 H_A178  # Adenine NH2- (N1)             
+H50    core    0.3550 H_A178  # Adenine NH2- (C5)             
+H51    core    0.2000 H_A51   # Adenine & Guanine HC8         
+H52    core    0.3500 H_A178  # Adenine & Guanine HN9         
+H53    core    0.3800 H_A178  # Guanine HN1                   
+H54    core    0.4000 H_A178  # Guanine NH2-                  
+H55    core    0.1200 H_A180  # 9-Me-A & 9-Me-G CH3-          
+H56    core    0.1400 H_A180  # 1-Me-U & 1-Me-T CH3-          
+H57    core    0.1300 H_A180  # 1-Me-Cytosine CH3-            
+H58    core    0.4900 H_A178  # CytosineH+ HN1                
+H59    core    0.4800 H_A178  # CytosineH+ HN3                
+H60    core    0.4600 H_A178  # CytosineH+ NH2- (N3)          
+H61    core    0.4300 H_A178  # CytosineH+ NH2- (C5)          
+H62    core    0.1400 H_A153  # CytosineH+ HC5                
+H63    core    0.1400 H_A63   # CytosineH+ HC6                
+H64    core    0.1600 H_A180  # 1-Me-CytosineH+ CH3-          
+H65    core    0.1000 H_A180  # Methyl Thiolate CH3S-         
+H66    core    0.0600 H_A180  # Methoxide CH3O-               
+H67    core    0.1900 H_A180  # Nitrile Anion CNCH2-          
+H68    core    0.0700 H_A180  # Me Amine Anion CH3NH-         
+H69    core    0.4000 H_A178  # Methyl Amine Anion            
+H70    core    0.3000 H_A174  # Hydroxide Ion OH-             
+H71    core   -0.0300 H_A180  # DiMe Phosphate CH3-O          
+H72    core   -0.1000 H_A180  # Me Phosphate CH3-O            
+H73    core   -0.0200 H_A180  # Me MePhosphonate CH3-O        
+H74    core    0.0800 H_A180  # Me MePhosphonate CH3-P        
+H75    core    0.0200 H_A180  # Bz MePhosphonate CH3-O        
+H76    core    0.1200 H_A180  # Me BzPhosphonate CH3-P        
+H77    core    0.0300 H_A180  # Ester -OCH<                   
+H78    core    0.1800 H_A180  # Sulfonamide CH3-S             
+H79    core    0.4400 H_A178  # Sulfonamide -SO2NH2           
+H80    core    0.4100 H_A178  # Sulfonamide -SO2NHR           
+H81    core    0.0300 H_A180  # N-Me Sulfonamide CH3-         
+H82    core   -0.0600 H_A180  # Sulfonamide N-CH2-R           
+H83    core    0.0600 H_A180  # N-Et Sulfonamide CH3-         
+H84    core    0.4200 H_A178  # TRP HNE & HID/HIE HN          
+H85    core    0.4600 H_A178  # HIP HND & HNE                 
+H86    core    0.0120 H_A153  # Pyridine H1                   
+H87    core    0.1550 H_A153  # Pyridine H2                   
+H88    core    0.0650 H_A153  # Pyridine H3                   
+H89    core    0.0420 H_A153  # Pyrazine CH                   
+H90    core   -0.0320 H_A153  # Pyrimidine HC2                
+H91    core    0.0110 H_A153  # Pyrimidine HC4                
+H92    core    0.1970 H_A153  # Pyrimidine HC5                
+H93    core   -0.0090 H_A153  # Pyridazine HC3                
+H94    core    0.1220 H_A153  # Pyridazine HC4                
+H95    core    0.3170 H_A178  # Pyrrole HN                    
+H96    core    0.1550 H_A153  # Pyrrole HC2                   
+H97    core    0.1180 H_A153  # Pyrrole HC3                   
+H98    core    0.3010 H_A178  # Pyrazole HN1                  
+H99    core    0.0720 H_A153  # Pyrazole HC3                  
+H100   core    0.1500 H_A153  # Pyrazole HC4                  
+H101   core    0.1350 H_A153  # Pyrazole HC5                  
+H102   core    0.3060 H_A178  # Imidazole HN1                 
+H103   core    0.0780 H_A153  # Imidazole HC2                 
+H104   core    0.0750 H_A153  # Imidazole HC4                 
+H105   core    0.1870 H_A153  # Imidazole HC5                 
+H106   core    0.1420 H_A153  # Furan HC2                     
+H107   core    0.1260 H_A153  # Furan HC3                     
+H108   core    0.0430 H_A153  # Oxazole HC2                   
+H109   core    0.0910 H_A153  # Oxazole HC4                   
+H110   core    0.1810 H_A153  # Oxazole HC5                   
+H111   core    0.0530 H_A153  # Isoxazole HC3                 
+H112   core    0.1840 H_A153  # Isoxazole HC4                 
+H113   core    0.0980 H_A153  # Isoxazole HC5                 
+H114   core    0.3760 H_A178  # Indole HN1                    
+H115   core    0.1470 H_A153  # Indole HC2                    
+H116   core    0.1720 H_A153  # Indole HC3                    
+H117   core    0.1550 H_A153  # Indole HC4                    
+H118   core    0.1070 H_A153  # Indole HC5                    
+H119   core    0.1100 H_A153  # Indole HC6                    
+H120   core    0.1400 H_A153  # Indole HC7                    
+H121   core    0.0280 H_A153  # Quinoline HC2                 
+H122   core    0.1460 H_A153  # Quinoline HC3                 
+H123   core    0.1190 H_A153  # Quinoline HC4                 
+H124   core    0.1330 H_A153  # Quinoline HC5                 
+H125   core    0.1130 H_A153  # Quinoline HC6                 
+H126   core    0.1140 H_A153  # Quinoline HC7                 
+H127   core    0.1570 H_A153  # Quinoline HC8                 
+H128   core    0.0240 H_A153  # Purine HC2                    
+H129   core    0.1010 H_A153  # Purine HC6                    
+H130   core    0.0860 H_A153  # Purine HC8                    
+H131   core    0.4130 H_A178  # Purine HN9                    
+H132   core    0.1010 H_A153  # Thiazole HC2                  
+H133   core    0.0680 H_A153  # Thiazole HC4                  
+H134   core    0.2050 H_A153  # Thiazole HC5                  
+H135   core   -0.0140 H_A153  # 1,3,5-Triazine CH             
+H136   core    0.0320 H_A153  # 1,10-Phenanthroline HC2       
+H137   core    0.1460 H_A153  # 1,10-Phenanthroline HC3       
+H138   core    0.1080 H_A153  # 1,10-Phenanthroline HC4       
+H139   core    0.1400 H_A153  # 1,10-Phenanthroline HC5       
+H140   core    0.1180 H_A153  # 1-Methylimidazole HC2         
+H141   core    0.0930 H_A153  # 1-Methylimidazole HC4         
+H142   core    0.2080 H_A153  # 1-Methylimidazole HC5         
+H143   core    0.0980 H_A180  # 1-Methylimidazole CH3-        
+H144   core    0.2550 H_A144  # 6-Mercaptopurine SH           
+H145   core    0.1740 H_A180  # t-Butyl Cation CH3-           
+H146   core    0.2000 H_A180  # Cl..CH3..Cl- Sn2 TS           
+H147   core    0.0300 H_A153  # Cyclopentadienyl Anion        
+H148   core    0.0990 H_A153  # Cyclopentadienyl Radical      
+H149   core    0.1410 H_A153  # Benzamidine HCD               
+H150   core    0.1290 H_A153  # Benzamidine HCE               
+H151   core    0.4260 H_A178  # Benzamidine H1-N              
+H152   core    0.4650 H_A178  # Benzamidine H2-N              
+H153   core    0.1190 H_A153  # Benzamidine HCG               
+H154   core    0.0600 H_A180  # Alkyl Nitrile H-C-CN          
+H155   core    0.0600 H_A180  # Nitroalkane H-C-NO2           
+H156   core    0.0300 H_A180  # Propylene Carbonate CH2       
+H157   core    0.0300 H_A180  # Propylene Carbonate CH        
+H158   core    0.0600 H_A180  # Propylene Carbonate CH3       
+H159   core    0.1720 H_A180  # Phosphonium CH3-PR3+          
+H160   core    0.3600 H_A178  # Amine RNH2                    
+H161   core    0.3800 H_A178  # Amine R2NH                    
+H162   core    0.0600 H_A180  # Amine H-C-N                   
+H163   core    0.2000 H_A180  # Alkyne HCC-                   
+H164   core    0.0600 H_A180  # Alkyne H-C-CC-                
+H165   core    0.3900 H_A174  # Sugar H3' (-OH)               
+H166   core    0.2900 H_A168  # Ammonium R3NH+                
+H167   core    0.0740 H_A180  # GLY Zwitterion HA             
+H168   core    0.3170 H_A168  # GLY Zwitterion HN             
+H169   core    0.1000 H_A180  # Alkyl Fluoride H-C-F          
+H170   core    0.1500 H_A180  # DifluoroMeBenzene -CHF2       
+H171   core    0.1030 H_A180  # Alkyl Chloride H-C-Cl         
+H172   core    0.1030 H_A180  # Alkyl Bromide H-C-Br          
+H173   core    0.4110 H_A178  # Hydroxamic Acid HN            
+H174   core    0.4350 H_A174  # Hydroxamic Acid OH            
+H175   core    0.1000 H_A180  # Alkyl Iodide H-C-I            
+H176   core    0.0600 H_A180  # Tertiary Amide H-C-N          
+H177   core    0.0000 H_A180  # Tertiary Formamide H-C=O      
+H178   core   -0.1000 H_A178  # Alkyl Silane H-C-Si           
+H179   core    0.1000 H_A180  # Ammonium CH3-NR3+             
+H180   core    0.1500 H_A180  # Allene/Ketene H-C=C=X         
+He1    core    0.0000 He_A1   # Helium Atom                   
+Li1    core    1.0000 Li_A2   # Lithium Ion Li+               
+Li2    core    1.0000 Li_A2   # Lithium Ion (GBSA)            
+C1     core    0.2480 C_A418  # Carbon Tetrachloride          
+C2     core   -0.1800 C_A418  # Alkane CH3-                   
+C3     core   -0.1200 C_A418  # Alkane -CH2-                  
+C4     core   -0.0600 C_A418  # Alkane >CH-                   
+C5     core   -0.2400 C_A418  # Methane CH4                   
+C6     core    0.0000 C_A418  # Alkane >C<                    
+C7     core    0.0000 C_A415  # Alkene R2-C=                  
+C8     core   -0.1150 C_A415  # Alkene RH-C=                  
+C9     core   -0.2300 C_A415  # Alkene H2-C=                  
+C10    core   -0.1150 C_A410  # Aromatic C                    
+C11    core    0.0000 C_A410  # Naphthalene Fusion C          
+C12    core   -0.0650 C_A418  # Ethyl Benzene CH3-            
+C13    core   -0.0050 C_A418  # Ethyl Benzene -CH2-           
+C14    core   -0.1150 C_A24   # Diene =CH-CH=                 
+C15    core    0.1450 C_A418  # Alcohol CH3OH & RCH2OH        
+C16    core    0.2050 C_A418  # Alcohol R2CHOH                
+C17    core    0.2650 C_A418  # Alcohol R3COH                 
+C18    core    0.1263 C_A418  # Trifluoroethanol -CH2-        
+C19    core    0.5323 C_A418  # Trifluoroethanol CF3-         
+C20    core    0.1500 C_A410  # Phenol C-OH                   
+C21    core    0.1450 C_A418  # Diol & Triol -CH2OH           
+C22    core    0.2050 C_A418  # Diol & Triol -CHROH           
+C23    core    0.2650 C_A418  # Diol & Triol -CR2OH           
+C24    core    0.0000 C_A24   # Diene =CR-CR=                 
+C25    core    0.1100 C_A418  # Methyl Ether CH3OR            
+C26    core    0.1400 C_A418  # Ethyl Ether -CH2OR            
+C27    core    0.1700 C_A418  # Isopropyl Ether >CHOR         
+C28    core    0.2000 C_A418  # t-Butyl Ether COR             
+C29    core    0.2000 C_A338  # Acetal RO-CH2-OR              
+C30    core    0.2650 C_A338  # Hemiacetal RO-CH2-OH          
+C31    core    0.3000 C_A338  # Acetal RO-CHR-OR              
+C32    core    0.3650 C_A338  # Hemiacetal RO-CHR-OH          
+C33    core    0.4000 C_A338  # Acetal RO-CR2-OR              
+C34    core    0.4650 C_A338  # Hemiacetal RO-CR2-OH          
+C35    core    0.0850 C_A410  # Anisole C-OCH3                
+C36    core    0.0600 C_A418  # Thiol -CH2-SH                 
+C37    core    0.1200 C_A418  # Thiol >CH-SH                  
+C38    core    0.1800 C_A418  # Thiol C-SH                    
+C39    core    0.0375 C_A418  # Methyl Sulfide CH3-SR         
+C40    core    0.0975 C_A418  # Sulfide RCH2-SR               
+C41    core    0.1575 C_A418  # Sulfide R2CH-SR               
+C42    core    0.2175 C_A418  # Sulfide R3C-SR                
+C43    core    0.0375 C_A418  # Disulfide CH3-S-SR            
+C44    core    0.0975 C_A418  # Disulfide RCH2-S-SR           
+C45    core    0.1575 C_A418  # Disulfide R2CH-S-SR           
+C46    core    0.2175 C_A418  # Disulfide R3C-S-SR            
+C47    core    0.0000 C_A418  # Methanethiol CH3-SH           
+C48    core    0.2000 C_A418  # Benzyl Alcohol -CH2OH         
+C49    core    0.2600 C_A418  # Benzyl Alcohol -CHROH         
+C50    core    0.3200 C_A418  # Benzyl Alcohol -CR2OH         
+C51    core   -0.0550 C_A410  # Benzyl Alcohol/Nitrile        
+C52    core    0.0800 C_A418  # RCH2-NH2 & GLY CA             
+C53    core    0.1400 C_A418  # RCHR-NH2 & ALA CA             
+C54    core    0.2000 C_A418  # R3C-NH2 & AIB CA              
+C55    core    0.0050 C_A415  # Chloroalkene Cl-CH=           
+C56    core    0.1025 C_A410  # Thioanisole C-SCH3            
+C57    core    0.1400 C_A418  # Amide -NH-CHR2                
+C58    core    0.2000 C_A418  # Amide -NH-CR3                 
+C59    core    0.7000 C_A390  # Benzophenone C=O              
+C60    core    0.5650 C_A390  # Benzaldehyde C=O              
+C61    core    0.5850 C_A390  # Acetophenone C=O              
+C62    core    0.6150 C_A390  # Benzamide C=O                 
+C63    core    0.5000 C_A390  # Amide C=O                     
+C64    core    0.0200 C_A418  # Amide -NH-CH3                 
+C65    core   -0.1100 C_A418  # Amide -NR-CH3                 
+C66    core    0.0800 C_A418  # Amide -NH-CH2R                
+C67    core   -0.0500 C_A418  # Amide -NR-CH2R & PRO CD       
+C68    core    0.0100 C_A418  # Amide -NR-CHR2 & PRO CA       
+C69    core    0.1420 C_A390  # Urea C=O                      
+C70    core    0.4200 C_A390  # Imide C=O                     
+C71    core   -0.1200 C_A418  # Imide CH3-CONHCO-             
+C72    core   -0.0600 C_A418  # Imide -CH2-CONHCO-            
+C73    core    0.0000 C_A418  # Imide >CH-CONHCO-             
+C74    core    0.0600 C_A418  # Imide C-CONHCO-               
+C75    core    0.0350 C_A410  # Benzonitrile C-CN             
+C76    core    0.3950 C_A339  # Benzonitrile -CN              
+C77    core    0.1800 C_A410  # Chlorobenzene C-Cl            
+C78    core    0.0850 C_A410  # N-Phenylacetamide N-CA        
+C79    core    0.5200 C_A390  # Carboxylic Acid -COOH         
+C80    core    0.7000 C_A390  # Carboxylate COO-              
+C81    core   -0.2800 C_A418  # Carboxylate CH3-COO-          
+C82    core   -0.2200 C_A418  # Carboxylate RCH2-COO-         
+C83    core   -0.1600 C_A418  # Carboxylate R2CH-COO-         
+C84    core   -0.1000 C_A418  # Carboxylate R3C-COO-          
+C85    core    0.4500 C_A390  # Aldehyde/Acyl Halide C=O      
+C86    core    0.4700 C_A390  # Ketone C=O                    
+C87    core    0.0400 C_A418  # C-Terminal ALA CA             
+C88    core   -0.0200 C_A418  # C-Terminal GLY CA             
+C89    core    0.1000 C_A418  # C-Terminal AIB CA             
+C90    core   -0.0900 C_A418  # C-Terminal PRO CA             
+C91    core    0.1300 C_A418  # Ammonium CH3-NH3+             
+C92    core    0.1900 C_A418  # CH3NH3+/N-Term GLY CA         
+C93    core    0.2500 C_A418  # RCH2NH3+/N-Term ALA CA        
+C94    core    0.3100 C_A418  # R3C-NH3+/N-Term AIB CA        
+C95    core    0.2300 C_A418  # N-Terminal PRO CA             
+C96    core    0.1700 C_A418  # N-Terminal PRO CD             
+C97    core    0.1100 C_A418  # Ammonium CH3-NH2R+            
+C98    core    0.0900 C_A418  # GLY Zwitterion CA             
+C99    core    0.1500 C_A418  # ALA Zwitterion CA             
+C100   core    0.6400 C_A410  # Guanidinium C+                
+C101   core    0.2000 C_A418  # Me Guanidinium CH3-           
+C102   core   -0.1100 C_A418  # Et Guanidinium CH3-           
+C103   core    0.1900 C_A418  # Et Guan -CH2- & ARG CD        
+C104   core   -0.0500 C_A418  # Pr Guan -CH2- & ARG CG        
+C105   core    0.3600 C_A410  # Diaminopyridine C2            
+C106   core   -0.1500 C_A410  # Diaminopyridine C3            
+C107   core   -0.0400 C_A410  # Diaminopyridine C4            
+C108   core    0.5000 C_A390  # Uracil & Thymine C2           
+C109   core    0.4500 C_A390  # Uracil & Thymine C4           
+C110   core   -0.0700 C_A415  # Uracil & Thymine C5           
+C111   core    0.0800 C_A415  # Uracil & Thymine C6           
+C112   core   -0.1400 C_A418  # Thymine CH3-                  
+C113   core    0.5500 C_A390  # Cytosine C2                   
+C114   core    0.4600 C_A410  # Cytosine C4                   
+C115   core   -0.0600 C_A415  # Cytosine C5                   
+C116   core    0.1000 C_A415  # Cytosine C6                   
+C117   core    0.2200 C_A232  # Adenine C2                    
+C118   core    0.3800 C_A226  # Adenine C4                    
+C119   core    0.1500 C_A226  # Adenine C5                    
+C120   core    0.4400 C_A410  # Adenine C6                    
+C121   core    0.2000 C_A228  # Adenine & Guanine C8          
+C122   core    0.4600 C_A410  # Guanine C2                    
+C123   core    0.3400 C_A226  # Guanine C4                    
+C124   core    0.1200 C_A226  # Guanine C5                    
+C125   core    0.5200 C_A390  # Guanine C6                    
+C126   core   -0.0100 C_A418  # 9-Me A & 9-Me-G CH3-          
+C127   core   -0.0100 C_A418  # 1-Me-U & 1-Me-T CH3-          
+C128   core   -0.0100 C_A418  # 1-Me-Cytosine CH3-            
+C129   core    0.6500 C_A390  # CytosineH+ C2                 
+C130   core    0.6600 C_A410  # CytosineH+ C4                 
+C131   core   -0.0600 C_A415  # CytosineH+ C5                 
+C132   core    0.1000 C_A415  # CytosineH+ C6                 
+C133   core    0.0100 C_A418  # 1-Me-CytosineH+ CH3-          
+C134   core    0.1800 C_A415  # Trifluorothymine CF3-         
+C135   core    0.1200 C_A415  # Chloroalkene Cl2-C=           
+C136   core   -0.4000 C_A140  # Methyl Thiolate CH3S-         
+C137   core   -0.2000 C_A140  # Methoxide CH3O-               
+C138   core   -1.0700 C_A418  # Nitrile Anion CNCH2-          
+C139   core    0.5100 C_A339  # Nitrile Anion CNCH2-          
+C140   core   -0.3000 C_A140  # Me Amine Anion CH3NH-         
+C141   core    0.3000 C_A418  # DiMe Phosphate CH3-O          
+C142   core    0.4400 C_A418  # Me Phosphate CH3-O            
+C143   core    0.2800 C_A418  # Me MePhosphonate CH3-O        
+C144   core   -0.5100 C_A418  # Me MePhosphonate CH3-P        
+C145   core   -0.1400 C_A410  # Bz MePhosphonate Cipso        
+C146   core    0.3200 C_A418  # Bz MePhosphonate CH3-O        
+C147   core   -0.0400 C_A410  # Me BzPhosphonate Cipso        
+C148   core   -0.4700 C_A418  # Me BzPhosphonate CH3-P        
+C149   core    0.1400 C_A410  # Ph Phosphate Cipso            
+C150   core    0.2400 C_A418  # Barbiturate C6(R2)            
+C151   core    0.5100 C_A390  # Ester -COOR                   
+C152   core    0.1600 C_A418  # Methyl Ester -OCH3            
+C153   core    0.6350 C_A390  # Benzoic Acid -COOH            
+C154   core    0.6250 C_A390  # Aryl Ester -COOR              
+C155   core    0.1350 C_A410  # Phenyl Ester Cipso            
+C156   core   -0.5400 C_A418  # Sulfonamide CH3-S             
+C157   core    0.1800 C_A418  # N-Me Sulfonamide CH3-         
+C158   core    0.3900 C_A418  # Sulfonamide N-CH2-R           
+C159   core   -0.1800 C_A418  # N-Et Sulfonamide CH3-         
+C160   core    0.0000 C_A410  # Aryl Sulfonamide C-SO2N       
+C161   core    0.0300 C_A410  # Aryl Sulfoxide C-S=O          
+C162   core    0.1900 C_A418  # Et Ester -OCH2R               
+C163   core    0.2200 C_A418  # i-Pr Ester -OCHR2             
+C164   core    0.2500 C_A418  # t-Bu Ester -OCR3              
+C165   core   -0.0350 C_A418  # Sulfoxide CH3-SO-R            
+C166   core    0.0250 C_A418  # Sulfoxide -CH2-SO-R           
+C167   core    0.0750 C_A167  # TRP CG                        
+C168   core   -0.0550 C_A226  # TRP CD                        
+C169   core    0.1300 C_A213  # TRP CE                        
+C170   core   -0.0050 C_A418  # HIS CB                        
+C171   core    0.2950 C_A241  # HID & HIE CE1                 
+C172   core   -0.0150 C_A242  # HID CD2 & HIE CG              
+C173   core    0.0150 C_A344  # HID CG & HIE CD2              
+C174   core    0.3850 C_A241  # HIP CE1                       
+C175   core    0.2150 C_A175  # HIP CG & CD2                  
+C176   core   -0.1150 C_A344  # TRP CD1                       
+C177   core    0.0550 C_A418  # i-Pr Benzene -CHMe2           
+C178   core    0.1150 C_A418  # t-Bu Benzene -CMe3            
+C179   core   -0.0300 C_A415  # Vinyl Ether =CH-OR            
+C180   core    0.0850 C_A415  # Vinyl Ether =CR-OR            
+C181   core    0.0000 C_A377  # Biphenyl C1                   
+C182   core    0.4730 C_A410  # Pyridine C1                   
+C183   core   -0.4470 C_A410  # Pyridine C2                   
+C184   core    0.2270 C_A410  # Pyridine C3                   
+C185   core    0.1920 C_A410  # Pyrazine CH                   
+C186   core    0.8740 C_A232  # Pyrimidine C2                 
+C187   core    0.6530 C_A410  # Pyrimidine C4                 
+C188   core   -0.6890 C_A410  # Pyrimidine C5                 
+C189   core    0.3780 C_A410  # Pyridazine C3                 
+C190   core   -0.1600 C_A410  # Pyridazine C4                 
+C191   core   -0.1630 C_A344  # Pyrrole C2                    
+C192   core   -0.1490 C_A345  # Pyrrole C3                    
+C193   core    0.2460 C_A204  # Pyrazole C3                   
+C194   core   -0.3200 C_A345  # Pyrazole C4                   
+C195   core   -0.0340 C_A344  # Pyrazole C5                   
+C196   core    0.2750 C_A241  # Imidazole C2                  
+C197   core    0.1850 C_A242  # Imidazole C4                  
+C198   core   -0.2860 C_A344  # Imidazole C5                  
+C199   core   -0.0190 C_A344  # Furan C2                      
+C200   core   -0.1540 C_A345  # Furan C3                      
+C201   core    0.5110 C_A241  # Oxazole C2                    
+C202   core    0.1690 C_A242  # Oxazole C4                    
+C203   core   -0.1480 C_A344  # Oxazole C5                    
+C204   core    0.4050 C_A204  # Isoxazole C3                  
+C205   core   -0.4550 C_A345  # Isoxazole C4                  
+C206   core    0.2500 C_A344  # Isoxazole C5                  
+C207   core    0.0010 C_A344  # Indole C2                     
+C208   core   -0.3900 C_A345  # Indole C3                     
+C209   core   -0.2700 C_A410  # Indole C4                     
+C210   core   -0.1270 C_A410  # Indole C5                     
+C211   core   -0.1080 C_A410  # Indole C6                     
+C212   core   -0.2580 C_A410  # Indole C7                     
+C213   core    0.2200 C_A213  # Indole C8                     
+C214   core    0.2250 C_A226  # Indole C9                     
+C215   core    0.4250 C_A410  # Quinoline C2                  
+C216   core   -0.3590 C_A410  # Quinoline C3                  
+C217   core   -0.0080 C_A410  # Quinoline C4                  
+C218   core   -0.1970 C_A410  # Quinoline C5                  
+C219   core   -0.1120 C_A410  # Quinoline C6                  
+C220   core   -0.0700 C_A410  # Quinoline C7                  
+C221   core   -0.3070 C_A410  # Quinoline C8                  
+C222   core    0.5630 C_A410  # Quinoline C9                  
+C223   core   -0.0510 C_A410  # Quinoline C10                 
+C224   core    0.6790 C_A232  # Purine C2                     
+C225   core    0.7360 C_A226  # Purine C4                     
+C226   core    0.0380 C_A226  # Purine C5                     
+C227   core    0.3430 C_A410  # Purine C6                     
+C228   core    0.4520 C_A228  # Purine C8                     
+C229   core    0.2420 C_A241  # Thiazole C2                   
+C230   core    0.2280 C_A242  # Thiazole C4                   
+C231   core   -0.2990 C_A344  # Thiazole C5                   
+C232   core    0.9650 C_A232  # 1,3,5-Triazine CH             
+C233   core    0.1300 C_A410  # Serotonin C5-OH               
+C234   core    0.0520 C_A418  # Serotonin CH2 on C3           
+C235   core    0.3920 C_A410  # 1,10-Phenanthroline C2        
+C236   core   -0.3480 C_A410  # 1,10-Phenanthroline C3        
+C237   core    0.0200 C_A410  # 1,10-Phenanthroline C4        
+C238   core   -0.0420 C_A410  # 1,10-Phenanthroline C12       
+C239   core    0.3470 C_A410  # 1,10-Phenanthroline C11       
+C240   core   -0.1960 C_A410  # 1,10-Phenanthroline C5        
+C241   core    0.1660 C_A241  # 1-Methylimidazole C2          
+C242   core    0.1730 C_A242  # 1-Methylimidazole C4          
+C243   core   -0.3950 C_A344  # 1-Methylimidazole C5          
+C244   core   -0.1990 C_A418  # 1-Methylimidazole CH3-        
+C245   core   -0.1390 C_A418  # 1-Et Imidazole RCH2-          
+C246   core   -0.0790 C_A418  # 1-iPr Imidazole R2CH-         
+C247   core    0.0990 C_A418  # 1-MeO-Me-Imidazole CH2        
+C248   core   -0.1680 C_A418  # 2-Me Pyridine CH3             
+C249   core   -0.1080 C_A418  # 2-Et Pyridine CH2             
+C250   core   -0.1890 C_A418  # 3-Me Pyridazine CH3           
+C251   core   -0.1290 C_A418  # 3-Et Pyridazine CH2           
+C252   core   -0.1690 C_A418  # 4-Me Pyrimidine CH3           
+C253   core   -0.1090 C_A418  # 4-Et Pyrimidine CH2           
+C254   core   -0.1380 C_A418  # 2-Me Pyrazine CH3             
+C255   core   -0.0780 C_A418  # 2-Et Pyrazine CH2             
+C256   core   -0.0250 C_A418  # 2-Me Pyrrole CH3              
+C257   core    0.0350 C_A418  # 2-Et Pyrrole CH2              
+C258   core   -0.0380 C_A418  # 2-Me Furan CH3                
+C259   core    0.0220 C_A418  # 2-Et Furan CH2                
+C260   core    0.5230 C_A410  # 6-Mercaptopurine C6           
+C261   core    0.5000 C_A261  # Beta-Lactam N-C=O             
+C262   core    0.2275 C_A286  # Penicillin CH-N               
+C263   core    0.1400 C_A286  # Penicillin CH-CO              
+C264   core   -0.0080 C_A418  # 3-Me Indole CH3               
+C265   core    0.5880 C_A377  # 2-Phenyl Pyridine C2          
+C266   core   -0.1030 C_A377  # 2-Phenyl Pyridine C2'         
+C267   core   -0.3320 C_A377  # 2-Phenyl Pyridine C3          
+C268   core    0.0400 C_A377  # 2-Phenyl Pyridine C3'         
+C269   core    0.3420 C_A377  # 2-Phenyl Pyridine C4          
+C270   core   -0.0500 C_A377  # 2-Phenyl Pyridine C4'         
+C271   core    0.6190 C_A271  # t-Butyl Cation C+             
+C272   core   -0.3950 C_A418  # t-Butyl Cation CH3-           
+C273   core   -0.3440 C_A415  # Cl..CH3..Cl- Sn2 TS           
+C274   core   -0.1200 C_A286  # Cyclopropane -CH2-            
+C275   core   -0.0600 C_A286  # Cyclopropane -CHR-            
+C276   core    0.0000 C_A286  # Cyclopropane -CR2-            
+C277   core   -0.2300 C_A410  # Cyclopentadienyl Anion        
+C278   core   -0.0990 C_A410  # Cyclopentadienyl Radical      
+C279   core    0.2200 C_A410  # Fluorobenzene CF              
+C280   core    0.1300 C_A410  # Hexafluorobenzene CF          
+C281   core    0.1500 C_A410  # TrifluoroMeBenzene C-CF3      
+C282   core    0.4500 C_A418  # TrifluoroMeBenzene CF3-       
+C283   core    0.2000 C_A410  # Difluorobenzene CF            
+C284   core    0.2000 C_A410  # Bromobenzene CBr              
+C285   core    0.1000 C_A410  # Iodobenzene CI                
+C286   core    0.0550 C_A286  # cProp/cBut Benzene C-Ar       
+C287   core    0.0650 C_A410  # Thiophenol C-SH               
+C288   core    0.0130 C_A410  # Benzamidine CG                
+C289   core   -0.1060 C_A410  # Benzamidine CD                
+C290   core   -0.0900 C_A410  # Benzamidine CE                
+C291   core   -0.1190 C_A410  # Benzamidine CZ                
+C292   core    0.8270 C_A410  # Benzamidine C+                
+C293   core   -0.0200 C_A418  # Neutral MeGdn CH3-            
+C294   core    0.0400 C_A418  # Neutral ARG CD                
+C295   core    0.5500 C_A410  # Neutral ARG CZ (>C=)          
+C296   core    0.4600 C_A339  # Alkyl Nitrile -CN             
+C297   core   -0.0800 C_A418  # Acetonitrile CH3-CN           
+C298   core   -0.0200 C_A418  # Alkyl Nitrile RCH2-CN         
+C299   core    0.0400 C_A418  # Alkyl Nitrile R2CH-CN         
+C300   core    0.1000 C_A418  # Alkyl Nitrile R3C-CN          
+C301   core    0.0200 C_A418  # Nitromethane CH3-NO2          
+C302   core    0.0800 C_A418  # Nitroalkane RCH2-NO2          
+C303   core    0.1400 C_A418  # Nitroalkane R2CH-NO2          
+C304   core    0.2000 C_A418  # Nitroalkane R3C-NO2           
+C305   core    0.0900 C_A410  # Nitrobenzene C-NO2            
+C306   core    0.0350 C_A418  # Benzonitrile -CH2-            
+C307   core    0.8600 C_A390  # Propylene Carbonate C=O       
+C308   core    0.2100 C_A418  # Propylene Carbonate CH2       
+C309   core    0.1600 C_A418  # Propylene Carbonate CH        
+C310   core   -0.1000 C_A418  # Propylene Carbonate CH3       
+C311   core   -0.5081 C_A418  # Phosphonium CH3-PR3+          
+C312   core   -0.0080 C_A418  # Phosphonium RCH2-PR3+         
+C313   core    0.0000 C_A418  # Amine CH3-NH2                 
+C314   core    0.0200 C_A418  # Amine CH3-NHR                 
+C315   core    0.0300 C_A418  # Amine CH3-NR2                 
+C316   core    0.0600 C_A418  # Amine RCH2-NH2                
+C317   core    0.0800 C_A418  # Amine RCH2-NHR                
+C318   core    0.0900 C_A418  # Amine RCH2-NR2                
+C319   core    0.1200 C_A418  # Amine R2CH-NH2                
+C320   core    0.1800 C_A418  # Amine R3C-NH2                 
+C321   core    0.1400 C_A418  # Amine R2CH-NHR                
+C322   core    0.1500 C_A418  # Amine R2CH-NR2                
+C323   core    0.1800 C_A410  # Aniline C-NH2                 
+C324   core    0.2000 C_A410  # N-Me Aniline C-NHR            
+C325   core    0.2100 C_A410  # N-DiMe Aniline C-NR2          
+C326   core    0.1150 C_A418  # Benzyl Amine -CH2NH2          
+C327   core    0.1750 C_A418  # Benzyl Amine -CHRNH2          
+C328   core    0.2350 C_A418  # Benzyl Amine -CR2NH2          
+C329   core    0.1950 C_A418  # Benzyl Ether -CH2OR           
+C330   core    0.1525 C_A418  # Benzyl Sulfide -CH2SH         
+C331   core    0.1350 C_A418  # Benzyl Amine -CH2NHR          
+C332   core   -0.2100 C_A339  # Alkyne HCC-                   
+C333   core    0.0100 C_A339  # Alkyne RCCH R w/ 2/3 H        
+C334   core    0.0100 C_A339  # Alkyne RCCH R w/ 1 H          
+C335   core    0.0100 C_A339  # Alkyne RCCH R w/ O H/Ph       
+C336   core    0.4500 C_A338  # A & G Sugar C1'               
+C337   core    0.4800 C_A338  # C Sugar C1'                   
+C338   core    0.5100 C_A338  # U & T Sugar C1'               
+C339   core    0.0000 C_A339  # Alkyne RCCR                   
+C340   core    0.0900 C_A418  # Ammonium CH3-NHR2+            
+C341   core    0.1500 C_A418  # Ammonium RCH2-NHR2+           
+C342   core    0.2100 C_A418  # Ammonium R2CH-NHR2+           
+C343   core    0.2700 C_A418  # Ammonium R3C-NHR2+            
+C344   core    0.0960 C_A344  # 2-Phenyl Furan C2             
+C345   core   -0.0390 C_A345  # 2-Phenyl Furan C3             
+C346   core    0.0270 C_A377  # 2-Phenyl Furan C2'            
+C347   core    0.0110 C_A377  # 2-Phenyl Furan C3'            
+C348   core   -0.0290 C_A418  # GLY Zwitterion CA             
+C349   core    0.7000 C_A390  # GLY Zwitterion C              
+C350   core    0.0200 C_A418  # Alkyl Fluoride RCH2-F         
+C351   core    0.1200 C_A418  # Alkyl Fluoride R2CH-F         
+C352   core    0.2200 C_A418  # Alkyl Fluoride R3C-F          
+C353   core    0.3600 C_A418  # Perfluoroalkane CF3-          
+C354   core    0.2400 C_A418  # Perfluoroalkane -CF2-         
+C355   core    0.1200 C_A418  # Perfluoroalkane >CF-          
+C356   core    0.4800 C_A418  # Tetrafluoromethane CF4        
+C357   core    0.2500 C_A418  # DifluoroMeBenzene -CHF2       
+C358   core   -0.0800 C_A418  # Fluoroacetate FCH2-COO-       
+C359   core   -0.1060 C_A418  # Chloroacetate ClCH2-COO-      
+C360   core   -0.0060 C_A418  # Alkyl Chloride RCH2-Cl        
+C361   core    0.0970 C_A418  # Alkyl Chloride R2CH-Cl        
+C362   core    0.2000 C_A418  # Alkyl Chloride R3C-Cl         
+C363   core   -0.0060 C_A418  # Alkyl Bromide RCH2-Br         
+C364   core    0.0970 C_A418  # Alkyl Bromide R2CH-Br         
+C365   core    0.2000 C_A418  # Alkyl Bromide R3C-Br          
+C366   core    0.1000 C_A410  # Trifluoroanisole C-OCF3       
+C367   core    0.6000 C_A418  # Trifluoroanisole -OCF3        
+C368   core   -0.0450 C_A410  # N-Me,N-PhAcetamide Cipso      
+C369   core    0.1450 C_A418  # Benzyl Amine -CH2NR2          
+C370   core    0.8880 C_A390  # Alkyl Hydroxamic Acid C       
+C371   core    1.0030 C_A390  # Aryl Hydroxamic Acid C        
+C372   core    0.2250 C_A418  # Benzyl Ether -CHROR           
+C373   core    0.2550 C_A418  # Benzyl Ether -CR2OR           
+C374   core   -0.0340 C_A377  # 3-Phenyl Pyrrole C3           
+C375   core    0.0030 C_A377  # 3-Phenyl Pyrrole C3'          
+C376   core    0.3000 C_A377  # 4-Phenyl Imidazole C4         
+C377   core   -0.0400 C_A377  # 4-Phenyl Imidazole C4'        
+C378   core   -0.0575 C_A410  # Diphenylmethane Cipso         
+C379   core   -0.0700 C_A418  # Alkyl Iodide RCH2-I           
+C380   core    0.0300 C_A418  # Alkyl Iodide R2CH-I           
+C381   core    0.1300 C_A418  # Alkyl Iodide R3C-I            
+C382   core    0.1550 C_A410  # N-Ph Sulfonamide Cipso        
+C383   core   -0.1000 C_A410  # Benzoate C-COO-               
+C384   core    0.2180 C_A410  # N-Phenyl Urea Cipso           
+C385   core    0.6000 C_A390  # Tertiary Amide -CO-NR2        
+C386   core    0.0000 C_A418  # Tertiary Amide -NRCH3         
+C387   core    0.0600 C_A418  # Tertiary Amide -NRCH2R        
+C388   core    0.1200 C_A418  # Tertiary Amide -NRCHR2        
+C389   core    0.1800 C_A418  # Tertiary Amide -NRCR3         
+C390   core    0.5700 C_A390  # Tertiary Formamide C=O        
+C391   core    0.0200 C_A418  # B2-Peptide CA                 
+C392   core   -0.0400 C_A418  # B3-Peptide CA Main/N-Ter      
+C393   core    0.0000 C_A418  # B3-Pep CB GLY Main/C-Ter      
+C394   core    0.0600 C_A418  # B3-Pep CB ALA Main/C-Ter      
+C395   core   -0.0700 C_A418  # B3-Pep CB PRO Main/C-Ter      
+C396   core   -0.1400 C_A418  # B3-Peptide CA C-Ter           
+C397   core    0.1700 C_A418  # B3-Peptide CB ALA N-Ter       
+C398   core    0.1100 C_A418  # B3-Peptide CB GLY N-Ter       
+C399   core    0.1500 C_A418  # B3-Peptide CB PRO N-Ter       
+C400   core    0.1700 C_A418  # B3-Peptide CE PRO N-Ter       
+C401   core   -0.4300 C_A418  # Methyl Silane CH3-Si          
+C402   core   -0.3700 C_A418  # Alkyl Silane RCH2-Si          
+C403   core   -0.3100 C_A418  # Alkyl Silane R2CH-Si          
+C404   core   -0.2500 C_A418  # Alkyl Silane R3C-Si           
+C405   core   -0.0500 C_A418  # Ammonium CH3-NR3+             
+C406   core    0.0500 C_A418  # Ammonium RCH2-NR3+            
+C407   core    0.1500 C_A418  # Ammonium R2CH-NR3+            
+C408   core    0.2500 C_A418  # Ammonium R3C-NR3+             
+C409   core    0.1350 C_A410  # Anilinium C-NR3+              
+C410   core    0.1550 C_A410  # Anilinium C-NHR2+             
+C411   core    0.0000 C_A412  # Triene R2-C= (mid C=C)        
+C412   core   -0.1150 C_A412  # Triene RH-C= (mid C=C)        
+C413   core   -0.2500 C_A415  # Allene/Ketene H2C=C=X         
+C414   core   -0.1000 C_A415  # Allene/Ketene HRC=C=X         
+C415   core    0.0500 C_A415  # Allene/Ketene R2C=C=X         
+C416   core   -0.1000 C_A417  # Allene =C=                    
+C417   core    0.2000 C_A417  # Ketene =C=                    
+C418   core    0.0880 C_A418  # N-Me-HIS CB                   
+N1     core   -1.0200 N_A74   # Ammonia NH3                   
+N2     core   -0.7600 N_A83   # Amide -CO-NH2                 
+N3     core   -0.5000 N_A83   # Amide -CO-NHR                 
+N4     core   -0.1400 N_A83   # Amide -CO-NR2                 
+N5     core   -0.5420 N_A83   # Urea -NH2                     
+N6     core   -0.4900 N_A83   # Imide -NH-                    
+N7     core   -0.4300 N_A67   # Benzonitrile -CN              
+N8     core   -0.3850 N_A83   # N-Phenylacetamide N           
+N9     core   -0.4000 N_A86   # Ammonium NH4+                 
+N10    core   -0.3000 N_A86   # Ammonium RNH3+                
+N11    core    0.0000 N_A86   # Ammonium R4N+                 
+N12    core   -0.8000 N_A63   # Guanidinium -NH2              
+N13    core   -0.7000 N_A63   # Guanidinium -NHR              
+N14    core   -0.2000 N_A86   # Ammonium R2NH2+               
+N15    core   -0.4600 N_A70   # Diaminopyridine N1            
+N16    core   -0.8500 N_A63   # Diaminopyridine -NH2          
+N17    core   -0.6000 N_A60   # Uracil & Thymine N1           
+N18    core   -0.5100 N_A60   # Uracil & Thymine N3           
+N19    core   -0.5600 N_A60   # Cytosine N1                   
+N20    core   -0.5400 N_A70   # Cytosine N3                   
+N21    core   -0.7900 N_A63   # Cytosine NH2-                 
+N22    core   -0.5300 N_A70   # Adenine N1                    
+N23    core   -0.5500 N_A70   # Adenine N3                    
+N24    core   -0.4900 N_A61   # Adenine & Guanine N7          
+N25    core   -0.5000 N_A60   # Adenine & Guanine N9          
+N26    core   -0.8100 N_A63   # Adenine NH2-                  
+N27    core   -0.5600 N_A60   # Guanine N1                    
+N28    core   -0.5100 N_A70   # Guanine N3                    
+N29    core   -0.8000 N_A63   # Guanine NH2-                  
+N30    core   -0.6400 N_A60   # CytosineH+ N1                 
+N31    core   -0.7400 N_A60   # CytosineH+ N3                 
+N32    core   -0.8100 N_A63   # CytosineH+ NH2-               
+N33    core   -0.8200 N_A67   # Nitrile Anion CNCH2-          
+N34    core   -1.3100 N_A86   # Me Amine Anion CH3NH-         
+N35    core   -1.0000 N_A83   # Sulfonamide -SO2NH2           
+N36    core   -0.8000 N_A83   # Sulfonamide -SO2NHR           
+N37    core   -0.5700 N_A60   # TRP NE, HID ND & HIE NE       
+N38    core   -0.4900 N_A61   # HID NE & HIE ND               
+N39    core   -0.5400 N_A60   # HIP ND & NE                   
+N40    core   -0.6780 N_A70   # Pyridine N                    
+N41    core   -0.4680 N_A70   # Pyrazine N                    
+N42    core   -0.8390 N_A70   # Pyrimidine N                  
+N43    core   -0.3310 N_A70   # Pyridazine N                  
+N44    core   -0.2390 N_A60   # Pyrrole N                     
+N45    core   -0.0590 N_A60   # Pyrazole N1                   
+N46    core   -0.4910 N_A61   # Pyrazole N2                   
+N47    core   -0.2570 N_A60   # Imidazole N1                  
+N48    core   -0.5630 N_A61   # Imidazole N3                  
+N49    core   -0.5900 N_A61   # Oxazole N                     
+N50    core   -0.4130 N_A61   # Isoxazole N                   
+N51    core   -0.5000 N_A60   # Indole N1                     
+N52    core   -0.6940 N_A70   # Quinoline N1                  
+N53    core   -0.7600 N_A70   # Purine N1                     
+N54    core   -0.7880 N_A70   # Purine N3                     
+N55    core   -0.6420 N_A61   # Purine N7                     
+N56    core   -0.6820 N_A60   # Purine N9                     
+N57    core   -0.5150 N_A61   # Thiazole N                    
+N58    core   -0.9510 N_A70   # 1,3,5-Triazine N              
+N59    core   -0.5990 N_A70   # 1,10-Phenanthroline N         
+N60    core    0.1220 N_A60   # 1-Methylimidazole N1          
+N61    core   -0.5800 N_A61   # 1-Methylimidazole N3          
+N62    core   -0.1400 N_A62   # Beta-Lactam N-C=O             
+N63    core   -0.8850 N_A63   # Benzamidine -NH2              
+N64    core   -0.6200 N_A66   # Neutral ARG NE                
+N65    core   -0.7850 N_A70   # Neutral ARG N1 (HN=C)         
+N66    core   -0.7850 N_A66   # Neutral ARG N2 (H2N-C)        
+N67    core   -0.5600 N_A67   # Alkyl Nitrile -CN             
+N68    core    0.5400 N_A69   # Nitroalkane -NO2              
+N69    core    0.6500 N_A69   # Nitrobenzene -NO2             
+N70    core   -0.9000 N_A70   # Neutral Benzamidine N         
+N71    core    0.7940 N_A83   # Nitrate Ion NO3-              
+N72    core   -0.9000 N_A74   # Amine RNH2                    
+N73    core   -0.7800 N_A74   # Amine R2NH                    
+N74    core   -0.6300 N_A74   # Amine R3N                     
+N75    core   -0.5000 N_A77   # A & G Nucleoside N9           
+N76    core   -0.5600 N_A77   # C Nucleoside N1               
+N77    core   -0.6000 N_A77   # U & T Nucleoside N1           
+N78    core   -0.1000 N_A86   # Ammonium R3NH+                
+N79    core   -0.3520 N_A86   # GLY Zwitterion N              
+N80    core   -0.0250 N_A83   # N-Me,N-PhAcetamide N          
+N81    core   -0.6340 N_A83   # Hydroxamic Acid N             
+N82    core   -0.6850 N_A83   # N-Ph Sulfonamide -NHPh        
+N83    core   -0.4270 N_A83   # N-Phenyl Urea N               
+N84    core   -0.3600 N_A84   # Tertiary Amide -CO-NR2        
+N85    core    0.1150 N_A86   # Anilinium Ar-NR3+             
+N86    core    0.0150 N_A86   # Anilinium Ar-NHR2+            
+O1     core   -0.8200 O_A1    # SPC Water O                   
+O2     core   -0.6830 O_A53   # Alcohol -OH                   
+O3     core   -0.6351 O_A53   # Trifluoroethanol -OH          
+O4     core   -0.5850 O_A53   # Phenol -OH                    
+O5     core   -0.7000 O_A53   # Diol -OH                      
+O6     core   -0.7300 O_A53   # Triol -OH                     
+O7     core   -0.1700 O_A51   # Diphenyl Ether                
+O8     core   -0.2850 O_A51   # Anisole -OCH3                 
+O9     core   -0.4000 O_A51   # Dialkyl Ether -O-             
+O10    core   -0.4000 O_A51   # Acetal RO-CR2OX               
+O11    core   -0.7000 O_A53   # Hemiacetal -OH                
+O12    core   -0.5000 O_A56   # Amide C=O                     
+O13    core   -0.3900 O_A56   # Urea C=O                      
+O14    core   -0.4200 O_A56   # Imide C=O                     
+O15    core   -0.4400 O_A56   # Carboxylic Acid C=O           
+O16    core   -0.5300 O_A53   # Carboxylic Acid -OH           
+O17    core   -0.8000 O_A50   # Carboxylate COO-              
+O18    core   -0.4500 O_A56   # Aldehyde/Acyl Halide C=O      
+O19    core   -0.4700 O_A56   # Ketone C=O                    
+O20    core   -0.4000 O_A56   # Uracil & Thymine O2           
+O21    core   -0.4200 O_A56   # Uracil & Thymine O4           
+O22    core   -0.4800 O_A56   # Cytosine O2                   
+O23    core   -0.5100 O_A56   # Guanine O6                    
+O24    core   -0.3000 O_A56   # CytosineH+ O2                 
+O25    core   -0.9800 O_A53   # Methoxide CH3O-               
+O26    core   -1.3000 O_A53   # Hydroxide Ion OH-             
+O27    core   -0.2500 O_A27   # Uranyl Ion UO2+               
+O28    core   -0.8650 O_A51   # GTP O-(POn)2                  
+O29    core   -0.9200 O_A50   # DiMe Phosphate O=P-O          
+O30    core   -0.6000 O_A51   # DiMe Phosphate CH3-O          
+O31    core   -1.1200 O_A50   # Me Phosphate O=PO2            
+O32    core   -0.7000 O_A51   # Me Phosphate CH3-O            
+O33    core   -0.9700 O_A50   # Me MePhosphonate O=P-O        
+O34    core   -0.6300 O_A51   # Me MePhosphonate CH3-O        
+O35    core   -0.4300 O_A56   # Ester C=O                     
+O36    core   -0.3300 O_A51   # Ester CO-O-R                  
+O37    core   -0.2150 O_A51   # Phenyl Ester -OPh             
+O38    core   -0.6800 O_A40   # Sulfonamide -SO2N<            
+O39    core   -0.6870 O_A40   # Sulfone R-SO2-R               
+O40    core   -0.4200 O_A40   # Sulfoxide R-SO-R              
+O41    core   -0.1900 O_A51   # Furan O                       
+O42    core   -0.2570 O_A51   # Oxazole O                     
+O43    core   -0.1220 O_A51   # Isoxazole O                   
+O44    core   -0.3700 O_A44   # Nitroalkane -NO2              
+O45    core   -0.5000 O_A56   # Propylene Carbonate C=O       
+O46    core   -0.4500 O_A51   # Propylene Carbonate C-O       
+O47    core   -0.7800 O_A51   # GTP O-(POn)2                  
+O48    core   -0.5980 O_A56   # Nitrate Ion NO3-              
+O49    core   -0.6550 O_A53   # Sugar O5'                     
+O50    core   -0.7090 O_A50   # GLY Zwitterion O              
+O51    core   -0.2500 O_A51   # Trifluoroanisole -OCF3        
+O52    core   -0.6580 O_A56   # Hydroxamic Acid C=O           
+O53    core   -0.4420 O_A53   # Hydroxamic Acid OH            
+O54    core   -0.6000 O_A56   # Tertiary Amide -CO-NR2        
+O55    core   -0.5700 O_A56   # Tertiary Formamide C=O        
+O56    core   -0.2500 O_A56   # Ketene C=O                    
+F1     core   -0.2057 F_A12   # Trifluoroethanol F            
+F2     core   -1.0000 F_A12   # Fluoride Ion F-               
+F3     core   -0.2200 F_A12   # Fluorobenzene CF              
+F4     core   -0.1300 F_A12   # Hexafluorobenzene CF          
+F5     core   -0.2000 F_A12   # TrifluoroMeBenzene CF3-       
+F6     core   -0.2000 F_A12   # Difluorobenzene CF            
+F7     core   -0.3900 F_A12   # Hexafluorophosphate Ion       
+F8     core   -0.2200 F_A12   # Alkyl Fluoride C-F            
+F9     core   -0.1200 F_A12   # Perfluoroalkane C-F           
+F10    core   -0.0800 F_A12   # Acyl Fluoride F-C=O           
+F11    core   -0.1500 F_A12   # Trifluoroanisole -OCF3        
+F12    core   -1.0000 F_A12   # Fluoride Ion (GBSA)           
+Ne1    core    0.0000 Ne_A1   # Neon Atom                     
+Na1    core    1.0000 Na_A2   # Sodium Ion Na+                
+Na2    core    1.0000 Na_A2   # Sodium Ion (GBSA)             
+Mg1    core    2.0000 Mg_A2   # Magnesium Ion Mg+2            
+Mg2    core    2.0000 Mg_A2   # Magnesium Ion (GBSA)          
+Si1    core    1.0000 Si_A4   # Alkyl Silane R4Si             
+Si2    core    0.8500 Si_A4   # Alkyl Silane R3SiH            
+Si3    core    0.7000 Si_A4   # Alkyl Silane R2SiH2           
+Si4    core    0.5500 Si_A4   # Alkyl Silane RSiH3            
+P1     core    1.6200 P_A5    # DiMe Phosphate P              
+P2     core    1.9200 P_A5    # Me Phosphate P                
+P3     core    1.6200 P_A5    # Me MePhosphonate P            
+P4     core    0.9684 P_A4    # Phosphonium R4P+              
+P5     core    1.3400 P_A5    # Hexafluorophosphate Ion       
+S1     core   -0.3350 S_A14   # Thiol -SH                     
+S2     core   -0.4700 S_A14   # Hydrogen Sulfide H2S          
+S3     core   -0.4350 S_A13   # Sulfide -S-                   
+S4     core   -0.2175 S_A13   # Disulfide -S-S-               
+S5     core   -0.3200 S_A13   # Thioanisole -SCH3             
+S6     core   -0.9000 S_A14   # Methyl Thiolate CH3S-         
+S7     core    1.4800 S_A8    # Sulfonamide -SO2N<            
+S8     core    1.3740 S_A8    # Sulfone R-SO2-R               
+S9     core    0.2450 S_A10   # Alkyl Aryl Sulfoxide          
+S10    core    0.1300 S_A10   # Dialkyl Sulfoxide             
+S11    core   -0.0300 S_A13   # Thiazole S                    
+S12    core   -0.3340 S_A14   # 6-Mercaptopurine SH           
+S13    core   -0.2050 S_A13   # Diphenyl Thioether S          
+S14    core   -0.2200 S_A14   # Thiophenol SH                 
+Cl1    core   -0.0620 Cl_A9   # Carbon Tetrachloride          
+Cl2    core   -0.1200 Cl_A9   # Chloroalkene Cl-CH=           
+Cl3    core   -0.1800 Cl_A9   # Chlorobenzene C-Cl            
+Cl4    core   -0.0600 Cl_A9   # Chloroalkene Cl2-C=           
+Cl5    core   -1.0000 Cl_A9   # Chloride Ion Cl-              
+Cl6    core   -0.6280 Cl_A9   # Cl..CH3..Cl- Sn2 TS           
+Cl7    core   -0.2000 Cl_A9   # Alkyl Chloride C-Cl           
+Cl8    core   -0.0800 Cl_A9   # Acyl Chloride Cl-C=O          
+Cl9    core   -1.0000 Cl_A9   # Chloride Ion (GBSA)           
+Ar1    core    0.0000 Ar_A1   # Argon Atom                    
+K1     core    1.0000 K_A2    # Potassium Ion K+              
+K2     core    1.0000 K_A2    # Potassium Ion (GBSA)          
+Ca1    core    2.0000 Ca_A2   # Calcium Ion Ca+2              
+Ca2    core    2.0000 Ca_A2   # Calcium Ion (GBSA)            
+Zn1    core    2.0000 Zn_A1   # Zinc Ion Zn+2                 
+Br1    core   -1.0000 Br_A5   # Bromide Ion Br-               
+Br2    core   -0.2000 Br_A5   # Bromobenzene CBr              
+Br3    core   -0.2000 Br_A5   # Alkyl Bromide C-Br            
+Br4    core   -0.0800 Br_A5   # Acyl Bromide Br-C=O           
+Br5    core   -1.0000 Br_A5   # Bromide Ion (GBSA)            
+Kr1    core    0.0000 Kr_A1   # Krypton Atom                  
+Rb1    core    1.0000 Rb_A2   # Rubidium Ion Rb+              
+Rb2    core    1.0000 Rb_A2   # Rubidium Ion (GBSA)           
+Sr1    core    2.0000 Sr_A2   # Strontium Ion Sr+2            
+Sr2    core    2.0000 Sr_A2   # Strontium Ion (GBSA)          
+I1     core   -1.0000 I_A4    # Iodide Ion I-                 
+I2     core   -0.1000 I_A4    # Iodobenzene CI                
+I3     core   -0.1300 I_A4    # Alkyl Iodide C-I              
+I4     core   -1.0000 I_A4    # Iodide Ion (GBSA)             
+Xe1    core    0.0000 Xe_A1   # Xenon Atom                    
+Cs1    core    1.0000 Cs_A2   # Cesium Ion Cs+                
+Cs2    core    1.0000 Cs_A2   # Cesium Ion (GBSA)             
+Ba1    core    2.0000 Ba_A2   # Barium Ion Ba+2               
+Ba2    core    2.0000 Ba_A2   # Barium Ion (GBSA)             
+La1    core    3.0000 La_A1   # Lanthanum Ion La+3            
+Nd1    core    3.0000 Nd_A1   # Neodymium Ion Nd+3            
+Eu1    core    3.0000 Eu_A1   # Europium Ion Eu+3             
+Gd1    core    3.0000 Gd_A1   # Gadolinium Ion Gd+3           
+Yb1    core    3.0000 Yb_A1   # Ytterbium Ion Yb+3            
+Ac1    core    3.0000 Ac_A1   # Actinium Ion Ac+3             
+Th1    core    4.0000 Th_A1   # Thorium Ion Th+4              
+U1     core    2.5000 U_A1    # Uranyl Ion UO2+               
+Am1    core    3.0000 Am_A1   # Americium Ion Am+3            
+
+harmonic molmec kcal 
+F_A12    core  C_A390   core    840.000000    1.3570
+F_A12    core  C_A418   core    734.000000    1.3600
+F_A12    core  C_A339   core    900.000000    1.2790
+F_A12    core  C_A415   core    840.000000    1.3400
+F_A12    core  C_A410   core    840.000000    1.3540
+F_A12    core  C_A241   core    840.000000    1.3540
+F_A12    core  C_A242   core    840.000000    1.3540
+F_A12    core  C_A344   core    840.000000    1.3540
+F_A12    core  C_A345   core    840.000000    1.3540
+F_A12    core  C_A204   core    840.000000    1.3540
+F_A12    core  Si_A4    core    922.000000    1.5700
+C_A390   core  C_A390   core    700.000000    1.5100
+C_A390   core  O_A56    core   1140.000000    1.2290
+C_A390   core  O_A53    core    900.000000    1.3640
+C_A390   core  C_A140   core    634.000000    1.5220
+C_A390   core  C_A418   core    634.000000    1.5220
+C_A390   core  C_A339   core    800.000000    1.4440
+C_A390   core  O_A51    core    428.000000    1.3270
+C_A390   core  Cl_A9    core    600.000000    1.7900
+C_A390   core  N_A83    core    980.000000    1.3350
+C_A390   core  N_A74    core    634.000000    1.5220
+C_A390   core  H_A180   core    680.000000    1.0900
+C_A390   core  C_A415   core    820.000000    1.4440
+C_A390   core  C_A410   core    800.000000    1.4900
+C_A390   core  C_A24    core    770.000000    1.4600
+C_A390   core  O_A50    core   1312.000000    1.2500
+C_A390   core  N_A70    core    914.000000    1.3580
+C_A390   core  N_A60    core    836.000000    1.3880
+C_A390   core  C_A226   core    894.000000    1.4190
+C_A390   core  Br_A5    core    600.000000    1.9800
+C_A390   core  C_A344   core    800.000000    1.4900
+C_A390   core  C_A377   core    770.000000    1.4600
+C_A390   core  N_A77    core    848.000000    1.3830
+C_A390   core  N_A84    core    980.000000    1.3350
+O_A56    core  P_A5     core   1050.000000    1.4800
+O_A56    core  C_A261   core   1140.000000    1.2290
+O_A56    core  C_A417   core   1400.000000    1.1710
+O_A53    core  C_A140   core    772.000000    1.4250
+O_A53    core  H_A174   core   1106.000000    0.9450
+O_A53    core  C_A418   core    640.000000    1.4100
+O_A53    core  O_A51    core    500.000000    1.4700
+O_A53    core  N_A83    core    800.000000    1.3800
+O_A53    core  N_A74    core    640.000000    1.4500
+O_A53    core  C_A415   core    900.000000    1.3700
+O_A53    core  C_A410   core    900.000000    1.3640
+O_A53    core  C_A338   core    640.000000    1.3800
+O_A53    core  P_A5     core    460.000000    1.6100
+O_A53    core  S_A8     core    900.000000    1.6700
+O_A53    core  Zn_A1    core    188.000000    1.8000
+O_A53    core  Si_A4    core    748.000000    1.6400
+C_A140   core  C_A140   core    520.000000    1.5260
+C_A140   core  C_A418   core    520.000000    1.5260
+C_A140   core  S_A14    core    444.000000    1.8100
+C_A140   core  S_A13    core    444.000000    1.8100
+C_A140   core  O_A51    core    640.000000    1.4250
+C_A140   core  N_A83    core    674.000000    1.4490
+C_A140   core  N_A74    core    764.000000    1.4480
+C_A140   core  C_A415   core    634.000000    1.5100
+C_A140   core  C_A338   core    520.000000    1.5260
+C_A140   core  N_A86    core    734.000000    1.4710
+C_A140   core  N_A63    core    674.000000    1.4630
+C_A140   core  S_A8     core    444.000000    1.8100
+C_A140   core  N_A77    core    674.000000    1.4750
+H_A174   core  O_A51    core   1106.000000    0.9450
+C_A418   core  C_A418   core    536.000000    1.5290
+C_A418   core  S_A14    core    444.000000    1.8100
+C_A418   core  S_A13    core    444.000000    1.8100
+C_A418   core  N_A67    core    780.000000    1.4300
+C_A418   core  C_A339   core    780.000000    1.4700
+C_A418   core  O_A51    core    640.000000    1.4100
+C_A418   core  Cl_A9    core    490.000000    1.7810
+C_A418   core  S_A10    core    680.000000    1.7900
+C_A418   core  N_A83    core    674.000000    1.4490
+C_A418   core  N_A74    core    764.000000    1.4480
+C_A418   core  H_A180   core    680.000000    1.0900
+C_A418   core  C_A415   core    634.000000    1.5100
+C_A418   core  C_A410   core    634.000000    1.5100
+C_A418   core  C_A24    core    634.000000    1.5100
+C_A418   core  C_A338   core    536.000000    1.5290
+C_A418   core  N_A86    core    734.000000    1.4710
+C_A418   core  N_A63    core    674.000000    1.4630
+C_A418   core  N_A70    core    674.000000    1.4490
+C_A418   core  N_A60    core    674.000000    1.4750
+C_A418   core  C_A226   core    634.000000    1.5100
+C_A418   core  P_A5     core    424.000000    1.8430
+C_A418   core  Br_A5    core    490.000000    1.9450
+C_A418   core  I_A4     core    400.000000    2.1900
+C_A418   core  S_A8     core    680.000000    1.7700
+C_A418   core  C_A167   core    634.000000    1.4950
+C_A418   core  C_A242   core    634.000000    1.5040
+C_A418   core  C_A344   core    634.000000    1.5040
+C_A418   core  C_A175   core    634.000000    1.5040
+C_A418   core  C_A345   core    634.000000    1.4950
+C_A418   core  N_A62    core    674.000000    1.4490
+C_A418   core  C_A286   core    560.000000    1.5100
+C_A418   core  C_A271   core   1065.600000    1.4600
+C_A418   core  N_A66    core    764.000000    1.4480
+C_A418   core  N_A69    core    750.000000    1.4900
+C_A418   core  P_A4     core    424.000000    1.8200
+C_A418   core  N_A77    core    674.000000    1.4750
+C_A418   core  N_A84    core    674.000000    1.4490
+C_A418   core  Si_A4    core    374.000000    1.8600
+C_A418   core  C_A412   core    634.000000    1.5100
+S_A14    core  H_A144   core    548.000000    1.3360
+S_A14    core  C_A410   core    500.000000    1.7400
+S_A13    core  S_A13    core    332.000000    2.0380
+S_A13    core  C_A339   core    600.000000    1.6850
+S_A13    core  N_A83    core    500.000000    1.7300
+S_A13    core  C_A415   core    500.000000    1.7600
+S_A13    core  C_A410   core    500.000000    1.7600
+S_A13    core  N_A61    core    500.000000    1.7300
+S_A13    core  C_A241   core    500.000000    1.7600
+S_A13    core  C_A344   core    500.000000    1.7400
+S_A13    core  C_A286   core    444.000000    1.8100
+S_A13    core  Si_A4    core    288.000000    2.1500
+N_A67    core  N_A67    core   1100.000000    1.1200
+N_A67    core  C_A339   core   1300.000000    1.1570
+N_A67    core  C_A410   core    800.000000    1.4100
+N_A67    core  N_A70    core   1100.000000    1.2400
+C_A339   core  C_A339   core   2300.000000    1.2100
+C_A339   core  Cl_A9    core    660.000000    1.6370
+C_A339   core  H_A180   core    840.000000    1.0800
+C_A339   core  C_A415   core    800.000000    1.4260
+C_A339   core  C_A410   core    800.000000    1.4510
+C_A339   core  C_A24    core    800.000000    1.4260
+C_A339   core  Br_A5    core    660.000000    1.7840
+C_A339   core  C_A204   core    800.000000    1.4510
+C_A339   core  C_A286   core    800.000000    1.4510
+O_A51    core  O_A51    core    500.000000    1.4700
+O_A51    core  Cl_A9    core    400.000000    1.6900
+O_A51    core  N_A83    core    640.000000    1.4500
+O_A51    core  N_A74    core    640.000000    1.4500
+O_A51    core  C_A415   core    900.000000    1.3700
+O_A51    core  C_A410   core    900.000000    1.3640
+O_A51    core  C_A338   core    640.000000    1.3800
+O_A51    core  C_A226   core    680.000000    1.3600
+O_A51    core  N_A61    core    924.000000    1.3990
+O_A51    core  P_A5     core    460.000000    1.6100
+O_A51    core  C_A241   core    924.000000    1.3570
+O_A51    core  C_A344   core    680.000000    1.3600
+O_A51    core  Si_A4    core    748.000000    1.6400
+Cl_A9    core  C_A415   core    600.000000    1.7250
+Cl_A9    core  C_A410   core    600.000000    1.7250
+Cl_A9    core  C_A241   core    600.000000    1.7250
+Cl_A9    core  C_A242   core    600.000000    1.7250
+Cl_A9    core  C_A344   core    600.000000    1.7250
+Cl_A9    core  C_A345   core    600.000000    1.7250
+Cl_A9    core  C_A204   core    600.000000    1.7250
+Cl_A9    core  Si_A4    core    446.000000    2.0200
+S_A10    core  O_A40    core   1400.000000    1.5300
+O_A40    core  S_A8     core   1400.000000    1.4400
+N_A83    core  H_A178   core    868.000000    1.0100
+N_A83    core  C_A410   core    854.000000    1.3810
+N_A83    core  C_A232   core    854.000000    1.3810
+N_A83    core  S_A8     core    868.000000    1.6700
+N_A83    core  C_A344   core    854.000000    1.3810
+N_A83    core  C_A204   core    854.000000    1.3810
+N_A83    core  C_A286   core    674.000000    1.4490
+N_A83    core  O_A44    core   1000.000000    1.2700
+N_A83    core  Zn_A1    core     80.000000    2.0500
+O_A1     core  H_A1     core   1200.000000    1.0000
+N_A74    core  N_A74    core    700.000000    1.4450
+N_A74    core  H_A178   core    868.000000    1.0100
+N_A74    core  C_A410   core    962.000000    1.3400
+N_A74    core  S_A8     core    680.000000    1.7700
+N_A74    core  C_A286   core    764.000000    1.4480
+N_A74    core  Si_A4    core    532.000000    1.7400
+H_A178   core  N_A86    core    868.000000    1.0100
+H_A178   core  N_A63    core    868.000000    1.0100
+H_A178   core  N_A70    core    868.000000    1.0100
+H_A178   core  N_A60    core    868.000000    1.0100
+H_A178   core  N_A66    core    868.000000    1.0100
+H_A178   core  N_A77    core    868.000000    1.0100
+H_A178   core  Si_A4    core    332.000000    1.4800
+H_A180   core  C_A415   core    680.000000    1.0800
+H_A180   core  C_A24    core    680.000000    1.0800
+H_A180   core  C_A338   core    680.000000    1.0900
+H_A180   core  C_A167   core    680.000000    1.0800
+H_A180   core  C_A286   core    680.000000    1.0880
+H_A180   core  C_A271   core   1065.600000    1.0840
+H_A180   core  Si_A4    core    332.000000    1.4800
+H_A180   core  C_A412   core    680.000000    1.0800
+C_A415   core  C_A415   core   1098.000000    1.3400
+C_A415   core  C_A410   core    854.000000    1.4330
+C_A415   core  C_A24    core   1098.000000    1.3400
+C_A415   core  N_A60    core    896.000000    1.3650
+C_A415   core  H_A63    core    734.000000    1.0800
+C_A415   core  Br_A5    core    600.000000    1.9000
+C_A415   core  I_A4     core    500.000000    2.0800
+C_A415   core  C_A377   core    770.000000    1.4600
+C_A415   core  C_A286   core    634.000000    1.5100
+C_A415   core  N_A77    core    896.000000    1.3650
+C_A415   core  C_A417   core   1400.000000    1.3050
+C_A410   core  C_A410   core    938.000000    1.4000
+C_A410   core  H_A153   core    734.000000    1.0800
+C_A410   core  C_A24    core    854.000000    1.4330
+C_A410   core  N_A86    core    800.000000    1.4500
+C_A410   core  N_A63    core    962.000000    1.3400
+C_A410   core  N_A70    core    966.000000    1.3390
+C_A410   core  N_A60    core    854.000000    1.3810
+C_A410   core  C_A226   core    938.000000    1.4040
+C_A410   core  N_A61    core    828.000000    1.3910
+C_A410   core  P_A5     core    440.000000    1.7800
+C_A410   core  Br_A5    core    600.000000    1.8700
+C_A410   core  I_A4     core    500.000000    2.0800
+C_A410   core  S_A8     core    680.000000    1.7700
+C_A410   core  C_A213   core    938.000000    1.4000
+C_A410   core  C_A344   core   1092.000000    1.3670
+C_A410   core  C_A377   core    938.000000    1.4000
+C_A410   core  C_A204   core    938.000000    1.4210
+C_A410   core  C_A286   core    634.000000    1.4900
+C_A410   core  N_A66    core    764.000000    1.3850
+C_A410   core  N_A69    core    800.000000    1.4600
+C_A410   core  C_A412   core    854.000000    1.4330
+H_A153   core  C_A232   core    734.000000    1.0800
+H_A153   core  C_A228   core    680.000000    1.0800
+H_A153   core  C_A241   core    734.000000    1.0800
+H_A153   core  C_A242   core    734.000000    1.0800
+H_A153   core  C_A344   core    734.000000    1.0800
+H_A153   core  C_A175   core    734.000000    1.0800
+H_A153   core  C_A345   core    734.000000    1.0800
+H_A153   core  C_A204   core    734.000000    1.0800
+C_A24    core  C_A24    core    770.000000    1.4600
+C_A24    core  N_A70    core    914.000000    1.2900
+C_A24    core  C_A344   core   1098.000000    1.3650
+C_A24    core  C_A412   core    770.000000    1.4600
+C_A338   core  N_A77    core    674.000000    1.4750
+O_A50    core  P_A5     core   1050.000000    1.4800
+N_A86    core  H_A168   core    868.000000    1.0100
+H_A168   core  N_A63    core    868.000000    1.0100
+N_A63    core  C_A232   core    962.000000    1.3400
+N_A63    core  C_A241   core    962.000000    1.3400
+N_A70    core  N_A70    core   1000.000000    1.3200
+N_A70    core  C_A232   core   1004.000000    1.3240
+N_A70    core  C_A226   core    922.000000    1.3540
+N_A70    core  C_A241   core    922.000000    1.3540
+N_A70    core  C_A377   core    966.000000    1.3390
+N_A70    core  O_A44    core   1100.000000    1.2100
+N_A70    core  C_A412   core    914.000000    1.2900
+N_A60    core  C_A226   core    872.000000    1.3740
+N_A60    core  N_A61    core    800.000000    1.3490
+N_A60    core  C_A228   core    880.000000    1.3710
+N_A60    core  C_A213   core    856.000000    1.3800
+N_A60    core  C_A241   core    954.000000    1.3430
+N_A60    core  C_A344   core    854.000000    1.3810
+N_A60    core  C_A175   core    854.000000    1.3810
+N_A60    core  C_A377   core    770.000000    1.4400
+H_A63    core  C_A242   core    734.000000    1.0800
+H_A63    core  C_A344   core    734.000000    1.0800
+C_A232   core  H_A51    core    734.000000    1.0800
+C_A226   core  C_A226   core   1040.000000    1.3700
+C_A226   core  N_A61    core    828.000000    1.3910
+C_A226   core  C_A167   core    776.000000    1.4590
+C_A226   core  C_A213   core    894.000000    1.4190
+C_A226   core  C_A345   core    938.000000    1.4240
+C_A226   core  N_A77    core    872.000000    1.3740
+N_A61    core  N_A61    core    800.000000    1.2800
+N_A61    core  C_A228   core   1058.000000    1.3040
+N_A61    core  C_A241   core    976.000000    1.3350
+N_A61    core  C_A242   core    820.000000    1.3940
+N_A61    core  C_A344   core    820.000000    1.3940
+N_A61    core  C_A204   core    820.000000    1.3200
+C_A228   core  H_A51    core    734.000000    1.0800
+C_A228   core  N_A77    core    880.000000    1.3710
+H_A51    core  C_A241   core    734.000000    1.0800
+P_A5     core  Si_A4    core    216.000000    2.2500
+Br_A5    core  C_A241   core    600.000000    1.8700
+Br_A5    core  C_A242   core    600.000000    1.8700
+Br_A5    core  C_A344   core    600.000000    1.8700
+Br_A5    core  C_A345   core    600.000000    1.8700
+Br_A5    core  C_A204   core    600.000000    1.8700
+Br_A5    core  Si_A4    core    302.000000    2.1900
+I_A4     core  C_A241   core    500.000000    2.0800
+I_A4     core  C_A242   core    500.000000    2.0800
+I_A4     core  C_A344   core    500.000000    2.0800
+I_A4     core  C_A345   core    500.000000    2.0800
+I_A4     core  C_A204   core    500.000000    2.0800
+I_A4     core  Si_A4    core    216.000000    2.4400
+U_A1     core  O_A27    core   1000.000000    1.8000
+C_A167   core  C_A344   core   1092.000000    1.3520
+C_A241   core  C_A377   core    770.000000    1.4600
+C_A241   core  C_A345   core   1040.000000    1.3700
+C_A242   core  C_A344   core   1040.000000    1.3700
+C_A242   core  C_A377   core    770.000000    1.4600
+C_A344   core  C_A344   core   1024.000000    1.3750
+C_A344   core  C_A377   core    770.000000    1.4600
+C_A344   core  C_A345   core   1092.000000    1.3670
+C_A344   core  C_A204   core   1040.000000    1.3700
+C_A175   core  C_A175   core   1040.000000    1.3700
+C_A377   core  C_A377   core    770.000000    1.4600
+C_A377   core  C_A345   core    770.000000    1.4600
+C_A377   core  C_A204   core    770.000000    1.4600
+C_A345   core  C_A345   core    938.000000    1.4240
+C_A345   core  C_A204   core    938.000000    1.4240
+C_A261   core  N_A62    core    980.000000    1.3350
+C_A261   core  C_A286   core    634.000000    1.5220
+N_A62    core  C_A286   core    674.000000    1.4490
+C_A286   core  C_A286   core    520.000000    1.5200
+N_A69    core  O_A44    core   1100.000000    1.2250
+Si_A4    core  Si_A4    core    188.000000    2.3200
+C_A412   core  C_A412   core   1098.000000    1.3450
+
+three molmec kcal 
+C_A390  core F_A12   core O_A56    core   160.000000  121.0000
+C_A390  core C_A390  core O_A56    core   160.000000  121.4000
+C_A390  core O_A56   core O_A56    core   160.000000  126.0000
+C_A390  core O_A56   core O_A53    core   160.000000  121.0000
+C_A390  core O_A56   core C_A140   core   160.000000  120.4000
+C_A390  core O_A53   core C_A418   core   140.000000  108.0000
+C_A390  core C_A418  core C_A418   core   140.000000  116.0000
+C_A390  core F_A12   core C_A418   core   160.000000  111.0000
+C_A390  core C_A390  core C_A418   core   160.000000  117.2000
+C_A390  core O_A56   core C_A418   core   160.000000  120.4000
+C_A390  core C_A418  core O_A51    core   162.000000  111.4000
+C_A390  core O_A56   core O_A51    core   166.000000  123.4000
+C_A390  core C_A418  core Cl_A9    core   150.000000  109.0000
+C_A390  core O_A56   core Cl_A9    core   150.000000  119.0000
+C_A390  core N_A83   core N_A83    core   140.000000  114.2000
+C_A390  core C_A390  core N_A83    core   140.000000  116.6000
+C_A390  core C_A140  core N_A83    core   140.000000  116.6000
+C_A390  core C_A418  core N_A83    core   140.000000  116.6000
+C_A390  core O_A56   core N_A83    core   160.000000  122.9000
+C_A390  core O_A51   core N_A83    core   162.000000  111.4000
+C_A390  core C_A418  core N_A74    core   140.000000  116.0000
+C_A390  core O_A56   core N_A74    core   160.000000  120.4000
+C_A390  core C_A418  core H_A180   core    70.000000  115.0000
+C_A390  core H_A180  core H_A180   core    70.000000  115.0000
+C_A390  core O_A56   core H_A180   core    70.000000  123.0000
+C_A390  core N_A83   core H_A180   core    80.000000  114.0000
+C_A390  core O_A53   core H_A180   core    80.000000  115.0000
+C_A390  core O_A51   core H_A180   core    80.000000  115.0000
+C_A390  core N_A83   core C_A415   core   140.000000  115.5000
+C_A390  core O_A56   core C_A415   core   160.000000  125.3000
+C_A390  core H_A180  core C_A410   core    70.000000  115.0000
+C_A390  core N_A83   core C_A410   core   140.000000  115.5000
+C_A390  core C_A418  core C_A410   core   140.000000  116.0000
+C_A390  core O_A53   core C_A410   core   140.000000  120.0000
+C_A390  core O_A56   core C_A410   core   160.000000  120.4000
+C_A390  core O_A51   core C_A410   core   162.000000  111.4000
+C_A390  core C_A410  core C_A410   core   170.000000  120.0000
+C_A390  core C_A418  core C_A24    core   140.000000  116.0000
+C_A390  core H_A180  core C_A24    core   160.000000  116.0000
+C_A390  core O_A56   core C_A24    core   160.000000  124.0000
+C_A390  core C_A140  core O_A50    core   140.000000  117.0000
+C_A390  core C_A418  core O_A50    core   140.000000  117.0000
+C_A390  core C_A410  core O_A50    core   140.000000  117.0000
+C_A390  core O_A56   core O_A50    core   160.000000  126.0000
+C_A390  core O_A50   core O_A50    core   160.000000  126.0000
+C_A390  core H_A180  core N_A70    core    70.000000  116.0000
+C_A390  core H_A180  core N_A70    core    70.000000  122.0000
+C_A390  core O_A56   core N_A70    core   160.000000  122.5000
+C_A390  core C_A415  core N_A60    core   140.000000  114.1000
+C_A390  core N_A70   core N_A60    core   140.000000  118.6000
+C_A390  core N_A60   core N_A60    core   140.000000  118.6000
+C_A390  core O_A56   core N_A60    core   160.000000  120.6000
+C_A390  core N_A83   core C_A226   core   140.000000  111.3000
+C_A390  core N_A60   core C_A226   core   140.000000  111.3000
+C_A390  core O_A56   core C_A226   core   160.000000  128.8000
+C_A390  core C_A418  core Br_A5    core   150.000000  109.0000
+C_A390  core O_A56   core Br_A5    core   150.000000  119.0000
+C_A390  core N_A74   core C_A344   core   140.000000  116.0000
+C_A390  core O_A56   core C_A344   core   160.000000  120.4000
+C_A390  core O_A56   core C_A345   core   160.000000  128.2000
+C_A390  core N_A60   core N_A77    core   140.000000  115.4000
+C_A390  core N_A70   core N_A77    core   140.000000  118.6000
+C_A390  core O_A56   core N_A77    core   160.000000  120.9000
+C_A390  core C_A418  core N_A84    core   140.000000  116.6000
+C_A390  core O_A56   core N_A84    core   160.000000  122.9000
+O_A53   core C_A390  core H_A174   core    70.000000  113.0000
+O_A53   core C_A140  core H_A174   core   110.000000  108.5000
+O_A53   core H_A174  core C_A418   core   110.000000  108.5000
+O_A53   core H_A174  core N_A83    core    98.000000  105.4000
+O_A53   core H_A174  core C_A415   core    70.000000  109.0000
+O_A53   core H_A174  core C_A410   core    70.000000  113.0000
+O_A53   core H_A174  core C_A338   core   110.000000  108.5000
+O_A53   core H_A174  core P_A5     core   110.000000  108.5000
+O_A53   core C_A418  core P_A5     core   200.000000  120.5000
+O_A53   core H_A174  core S_A8     core   148.000000  110.0000
+O_A53   core H_A174  core Zn_A1    core   200.000000  126.0000
+C_A418  core F_A12   core F_A12    core   154.000000  109.1000
+C_A418  core F_A12   core C_A390   core   100.000000  109.5000
+C_A418  core C_A390  core C_A390   core   126.000000  111.1000
+C_A418  core C_A140  core C_A140   core    80.000000  109.5000
+C_A418  core C_A390  core C_A140   core   126.000000  109.5000
+C_A418  core F_A12   core C_A418   core   100.000000  109.5000
+C_A418  core O_A53   core C_A418   core   100.000000  109.5000
+C_A418  core C_A418  core C_A418   core   116.700000  112.7000
+C_A418  core C_A390  core C_A418   core   126.000000  111.1000
+C_A418  core C_A418  core S_A14    core   100.000000  108.6000
+C_A418  core C_A418  core S_A13    core   100.000000  114.7000
+C_A418  core C_A418  core C_A339   core   116.700000  112.7000
+C_A418  core C_A390  core O_A51    core   100.000000  109.5000
+C_A418  core C_A418  core O_A51    core   100.000000  109.5000
+C_A418  core C_A390  core Cl_A9    core   138.000000  109.8000
+C_A418  core C_A418  core Cl_A9    core   138.000000  109.8000
+C_A418  core Cl_A9   core Cl_A9    core   156.000000  111.7000
+C_A418  core C_A418  core S_A10    core   100.000000  108.6000
+C_A418  core O_A51   core N_A83    core   100.000000  109.5000
+C_A418  core C_A390  core N_A83    core   126.000000  110.1000
+C_A418  core C_A418  core N_A83    core   160.000000  109.7000
+C_A418  core S_A13   core N_A74    core   100.000000  114.7000
+C_A418  core C_A140  core N_A74    core   112.400000  109.4700
+C_A418  core C_A418  core N_A74    core   112.400000  109.4700
+C_A418  core C_A390  core N_A74    core   160.000000  111.2000
+C_A418  core H_A180  core H_A180   core    66.000000  107.8000
+C_A418  core N_A67   core H_A180   core    70.000000  108.5000
+C_A418  core C_A339  core H_A180   core    70.000000  108.5000
+C_A418  core C_A390  core H_A180   core    70.000000  109.5000
+C_A418  core O_A53   core H_A180   core    70.000000  109.5000
+C_A418  core S_A14   core H_A180   core    70.000000  109.5000
+C_A418  core S_A13   core H_A180   core    70.000000  109.5000
+C_A418  core O_A51   core H_A180   core    70.000000  109.5000
+C_A418  core S_A10   core H_A180   core    70.000000  109.5000
+C_A418  core N_A83   core H_A180   core    70.000000  109.5000
+C_A418  core N_A74   core H_A180   core    70.000000  109.5000
+C_A418  core C_A418  core H_A180   core    75.000000  110.7000
+C_A418  core F_A12   core H_A180   core    80.000000  107.0000
+C_A418  core Cl_A9   core H_A180   core   102.000000  107.6000
+C_A418  core H_A180  core C_A415   core    70.000000  109.5000
+C_A418  core F_A12   core C_A415   core   100.000000  109.5000
+C_A418  core C_A418  core C_A415   core   126.000000  111.1000
+C_A418  core C_A415  core C_A415   core   126.000000  112.4000
+C_A418  core H_A180  core C_A410   core    70.000000  109.5000
+C_A418  core C_A415  core C_A410   core    80.000000  109.5000
+C_A418  core C_A410  core C_A410   core    80.000000  109.5000
+C_A418  core F_A12   core C_A410   core   100.000000  109.5000
+C_A418  core O_A53   core C_A410   core   100.000000  109.5000
+C_A418  core O_A51   core C_A410   core   100.000000  109.5000
+C_A418  core S_A13   core C_A410   core   100.000000  114.7000
+C_A418  core C_A390  core C_A410   core   126.000000  112.0000
+C_A418  core C_A418  core C_A410   core   126.000000  114.0000
+C_A418  core N_A74   core C_A410   core   160.000000  111.2000
+C_A418  core H_A180  core C_A24    core    70.000000  109.5000
+C_A418  core H_A180  core C_A338   core    75.000000  110.7000
+C_A418  core O_A53   core C_A338   core   100.000000  109.5000
+C_A418  core C_A418  core C_A338   core   116.700000  112.7000
+C_A418  core H_A180  core N_A86    core    70.000000  109.5000
+C_A418  core C_A390  core N_A86    core   160.000000  111.2000
+C_A418  core C_A418  core N_A86    core   160.000000  111.2000
+C_A418  core H_A180  core N_A63    core    70.000000  109.5000
+C_A418  core C_A418  core N_A63    core   160.000000  111.2000
+C_A418  core H_A180  core N_A70    core    70.000000  109.5000
+C_A418  core C_A390  core N_A70    core   126.000000  110.1000
+C_A418  core C_A418  core N_A70    core   130.000000  109.0000
+C_A418  core H_A180  core N_A60    core    70.000000  109.5000
+C_A418  core C_A410  core N_A60    core   160.000000  111.2000
+C_A418  core H_A180  core C_A226   core    70.000000  109.5000
+C_A418  core C_A418  core C_A226   core   126.000000  114.0000
+C_A418  core H_A180  core P_A5     core    82.000000  109.5000
+C_A418  core C_A418  core P_A5     core    86.000000  109.5000
+C_A418  core C_A410  core P_A5     core    86.000000  109.5000
+C_A418  core H_A180  core Br_A5    core   102.000000  107.6000
+C_A418  core C_A390  core Br_A5    core   138.000000  109.8000
+C_A418  core C_A418  core Br_A5    core   138.000000  110.0000
+C_A418  core C_A410  core Br_A5    core   138.000000  110.0000
+C_A418  core Br_A5   core Br_A5    core   156.000000  111.7000
+C_A418  core H_A180  core I_A4     core   150.000000  111.0000
+C_A418  core C_A418  core I_A4     core   150.000000  112.0000
+C_A418  core H_A180  core S_A8     core    70.000000  109.5000
+C_A418  core C_A418  core S_A8     core   100.000000  108.6000
+C_A418  core F_A12   core S_A8     core   100.000000  109.5000
+C_A418  core H_A180  core C_A167   core    70.000000  109.5000
+C_A418  core C_A418  core C_A167   core   126.000000  115.6000
+C_A418  core H_A180  core C_A242   core    70.000000  109.5000
+C_A418  core C_A418  core C_A242   core   126.000000  114.0000
+C_A418  core H_A180  core C_A344   core    70.000000  109.5000
+C_A418  core S_A13   core C_A344   core   100.000000  114.7000
+C_A418  core C_A418  core C_A344   core   126.000000  114.0000
+C_A418  core H_A180  core C_A175   core    70.000000  109.5000
+C_A418  core C_A418  core C_A175   core   126.000000  114.0000
+C_A418  core H_A180  core C_A345   core    70.000000  109.5000
+C_A418  core C_A418  core C_A345   core   126.000000  115.6000
+C_A418  core H_A180  core N_A62    core    70.000000  109.5000
+C_A418  core C_A418  core N_A62    core   160.000000  110.0000
+C_A418  core C_A390  core N_A62    core   160.000000  113.0000
+C_A418  core H_A180  core C_A286   core    75.000000  110.7000
+C_A418  core H_A180  core C_A271   core    70.000000  105.0000
+C_A418  core C_A418  core C_A271   core   126.000000  105.0000
+C_A418  core H_A180  core N_A66    core    70.000000  109.5000
+C_A418  core C_A418  core N_A66    core   160.000000  111.2000
+C_A418  core H_A180  core N_A69    core    70.000000  105.0000
+C_A418  core C_A418  core N_A69    core   126.000000  111.1000
+C_A418  core H_A180  core P_A4     core    82.000000  109.5000
+C_A418  core C_A418  core P_A4     core    86.000000  109.5000
+C_A418  core H_A180  core N_A77    core    70.000000  109.5000
+C_A418  core C_A418  core N_A77    core   100.000000  109.5000
+C_A418  core O_A51   core N_A77    core   100.000000  109.5000
+C_A418  core H_A180  core N_A84    core    70.000000  109.5000
+C_A418  core C_A418  core N_A84    core   160.000000  109.7000
+C_A418  core H_A180  core Si_A4    core    70.000000  109.5000
+C_A418  core C_A418  core Si_A4    core   120.000000  112.0000
+S_A14   core H_A144  core H_A144   core    70.000000   92.0700
+S_A14   core C_A140  core H_A144   core    88.000000   96.0000
+S_A14   core C_A418  core H_A144   core    88.000000   96.0000
+S_A14   core H_A144  core C_A410   core   100.000000   96.0000
+S_A13   core C_A418  core C_A418   core   124.000000   98.9000
+S_A13   core C_A140  core S_A13    core   136.000000  103.7000
+S_A13   core C_A418  core S_A13    core   136.000000  103.7000
+S_A13   core C_A418  core C_A339   core   130.000000  100.0000
+S_A13   core C_A418  core C_A410   core   124.000000  104.2000
+S_A13   core C_A415  core C_A410   core   124.000000  104.2000
+S_A13   core N_A83   core C_A226   core   148.000000   92.4000
+S_A13   core C_A226  core C_A241   core   148.000000   97.0000
+S_A13   core C_A241  core C_A344   core   148.000000   90.0000
+S_A13   core C_A226  core C_A344   core   148.000000   97.0000
+S_A13   core C_A344  core C_A344   core   148.000000   97.0000
+S_A13   core C_A418  core C_A286   core   124.000000   94.0000
+N_A67   core C_A418  core C_A339   core   300.000000  180.0000
+N_A67   core C_A339  core C_A410   core   340.000000  180.0000
+N_A67   core N_A67   core N_A70    core   200.000000  180.0000
+C_A339  core C_A418  core N_A67    core   300.000000  180.0000
+C_A339  core S_A13   core C_A339   core   280.000000  180.0000
+C_A339  core C_A418  core C_A339   core   300.000000  180.0000
+C_A339  core C_A339  core H_A180   core   224.000000  180.0000
+C_A339  core N_A67   core C_A415   core   300.000000  180.0000
+C_A339  core C_A339  core C_A415   core   320.000000  180.0000
+C_A339  core N_A67   core C_A410   core   300.000000  180.0000
+C_A339  core C_A339  core C_A410   core   320.000000  180.0000
+C_A339  core C_A339  core C_A24    core   320.000000  180.0000
+C_A339  core N_A67   core N_A63    core   300.000000  180.0000
+C_A339  core N_A67   core C_A204   core   300.000000  180.0000
+O_A51   core C_A390  core C_A140   core   166.000000  116.9000
+O_A51   core C_A418  core C_A418   core   120.000000  109.5000
+O_A51   core C_A390  core C_A418   core   166.000000  116.9000
+O_A51   core C_A418  core C_A415   core   150.000000  111.0000
+O_A51   core C_A418  core C_A410   core   150.000000  111.0000
+O_A51   core C_A415  core C_A410   core   150.000000  111.0000
+O_A51   core C_A410  core C_A410   core   150.000000  111.0000
+O_A51   core C_A390  core C_A410   core   166.000000  116.9000
+O_A51   core C_A418  core C_A338   core   120.000000  109.5000
+O_A51   core C_A140  core C_A338   core   200.000000  113.0000
+O_A51   core N_A83   core C_A226   core   140.000000  104.5000
+O_A51   core C_A140  core P_A5     core   200.000000  120.5000
+O_A51   core C_A418  core P_A5     core   200.000000  120.5000
+O_A51   core C_A410  core P_A5     core   200.000000  120.5000
+O_A51   core P_A5    core P_A5     core   200.000000  120.5000
+O_A51   core C_A226  core C_A241   core   140.000000  106.5000
+O_A51   core C_A241  core C_A241   core   140.000000  107.0000
+O_A51   core C_A241  core C_A344   core   140.000000  104.0000
+O_A51   core C_A226  core C_A344   core   140.000000  106.5000
+O_A51   core C_A344  core C_A344   core   140.000000  106.5000
+O_A51   core N_A61   core C_A344   core   140.000000  108.9000
+O_A51   core Si_A4   core Si_A4    core    40.000000  145.0000
+O_A51   core C_A418  core Si_A4    core    80.000000  130.0000
+S_A10   core C_A418  core C_A418   core   124.000000   96.0000
+S_A10   core C_A418  core O_A40    core   148.000000  107.0000
+N_A83   core C_A390  core C_A390   core   140.000000  126.4000
+N_A83   core C_A390  core O_A53    core    92.000000  115.7000
+N_A83   core C_A390  core C_A140   core   100.000000  121.9000
+N_A83   core C_A418  core C_A418   core   100.000000  118.0000
+N_A83   core C_A390  core C_A418   core   100.000000  121.9000
+N_A83   core C_A390  core S_A13    core   140.000000  112.0000
+N_A83   core C_A390  core O_A51    core   140.000000  108.6000
+N_A83   core O_A53   core H_A178   core    70.000000  110.2000
+N_A83   core C_A390  core H_A178   core    70.000000  119.8000
+N_A83   core H_A178  core H_A178   core    70.000000  120.0000
+N_A83   core C_A140  core H_A178   core    76.000000  118.4000
+N_A83   core C_A418  core H_A178   core    76.000000  118.4000
+N_A83   core H_A178  core C_A410   core    70.000000  119.8000
+N_A83   core C_A418  core C_A410   core   100.000000  118.0000
+N_A83   core C_A390  core C_A410   core   100.000000  121.9000
+N_A83   core C_A410  core C_A410   core   140.000000  118.0000
+N_A83   core H_A168  core H_A168   core    70.000000  120.0000
+N_A83   core H_A178  core C_A232   core    70.000000  118.0000
+N_A83   core C_A390  core C_A232   core   140.000000  125.2000
+N_A83   core C_A418  core S_A8     core   100.000000  120.0000
+N_A83   core H_A178  core S_A8     core   200.000000  111.0000
+N_A83   core H_A178  core C_A344   core    70.000000  119.8000
+N_A83   core C_A410  core C_A344   core   140.000000  118.0000
+N_A83   core S_A13   core C_A377   core   140.000000  117.0000
+N_A83   core H_A178  core C_A345   core    70.000000  119.8000
+N_A83   core C_A410  core C_A345   core   140.000000  118.0000
+N_A83   core H_A178  core C_A204   core    70.000000  119.8000
+N_A83   core C_A410  core C_A204   core   140.000000  118.0000
+N_A83   core H_A178  core C_A286   core    80.000000  113.0000
+N_A83   core C_A390  core C_A286   core   110.000000  128.0000
+N_A83   core C_A410  core O_A44    core   140.000000  121.0000
+N_A83   core C_A390  core Zn_A1    core    40.000000  126.0000
+O_A1    core H_A1    core H_A1     core   150.000000  109.4700
+N_A74   core C_A140  core C_A140   core   103.600000  107.2000
+N_A74   core C_A140  core C_A418   core   103.600000  107.2000
+N_A74   core C_A418  core C_A418   core   103.600000  107.2000
+N_A74   core C_A390  core C_A418   core   126.000000  111.1000
+N_A74   core C_A418  core H_A178   core    70.000000  109.5000
+N_A74   core C_A140  core H_A178   core    86.400000  108.1000
+N_A74   core H_A178  core H_A178   core    87.200000  106.4000
+N_A74   core H_A178  core C_A410   core    70.000000  116.0000
+N_A74   core C_A418  core C_A410   core   100.000000  116.0000
+N_A74   core C_A410  core C_A410   core   100.000000  116.0000
+N_A74   core C_A390  core C_A410   core   126.000000  112.0000
+N_A74   core H_A178  core S_A8     core    70.000000  115.0000
+N_A74   core C_A418  core S_A8     core   100.000000  108.6000
+N_A74   core C_A410  core S_A8     core   100.000000  108.6000
+N_A74   core C_A410  core C_A286   core   100.000000  109.5000
+C_A415  core F_A12   core F_A12    core   160.000000  108.0000
+C_A415  core F_A12   core C_A390   core   160.000000  121.5000
+C_A415  core C_A390  core C_A140   core   170.000000  119.7000
+C_A415  core C_A390  core C_A418   core   140.000000  119.7000
+C_A415  core C_A418  core C_A418   core   140.000000  130.0000
+C_A415  core O_A51   core H_A180   core    70.000000  114.5000
+C_A415  core C_A418  core H_A180   core    70.000000  117.0000
+C_A415  core H_A180  core H_A180   core    70.000000  117.0000
+C_A415  core C_A390  core H_A180   core    70.000000  119.7000
+C_A415  core C_A339  core H_A180   core    70.000000  120.0000
+C_A415  core F_A12   core H_A180   core   100.000000  112.0000
+C_A415  core Cl_A9   core H_A180   core   120.000000  114.0000
+C_A415  core H_A180  core C_A415   core    70.000000  120.0000
+C_A415  core O_A53   core C_A415   core   140.000000  123.0000
+C_A415  core O_A51   core C_A415   core   140.000000  123.0000
+C_A415  core C_A418  core C_A415   core   140.000000  124.0000
+C_A415  core C_A339  core C_A415   core   140.000000  124.0000
+C_A415  core Cl_A9   core C_A415   core   150.000000  121.5000
+C_A415  core F_A12   core C_A415   core   160.000000  121.5000
+C_A415  core S_A13   core C_A415   core   170.000000  119.4000
+C_A415  core C_A390  core C_A415   core   170.000000  120.7000
+C_A415  core H_A180  core C_A410   core    70.000000  123.3000
+C_A415  core C_A415  core C_A410   core   170.000000  117.0000
+C_A415  core C_A418  core C_A410   core   170.000000  119.7000
+C_A415  core H_A180  core C_A24    core    70.000000  120.0000
+C_A415  core O_A53   core C_A24    core   140.000000  123.0000
+C_A415  core O_A51   core C_A24    core   140.000000  123.0000
+C_A415  core C_A418  core C_A24    core   140.000000  124.0000
+C_A415  core H_A180  core N_A60    core    70.000000  119.1000
+C_A415  core C_A418  core N_A60    core   140.000000  120.0000
+C_A415  core O_A51   core N_A60    core   140.000000  120.0000
+C_A415  core C_A415  core N_A60    core   140.000000  121.2000
+C_A415  core S_A13   core N_A60    core   170.000000  119.4000
+C_A415  core N_A60   core H_A63    core    70.000000  119.1000
+C_A415  core C_A415  core H_A63    core    70.000000  119.7000
+C_A415  core H_A180  core Br_A5    core   120.000000  114.0000
+C_A415  core C_A415  core Br_A5    core   150.000000  120.0000
+C_A415  core H_A180  core C_A286   core    70.000000  135.0000
+C_A415  core C_A390  core C_A286   core   140.000000  119.7000
+C_A415  core C_A415  core C_A286   core   140.000000  124.0000
+C_A415  core H_A180  core N_A77    core    70.000000  119.1000
+C_A415  core H_A63   core N_A77    core    70.000000  119.1000
+C_A415  core C_A418  core N_A77    core   140.000000  120.0000
+C_A415  core O_A51   core N_A77    core   140.000000  120.0000
+C_A415  core C_A415  core N_A77    core   140.000000  121.2000
+C_A415  core S_A13   core N_A77    core   170.000000  119.4000
+C_A415  core H_A180  core C_A417   core    80.000000  121.0000
+C_A415  core C_A418  core C_A417   core   160.000000  122.0000
+C_A415  core C_A410  core C_A417   core   160.000000  122.0000
+C_A415  core F_A12   core C_A417   core   160.000000  125.0000
+C_A410  core C_A390  core C_A418   core   140.000000  119.7000
+C_A410  core C_A410  core C_A410   core   126.000000  120.0000
+C_A410  core O_A53   core C_A410   core   140.000000  120.0000
+C_A410  core C_A418  core C_A410   core   140.000000  120.0000
+C_A410  core S_A14   core C_A410   core   140.000000  120.0000
+C_A410  core C_A339  core C_A410   core   140.000000  120.0000
+C_A410  core O_A51   core C_A410   core   140.000000  120.0000
+C_A410  core N_A83   core C_A410   core   140.000000  120.0000
+C_A410  core N_A74   core C_A410   core   140.000000  120.0000
+C_A410  core C_A415  core C_A410   core   140.000000  124.0000
+C_A410  core Cl_A9   core C_A410   core   150.000000  120.0000
+C_A410  core F_A12   core C_A410   core   160.000000  120.0000
+C_A410  core N_A67   core C_A410   core   160.000000  120.0000
+C_A410  core S_A13   core C_A410   core   170.000000  119.4000
+C_A410  core C_A390  core C_A410   core   170.000000  120.0000
+C_A410  core N_A83   core H_A153   core    70.000000  119.1000
+C_A410  core C_A390  core H_A153   core    70.000000  120.0000
+C_A410  core C_A410  core H_A153   core    70.000000  120.0000
+C_A410  core C_A410  core C_A24    core   140.000000  124.0000
+C_A410  core C_A410  core N_A86    core   140.000000  120.0000
+C_A410  core N_A63   core N_A63    core   140.000000  120.0000
+C_A410  core C_A415  core N_A63    core   140.000000  120.1000
+C_A410  core C_A410  core N_A63    core   140.000000  120.1000
+C_A410  core H_A153  core N_A70    core    70.000000  116.0000
+C_A410  core C_A418  core N_A70    core   140.000000  116.0000
+C_A410  core N_A74   core N_A70    core   140.000000  116.0000
+C_A410  core N_A63   core N_A70    core   140.000000  119.3000
+C_A410  core O_A53   core N_A70    core   140.000000  120.0000
+C_A410  core C_A415  core N_A70    core   140.000000  121.5000
+C_A410  core C_A24   core N_A70    core   140.000000  121.5000
+C_A410  core C_A410  core N_A70    core   140.000000  124.0000
+C_A410  core Cl_A9   core N_A70    core   150.000000  120.0000
+C_A410  core H_A153  core N_A60    core    70.000000  120.0000
+C_A410  core C_A410  core N_A60    core   140.000000  108.7000
+C_A410  core N_A63   core N_A60    core   140.000000  116.0000
+C_A410  core C_A418  core N_A60    core   140.000000  120.0000
+C_A410  core C_A415  core N_A60    core   140.000000  121.5000
+C_A410  core N_A70   core N_A60    core   140.000000  123.3000
+C_A410  core H_A153  core C_A226   core    70.000000  120.0000
+C_A410  core C_A410  core C_A226   core   126.000000  120.0000
+C_A410  core N_A60   core C_A226   core   140.000000  108.7000
+C_A410  core N_A70   core C_A226   core   140.000000  117.3000
+C_A410  core N_A63   core C_A226   core   140.000000  123.5000
+C_A410  core C_A418  core C_A226   core   140.000000  128.6000
+C_A410  core H_A153  core N_A61    core    70.000000  119.1000
+C_A410  core C_A410  core N_A61    core   140.000000  108.7000
+C_A410  core N_A60   core N_A61    core   140.000000  123.3000
+C_A410  core C_A410  core P_A5     core   170.000000  119.4000
+C_A410  core C_A410  core Br_A5    core   150.000000  120.0000
+C_A410  core C_A410  core I_A4     core   150.000000  120.0000
+C_A410  core C_A410  core S_A8     core   170.000000  119.4000
+C_A410  core H_A153  core C_A213   core    70.000000  120.0000
+C_A410  core C_A410  core C_A213   core   170.000000  120.0000
+C_A410  core H_A153  core C_A344   core    70.000000  126.9000
+C_A410  core C_A226  core C_A344   core   126.000000  106.4000
+C_A410  core C_A410  core C_A344   core   140.000000  107.4000
+C_A410  core H_A153  core C_A377   core    70.000000  120.0000
+C_A410  core C_A410  core C_A377   core   126.000000  120.0000
+C_A410  core N_A70   core C_A377   core   140.000000  124.0000
+C_A410  core H_A153  core C_A204   core    70.000000  128.2000
+C_A410  core N_A66   core N_A66    core   140.000000  111.8000
+C_A410  core N_A70   core N_A66    core   140.000000  124.1000
+C_A410  core C_A410  core N_A69    core   170.000000  120.0000
+C_A410  core C_A410  core C_A412   core   140.000000  124.0000
+C_A24   core C_A339  core H_A180   core    70.000000  120.0000
+C_A24   core H_A180  core C_A415   core    70.000000  120.0000
+C_A24   core C_A390  core C_A415   core   140.000000  118.7000
+C_A24   core C_A418  core C_A415   core   140.000000  124.0000
+C_A24   core H_A180  core C_A410   core    70.000000  123.3000
+C_A24   core C_A415  core C_A410   core   170.000000  117.0000
+C_A24   core H_A180  core C_A24    core    70.000000  120.0000
+C_A24   core C_A418  core C_A24    core   140.000000  124.0000
+C_A24   core C_A415  core C_A24    core   140.000000  124.0000
+C_A24   core C_A24   core C_A344   core    70.000000  106.0000
+C_A24   core H_A180  core C_A344   core    70.000000  122.0000
+C_A24   core H_A180  core C_A412   core    70.000000  120.0000
+C_A24   core C_A418  core C_A412   core   140.000000  124.0000
+C_A24   core C_A415  core C_A412   core   140.000000  124.0000
+C_A338  core C_A140  core C_A140   core    80.000000  109.5000
+C_A338  core O_A53   core C_A418   core   100.000000  109.5000
+C_A338  core C_A418  core O_A51    core   100.000000  109.5000
+C_A338  core C_A140  core O_A51    core   160.000000  109.5000
+C_A338  core O_A53   core O_A51    core   185.200000  111.5500
+C_A338  core O_A51   core O_A51    core   185.200000  111.5500
+C_A338  core H_A180  core H_A180   core    66.000000  109.5000
+C_A338  core O_A53   core H_A180   core    70.000000  109.5000
+C_A338  core O_A51   core H_A180   core    70.000000  109.5000
+C_A338  core C_A418  core H_A180   core    75.000000  110.7000
+C_A338  core H_A180  core N_A77    core    70.000000  109.5000
+C_A338  core C_A418  core N_A77    core   100.000000  109.5000
+C_A338  core O_A51   core N_A77    core   100.000000  109.5000
+N_A86   core C_A418  core C_A418   core   100.000000  113.0000
+N_A86   core H_A178  core H_A178   core    87.200000  109.5000
+N_A86   core C_A418  core C_A410   core   110.000000  114.0000
+N_A86   core C_A140  core H_A168   core    70.000000  109.5000
+N_A86   core C_A418  core H_A168   core    70.000000  109.5000
+N_A86   core C_A410  core H_A168   core    70.000000  109.5000
+N_A86   core H_A168  core H_A168   core    70.000000  109.5000
+N_A63   core C_A418  core C_A418   core   100.000000  118.0000
+N_A63   core H_A178  core H_A178   core    70.000000  113.0000
+N_A63   core C_A418  core H_A178   core    70.000000  118.4000
+N_A63   core H_A178  core C_A410   core    70.000000  120.0000
+N_A63   core C_A140  core C_A410   core   100.000000  123.2000
+N_A63   core C_A418  core C_A410   core   100.000000  123.2000
+N_A63   core C_A418  core H_A168   core    70.000000  118.4000
+N_A63   core C_A410  core H_A168   core    70.000000  120.0000
+N_A63   core H_A168  core H_A168   core    70.000000  120.0000
+N_A63   core H_A178  core C_A232   core    70.000000  120.0000
+N_A70   core C_A390  core C_A418   core   140.000000  120.5000
+N_A70   core C_A418  core N_A67    core   140.000000  120.0000
+N_A70   core H_A178  core C_A410   core    70.000000  113.0000
+N_A70   core C_A418  core C_A410   core   100.000000  118.0000
+N_A70   core C_A410  core C_A410   core   140.000000  117.0000
+N_A70   core C_A390  core C_A410   core   140.000000  120.5000
+N_A70   core C_A418  core N_A70    core   140.000000  117.0000
+N_A70   core C_A410  core N_A70    core   140.000000  117.0000
+N_A70   core C_A410  core C_A232   core   140.000000  118.6000
+N_A70   core C_A232  core C_A232   core   140.000000  118.6000
+N_A70   core C_A232  core C_A226   core   140.000000  111.0000
+N_A70   core C_A410  core C_A226   core   140.000000  112.2000
+N_A70   core C_A232  core C_A241   core   140.000000  111.0000
+N_A70   core C_A410  core C_A377   core   140.000000  117.0000
+N_A70   core C_A418  core O_A44    core   140.000000  114.0000
+N_A60   core C_A390  core C_A390   core   140.000000  126.4000
+N_A60   core C_A390  core H_A178   core    70.000000  116.8000
+N_A60   core H_A178  core C_A415   core    70.000000  119.2000
+N_A60   core C_A390  core C_A415   core   140.000000  121.6000
+N_A60   core H_A178  core C_A410   core    70.000000  118.0000
+N_A60   core C_A390  core C_A410   core   140.000000  125.2000
+N_A60   core C_A410  core C_A410   core   140.000000  125.2000
+N_A60   core H_A178  core C_A226   core    60.000000  125.8000
+N_A60   core C_A418  core C_A226   core   140.000000  125.8000
+N_A60   core C_A226  core N_A61    core   112.000000  113.1000
+N_A60   core H_A178  core N_A61    core   112.000000  118.4000
+N_A60   core C_A418  core N_A61    core   140.000000  118.4000
+N_A60   core C_A410  core N_A61    core   140.000000  118.4000
+N_A60   core H_A178  core C_A228   core    60.000000  128.8000
+N_A60   core C_A226  core C_A228   core   140.000000  105.4000
+N_A60   core C_A410  core C_A228   core   140.000000  109.8000
+N_A60   core C_A418  core C_A228   core   140.000000  128.8000
+N_A60   core H_A178  core C_A213   core    70.000000  123.1000
+N_A60   core H_A178  core C_A241   core    70.000000  120.0000
+N_A60   core N_A61   core C_A241   core   112.000000  113.1000
+N_A60   core C_A226  core C_A241   core   140.000000  109.8000
+N_A60   core H_A178  core C_A344   core    70.000000  120.0000
+N_A60   core N_A61   core C_A344   core   112.000000  113.1000
+N_A60   core C_A226  core C_A344   core   140.000000  109.8000
+N_A60   core C_A241  core C_A344   core   140.000000  109.8000
+N_A60   core C_A344  core C_A344   core   140.000000  109.8000
+N_A60   core C_A213  core C_A344   core   140.000000  111.6000
+N_A60   core H_A178  core C_A175   core    70.000000  120.0000
+N_A60   core C_A241  core C_A175   core   140.000000  109.8000
+C_A232  core N_A83   core N_A63    core   140.000000  116.0000
+C_A232  core H_A153  core N_A70    core    70.000000  115.4500
+C_A232  core C_A418  core N_A70    core   140.000000  115.5000
+C_A232  core N_A63   core N_A70    core   140.000000  119.3000
+C_A232  core N_A83   core N_A70    core   140.000000  123.3000
+C_A232  core N_A70   core N_A70    core   140.000000  129.1000
+C_A232  core N_A70   core H_A51    core    70.000000  115.4500
+C_A226  core C_A418  core C_A410   core   140.000000  120.0000
+C_A226  core C_A410  core C_A410   core   170.000000  134.9000
+C_A226  core N_A70   core N_A60    core   140.000000  126.2000
+C_A226  core N_A60   core C_A226   core   140.000000  106.2000
+C_A226  core O_A51   core C_A226   core   140.000000  110.6000
+C_A226  core S_A13   core C_A226   core   140.000000  111.0000
+C_A226  core C_A418  core C_A226   core   140.000000  120.0000
+C_A226  core N_A83   core C_A226   core   140.000000  127.7000
+C_A226  core N_A70   core C_A226   core   140.000000  127.7000
+C_A226  core C_A410  core C_A226   core   170.000000  117.3000
+C_A226  core C_A390  core C_A226   core   170.000000  119.2000
+C_A226  core C_A226  core N_A61    core   140.000000  111.0000
+C_A226  core N_A83   core N_A61    core   140.000000  126.2000
+C_A226  core C_A390  core N_A61    core   140.000000  130.0000
+C_A226  core C_A410  core N_A61    core   140.000000  132.4000
+C_A226  core C_A410  core C_A167   core   170.000000  134.9000
+C_A226  core C_A167  core C_A213   core   170.000000  108.8000
+C_A226  core C_A410  core C_A213   core   170.000000  116.2000
+C_A226  core C_A390  core C_A344   core   140.000000  130.0000
+C_A226  core C_A226  core C_A345   core   140.000000  107.3000
+C_A226  core N_A60   core C_A345   core   140.000000  107.7000
+C_A226  core C_A213  core C_A345   core   170.000000  108.8000
+C_A226  core C_A410  core C_A345   core   170.000000  134.9000
+C_A226  core C_A226  core N_A77    core   140.000000  106.2000
+C_A226  core N_A70   core N_A77    core   140.000000  126.2000
+N_A61   core C_A410  core C_A410   core   140.000000  125.2000
+N_A61   core C_A226  core C_A228   core   140.000000  103.8000
+N_A61   core N_A61   core C_A241   core   140.000000  109.0000
+N_A61   core C_A226  core C_A241   core   140.000000  110.0000
+N_A61   core C_A241  core C_A242   core   140.000000  110.0000
+N_A61   core N_A60   core C_A344   core   140.000000  104.1000
+N_A61   core C_A241  core C_A344   core   140.000000  110.0000
+N_A61   core N_A60   core C_A204   core   140.000000  104.1000
+N_A61   core O_A51   core C_A204   core   140.000000  105.3000
+C_A228  core H_A153  core N_A60    core    70.000000  120.0000
+C_A228  core H_A153  core N_A61    core    70.000000  120.0000
+C_A228  core N_A60   core N_A61    core   140.000000  113.9000
+C_A228  core N_A60   core H_A51    core    70.000000  123.0500
+C_A228  core N_A61   core H_A51    core    70.000000  123.0500
+C_A228  core H_A153  core N_A77    core    70.000000  120.0000
+C_A228  core H_A51   core N_A77    core    70.000000  123.0500
+C_A228  core N_A61   core N_A77    core   140.000000  113.9000
+P_A5    core O_A53   core O_A53    core    90.000000  102.6000
+P_A5    core O_A56   core O_A53    core   200.000000  108.2300
+P_A5    core O_A56   core C_A418   core    90.000000  109.5000
+P_A5    core O_A53   core O_A51    core    90.000000  102.6000
+P_A5    core O_A51   core O_A51    core    90.000000  102.6000
+P_A5    core C_A418  core O_A51    core    90.000000  109.5000
+P_A5    core O_A56   core O_A51    core   200.000000  108.2300
+P_A5    core O_A56   core C_A410   core    90.000000  109.5000
+P_A5    core O_A53   core C_A410   core    90.000000  109.5000
+P_A5    core O_A51   core C_A410   core    90.000000  109.5000
+P_A5    core O_A53   core O_A50    core    90.000000  108.2300
+P_A5    core C_A418  core O_A50    core    90.000000  109.5000
+P_A5    core O_A51   core O_A50    core   200.000000  108.2300
+P_A5    core O_A50   core O_A50    core   280.000000  119.9000
+U_A1    core O_A27   core O_A27    core   300.000000  180.0000
+S_A8    core C_A418  core C_A418   core   124.000000  102.0000
+S_A8    core O_A53   core C_A418   core   150.000000   96.4000
+S_A8    core O_A53   core O_A40    core   148.000000  108.7000
+S_A8    core C_A418  core O_A40    core   148.000000  108.9000
+S_A8    core O_A40   core O_A40    core   208.000000  119.0000
+S_A8    core C_A418  core N_A83    core   200.000000  103.0000
+S_A8    core O_A40   core N_A83    core   240.000000  107.0000
+S_A8    core C_A418  core N_A74    core   124.000000  102.0000
+S_A8    core O_A40   core N_A74    core   148.000000  108.9000
+S_A8    core C_A418  core C_A410   core   124.000000  102.0000
+S_A8    core O_A40   core C_A410   core   148.000000  107.2000
+S_A8    core O_A53   core C_A410   core   150.000000   96.4000
+S_A8    core N_A83   core C_A410   core   200.000000  103.0000
+S_A8    core C_A418  core C_A241   core   124.000000  102.0000
+C_A167  core H_A180  core C_A226   core    70.000000  126.8000
+C_A167  core C_A418  core C_A226   core   140.000000  128.6000
+C_A167  core H_A180  core C_A344   core    70.000000  126.8000
+C_A167  core C_A418  core C_A344   core   140.000000  125.0000
+C_A167  core C_A226  core C_A344   core   170.000000  106.4000
+C_A213  core C_A410  core N_A60    core   140.000000  132.8000
+C_A213  core N_A60   core C_A226   core   140.000000  104.4000
+C_A213  core C_A410  core C_A226   core   170.000000  122.7000
+C_A241  core C_A418  core S_A13    core   140.000000  125.0000
+C_A241  core S_A13   core N_A83    core   140.000000  125.0000
+C_A241  core S_A13   core N_A74    core   140.000000  120.2000
+C_A241  core O_A51   core H_A153   core    70.000000  117.0000
+C_A241  core S_A13   core H_A153   core    70.000000  125.0000
+C_A241  core H_A153  core N_A60    core    70.000000  120.0000
+C_A241  core N_A60   core N_A60    core   140.000000  120.0000
+C_A241  core C_A418  core N_A60    core   140.000000  125.0000
+C_A241  core C_A410  core N_A60    core   140.000000  125.0000
+C_A241  core N_A70   core N_A60    core   140.000000  126.2000
+C_A241  core H_A153  core N_A61    core    70.000000  120.0000
+C_A241  core S_A13   core N_A61    core   140.000000  113.6000
+C_A241  core S_A13   core N_A61    core   140.000000  115.0000
+C_A241  core O_A51   core N_A61    core   140.000000  115.0000
+C_A241  core N_A60   core N_A61    core   140.000000  120.0000
+C_A241  core C_A418  core N_A61    core   140.000000  125.0000
+C_A241  core N_A74   core N_A61    core   140.000000  126.1000
+C_A241  core N_A83   core N_A61    core   140.000000  126.2000
+C_A241  core N_A60   core S_A8     core   140.000000  120.0000
+C_A241  core N_A61   core S_A8     core   140.000000  120.0000
+C_A241  core O_A51   core C_A377   core   140.000000  122.0000
+C_A241  core N_A61   core C_A377   core   140.000000  130.0000
+C_A241  core N_A60   core C_A345   core   140.000000  106.2000
+C_A241  core N_A70   core C_A345   core   140.000000  127.7000
+C_A242  core H_A153  core N_A61    core    70.000000  120.0000
+C_A242  core C_A410  core N_A61    core   140.000000  111.0000
+C_A242  core C_A418  core N_A61    core   140.000000  124.5000
+C_A242  core H_A153  core C_A344   core    70.000000  128.2000
+C_A242  core N_A61   core C_A344   core   140.000000  111.0000
+C_A242  core C_A418  core C_A344   core   140.000000  130.7000
+C_A344  core C_A418  core S_A13    core   140.000000  125.0000
+C_A344  core C_A418  core O_A51    core   140.000000  121.6000
+C_A344  core S_A13   core N_A83    core   140.000000  125.0000
+C_A344  core O_A51   core H_A153   core    70.000000  113.4000
+C_A344  core S_A13   core H_A153   core    70.000000  125.0000
+C_A344  core C_A410  core H_A153   core    70.000000  130.7000
+C_A344  core H_A153  core C_A24    core    70.000000  130.7000
+C_A344  core O_A51   core C_A24    core   140.000000  110.0000
+C_A344  core H_A153  core N_A60    core    70.000000  121.6000
+C_A344  core C_A418  core N_A60    core   140.000000  121.6000
+C_A344  core C_A410  core N_A60    core   140.000000  121.6000
+C_A344  core C_A390  core N_A60    core   170.000000  120.0000
+C_A344  core N_A60   core H_A63    core    70.000000  120.0000
+C_A344  core C_A418  core N_A61    core   140.000000  118.9000
+C_A344  core H_A153  core C_A167   core    70.000000  120.0000
+C_A344  core N_A60   core C_A167   core   140.000000  108.7000
+C_A344  core H_A153  core C_A242   core    70.000000  130.7000
+C_A344  core N_A60   core C_A242   core   140.000000  106.3000
+C_A344  core O_A51   core C_A242   core   140.000000  108.0000
+C_A344  core S_A13   core C_A242   core   140.000000  111.0000
+C_A344  core C_A418  core C_A242   core   140.000000  130.7000
+C_A344  core C_A418  core C_A344   core   140.000000  120.0000
+C_A344  core N_A60   core C_A344   core   140.000000  120.0000
+C_A344  core N_A61   core C_A344   core   140.000000  120.0000
+C_A344  core O_A51   core C_A377   core   140.000000  121.6000
+C_A344  core N_A60   core C_A377   core   140.000000  121.6000
+C_A344  core H_A153  core C_A345   core    70.000000  132.1000
+C_A344  core N_A60   core C_A345   core   140.000000  107.7000
+C_A344  core O_A51   core C_A345   core   140.000000  110.6000
+C_A344  core S_A13   core C_A345   core   140.000000  111.0000
+C_A344  core N_A61   core C_A345   core   140.000000  111.9000
+C_A344  core C_A418  core C_A345   core   140.000000  132.1000
+C_A344  core C_A410  core C_A345   core   140.000000  132.1000
+C_A344  core C_A377  core C_A345   core   140.000000  132.1000
+C_A344  core C_A390  core C_A345   core   170.000000  120.0000
+C_A175  core H_A153  core N_A60    core    70.000000  120.0000
+C_A175  core C_A418  core N_A60    core   140.000000  121.6000
+C_A175  core H_A153  core C_A175   core    70.000000  130.7000
+C_A175  core N_A60   core C_A175   core   140.000000  106.3000
+C_A175  core C_A418  core C_A175   core   140.000000  130.7000
+C_A377  core C_A410  core C_A410   core   126.000000  120.0000
+C_A377  core C_A410  core N_A70    core   140.000000  124.0000
+C_A377  core C_A410  core C_A241   core   126.000000  120.0000
+C_A377  core C_A410  core C_A242   core   126.000000  120.0000
+C_A377  core C_A410  core C_A344   core   126.000000  120.0000
+C_A377  core C_A410  core C_A377   core   126.000000  120.0000
+C_A377  core N_A70   core C_A377   core   140.000000  124.0000
+C_A377  core C_A410  core C_A345   core   126.000000  120.0000
+C_A377  core C_A410  core C_A204   core   126.000000  120.0000
+C_A345  core H_A153  core C_A226   core    70.000000  120.0000
+C_A345  core H_A180  core C_A226   core    70.000000  126.8000
+C_A345  core C_A418  core C_A226   core   140.000000  128.6000
+C_A345  core H_A153  core C_A344   core    70.000000  125.7000
+C_A345  core H_A180  core C_A344   core    70.000000  126.8000
+C_A345  core C_A344  core C_A344   core   140.000000  103.8000
+C_A345  core C_A241  core C_A344   core   140.000000  110.4000
+C_A345  core C_A418  core C_A344   core   140.000000  125.0000
+C_A345  core C_A390  core C_A344   core   140.000000  130.0000
+C_A345  core C_A226  core C_A344   core   170.000000  106.4000
+C_A345  core C_A344  core C_A377   core   140.000000  125.7000
+C_A345  core H_A153  core C_A345   core    70.000000  127.5000
+C_A345  core C_A226  core C_A345   core   140.000000  107.3000
+C_A345  core C_A344  core C_A345   core   140.000000  107.3000
+C_A345  core C_A377  core C_A345   core   140.000000  127.5000
+C_A345  core C_A344  core C_A204   core   140.000000  103.8000
+C_A204  core C_A410  core H_A153   core    70.000000  128.6000
+C_A204  core H_A153  core N_A61    core    70.000000  118.9000
+C_A204  core C_A418  core N_A61    core   140.000000  118.9000
+C_A204  core C_A339  core N_A61    core   140.000000  118.9000
+C_A204  core N_A61   core C_A345   core   140.000000  111.9000
+C_A261  core O_A56   core N_A62    core   160.000000  134.0000
+C_A261  core N_A62   core C_A286   core   140.000000   91.0000
+C_A261  core O_A56   core C_A286   core   160.000000  134.0000
+N_A62   core C_A418  core C_A261   core   110.000000  127.0000
+N_A62   core C_A261  core C_A286   core   100.000000   94.0000
+N_A62   core C_A418  core C_A286   core   100.000000  126.0000
+C_A286  core N_A83   core H_A180   core    70.000000  108.0000
+C_A286  core C_A418  core H_A180   core    70.000000  114.3000
+C_A286  core N_A74   core H_A180   core    70.000000  114.3000
+C_A286  core H_A180  core H_A180   core    70.000000  114.3000
+C_A286  core S_A13   core H_A180   core    75.000000  108.0000
+C_A286  core H_A180  core C_A415   core    70.000000  109.5000
+C_A286  core H_A180  core C_A261   core    75.000000  110.0000
+C_A286  core N_A83   core C_A261   core   140.000000  117.0000
+C_A286  core H_A180  core N_A62    core    70.000000  111.0000
+C_A286  core S_A13   core N_A62    core   110.000000  109.0000
+C_A286  core C_A286  core C_A286   core    60.000000   79.2000
+C_A286  core C_A418  core C_A286   core    75.000000  117.2000
+C_A286  core N_A74   core C_A286   core    75.000000  117.2000
+C_A286  core H_A180  core C_A286   core    75.000000  117.2000
+C_A286  core N_A83   core C_A286   core    75.000000  126.0000
+C_A286  core S_A13   core C_A286   core   110.000000  128.0000
+C_A286  core C_A261  core C_A286   core   126.000000   85.0000
+C_A286  core C_A415  core C_A286   core   126.000000  114.0000
+C_A286  core N_A62   core C_A286   core   160.000000   89.0000
+C_A271  core C_A418  core C_A418   core   345.600000  120.0000
+C_A271  core C_A418  core H_A180   core   288.000000  120.0000
+N_A66   core C_A418  core H_A178   core    70.000000  109.5000
+N_A66   core H_A178  core H_A178   core    87.200000  106.4000
+N_A66   core H_A178  core C_A410   core   100.000000  112.5000
+N_A66   core C_A418  core C_A410   core   100.000000  120.5000
+N_A69   core C_A418  core O_A44    core   160.000000  117.5000
+N_A69   core C_A410  core O_A44    core   160.000000  117.5000
+N_A69   core O_A44   core O_A44    core   160.000000  125.0000
+P_A4    core C_A418  core C_A418   core    90.000000  109.5000
+N_A77   core C_A390  core C_A418   core   140.000000  117.6000
+N_A77   core C_A390  core H_A178   core    70.000000  119.2000
+N_A77   core H_A178  core C_A415   core    70.000000  119.2000
+N_A77   core C_A418  core C_A415   core   140.000000  121.2000
+N_A77   core C_A390  core C_A415   core   140.000000  121.6000
+N_A77   core C_A390  core C_A338   core   140.000000  117.6000
+N_A77   core C_A415  core C_A338   core   140.000000  121.2000
+N_A77   core H_A178  core C_A226   core    60.000000  125.8000
+N_A77   core C_A140  core C_A226   core   140.000000  125.8000
+N_A77   core C_A418  core C_A226   core   140.000000  125.8000
+N_A77   core C_A338  core C_A226   core   140.000000  125.8000
+N_A77   core H_A178  core C_A228   core    60.000000  128.8000
+N_A77   core C_A226  core C_A228   core   140.000000  105.4000
+N_A77   core C_A140  core C_A228   core   140.000000  128.8000
+N_A77   core C_A418  core C_A228   core   140.000000  128.8000
+N_A77   core C_A338  core C_A228   core   140.000000  128.8000
+Zn_A1   core O_A56   core N_A83    core    40.000000  109.5000
+Zn_A1   core N_A83   core N_A83    core    40.000000  109.5000
+N_A84   core C_A418  core C_A418   core   100.000000  118.0000
+N_A84   core C_A390  core C_A418   core   100.000000  121.9000
+Si_A4   core F_A12   core C_A418   core    70.000000  110.5000
+Si_A4   core C_A418  core C_A418   core   120.000000  110.0000
+Si_A4   core C_A418  core O_A51    core   120.000000  100.0000
+Si_A4   core O_A51   core O_A51    core   120.000000  110.0000
+Si_A4   core C_A418  core Cl_A9    core    70.000000  110.5000
+Si_A4   core H_A178  core H_A178   core    70.000000  109.5000
+Si_A4   core C_A418  core H_A178   core    70.000000  110.5000
+Si_A4   core H_A180  core H_A180   core    70.000000  109.5000
+Si_A4   core C_A418  core H_A180   core    70.000000  110.5000
+Si_A4   core C_A418  core Br_A5    core    70.000000  110.5000
+Si_A4   core C_A418  core I_A4     core    70.000000  110.5000
+Si_A4   core C_A418  core Si_A4    core   100.000000  112.0000
+C_A412  core H_A180  core C_A410   core    70.000000  123.3000
+C_A412  core H_A180  core C_A24    core    70.000000  120.0000
+C_A412  core C_A418  core C_A24    core   140.000000  124.0000
+C_A412  core H_A180  core C_A412   core    70.000000  120.0000
+C_A412  core C_A418  core C_A412   core   140.000000  124.0000
+C_A412  core C_A24   core C_A412   core   140.000000  124.0000
+C_A412  core C_A410  core C_A412   core   170.000000  117.0000
+C_A417  core O_A56   core C_A415   core   320.000000  180.0000
+C_A417  core C_A415  core C_A415   core   320.000000  180.0000
+
+torsion molmec kcal 
+O_A56   core C_A390  core C_A390   core O_A56    core     1.600000   1   0.0000
+O_A56   core C_A390  core C_A390   core O_A56    core     3.200000   2 180.0000
+O_A56   core C_A390  core C_A390   core O_A56    core     0.000000   3   0.0000
+C_A418  core C_A390  core C_A390   core C_A418   core     0.700000   1   0.0000
+C_A418  core C_A390  core C_A390   core C_A418   core    -1.500000   2 180.0000
+C_A418  core C_A390  core C_A390   core C_A418   core     0.000000   3   0.0000
+C_A418  core C_A390  core C_A390   core N_A83    core    -0.500000   1   0.0000
+C_A418  core C_A390  core C_A390   core N_A83    core     0.200000   2 180.0000
+C_A418  core C_A390  core C_A390   core N_A83    core     0.000000   3   0.0000
+C_A418  core C_A390  core C_A390   core H_A180   core     0.800000   1   0.0000
+C_A418  core C_A390  core C_A390   core H_A180   core    -0.760000   2 180.0000
+C_A418  core C_A390  core C_A390   core H_A180   core     0.000000   3   0.0000
+N_A83   core C_A390  core C_A390   core H_A180   core    -0.900000   1   0.0000
+N_A83   core C_A390  core C_A390   core H_A180   core     0.300000   2 180.0000
+N_A83   core C_A390  core C_A390   core H_A180   core     0.000000   3   0.0000
+C_A390  core C_A390  core O_A53    core H_A174   core     3.000000   1   0.0000
+C_A390  core C_A390  core O_A53    core H_A174   core     5.500000   2 180.0000
+C_A390  core C_A390  core O_A53    core H_A174   core     0.000000   3   0.0000
+C_A418  core C_A390  core O_A53    core H_A174   core     1.500000   1   0.0000
+C_A418  core C_A390  core O_A53    core H_A174   core     5.500000   2 180.0000
+C_A418  core C_A390  core O_A53    core H_A174   core     0.000000   3   0.0000
+N_A83   core C_A390  core O_A53    core H_A174   core    -2.000000   1   0.0000
+N_A83   core C_A390  core O_A53    core H_A174   core     5.000000   2 180.0000
+N_A83   core C_A390  core O_A53    core H_A174   core     0.000000   3   0.0000
+H_A180  core C_A390  core O_A53    core H_A174   core     1.500000   1   0.0000
+H_A180  core C_A390  core O_A53    core H_A174   core     5.500000   2 180.0000
+H_A180  core C_A390  core O_A53    core H_A174   core     0.000000   3   0.0000
+C_A410  core C_A390  core O_A53    core H_A174   core     4.000000   1   0.0000
+C_A410  core C_A390  core O_A53    core H_A174   core     5.000000   2 180.0000
+C_A410  core C_A390  core O_A53    core H_A174   core     0.000000   3   0.0000
+O_A56   core C_A390  core C_A418   core Cl_A9    core    -0.650000   1   0.0000
+O_A56   core C_A390  core C_A418   core Cl_A9    core     0.000000   2 180.0000
+O_A56   core C_A390  core C_A418   core Cl_A9    core     0.000000   3   0.0000
+O_A53   core C_A390  core C_A418   core N_A74    core     5.260000   1   0.0000
+O_A53   core C_A390  core C_A418   core N_A74    core     0.820000   2 180.0000
+O_A53   core C_A390  core C_A418   core N_A74    core     0.000000   3   0.0000
+C_A418  core C_A390  core C_A418   core C_A418   core     1.454000   1   0.0000
+C_A418  core C_A390  core C_A418   core C_A418   core    -0.144000   2 180.0000
+C_A418  core C_A390  core C_A418   core C_A418   core    -0.775000   3   0.0000
+N_A83   core C_A390  core C_A418   core C_A418   core     1.173000   1   0.0000
+N_A83   core C_A390  core C_A418   core C_A418   core     0.189000   2 180.0000
+N_A83   core C_A390  core C_A418   core C_A418   core    -1.200000   3   0.0000
+N_A83   core C_A390  core C_A418   core Cl_A9    core     0.650000   1   0.0000
+N_A83   core C_A390  core C_A418   core Cl_A9    core     0.000000   2 180.0000
+N_A83   core C_A390  core C_A418   core Cl_A9    core     0.000000   3   0.0000
+N_A83   core C_A390  core C_A418   core N_A83    core     1.816000   1   0.0000
+N_A83   core C_A390  core C_A418   core N_A83    core     1.222000   2 180.0000
+N_A83   core C_A390  core C_A418   core N_A83    core     1.581000   3   0.0000
+C_A418  core C_A390  core O_A51    core C_A418   core     4.669000   1   0.0000
+C_A418  core C_A390  core O_A51    core C_A418   core     5.124000   2 180.0000
+C_A418  core C_A390  core O_A51    core C_A418   core     0.000000   3   0.0000
+C_A418  core C_A390  core O_A51    core C_A410   core     1.500000   1   0.0000
+C_A418  core C_A390  core O_A51    core C_A410   core     5.000000   2 180.0000
+C_A418  core C_A390  core O_A51    core C_A410   core     0.000000   3   0.0000
+N_A83   core C_A390  core O_A51    core C_A418   core    -2.000000   1   0.0000
+N_A83   core C_A390  core O_A51    core C_A418   core     5.000000   2 180.0000
+N_A83   core C_A390  core O_A51    core C_A418   core     0.000000   3   0.0000
+H_A180  core C_A390  core O_A51    core C_A418   core     4.669000   1   0.0000
+H_A180  core C_A390  core O_A51    core C_A418   core     5.124000   2 180.0000
+H_A180  core C_A390  core O_A51    core C_A418   core     0.000000   3   0.0000
+C_A410  core C_A390  core O_A51    core C_A418   core     4.000000   1   0.0000
+C_A410  core C_A390  core O_A51    core C_A418   core     5.000000   2 180.0000
+C_A410  core C_A390  core O_A51    core C_A418   core     0.000000   3   0.0000
+C_A390  core C_A390  core N_A83    core C_A418   core     0.400000   1   0.0000
+C_A390  core C_A390  core N_A83    core C_A418   core     4.900000   2 180.0000
+C_A390  core C_A390  core N_A83    core C_A418   core     0.000000   3   0.0000
+O_A53   core C_A390  core N_A83    core C_A418   core     2.300000   1   0.0000
+O_A53   core C_A390  core N_A83    core C_A418   core     6.089000   2 180.0000
+O_A53   core C_A390  core N_A83    core C_A418   core     0.000000   3   0.0000
+C_A418  core C_A390  core N_A83    core O_A53    core     4.542000   1   0.0000
+C_A418  core C_A390  core N_A83    core O_A53    core     6.603000   2 180.0000
+C_A418  core C_A390  core N_A83    core O_A53    core     1.045000   3   0.0000
+C_A418  core C_A390  core N_A83    core C_A418   core     2.300000   1   0.0000
+C_A418  core C_A390  core N_A83    core C_A418   core     6.089000   2 180.0000
+C_A418  core C_A390  core N_A83    core C_A418   core     0.000000   3   0.0000
+C_A418  core C_A390  core N_A83    core C_A410   core     2.300000   1   0.0000
+C_A418  core C_A390  core N_A83    core C_A410   core     6.089000   2 180.0000
+C_A418  core C_A390  core N_A83    core C_A410   core     0.000000   3   0.0000
+O_A51   core C_A390  core N_A83    core C_A418   core     2.300000   1   0.0000
+O_A51   core C_A390  core N_A83    core C_A418   core     6.089000   2 180.0000
+O_A51   core C_A390  core N_A83    core C_A418   core     0.000000   3   0.0000
+N_A83   core C_A390  core N_A83    core C_A390   core     2.300000   1   0.0000
+N_A83   core C_A390  core N_A83    core C_A390   core     6.089000   2 180.0000
+N_A83   core C_A390  core N_A83    core C_A390   core     0.000000   3   0.0000
+N_A83   core C_A390  core N_A83    core C_A418   core     4.600000   1   0.0000
+N_A83   core C_A390  core N_A83    core C_A418   core     0.000000   2 180.0000
+N_A83   core C_A390  core N_A83    core C_A418   core     0.000000   3   0.0000
+H_A180  core C_A390  core N_A83    core C_A418   core     2.300000   1   0.0000
+H_A180  core C_A390  core N_A83    core C_A418   core     6.089000   2 180.0000
+H_A180  core C_A390  core N_A83    core C_A418   core     0.000000   3   0.0000
+C_A410  core C_A390  core N_A83    core C_A410   core     2.300000   1   0.0000
+C_A410  core C_A390  core N_A83    core C_A410   core     6.089000   2 180.0000
+C_A410  core C_A390  core N_A83    core C_A410   core     0.000000   3   0.0000
+C_A410  core C_A390  core N_A83    core C_A344   core     2.300000   1   0.0000
+C_A410  core C_A390  core N_A83    core C_A344   core     6.089000   2 180.0000
+C_A410  core C_A390  core N_A83    core C_A344   core     0.000000   3   0.0000
+C_A410  core C_A390  core N_A83    core C_A345   core     2.300000   1   0.0000
+C_A410  core C_A390  core N_A83    core C_A345   core     6.089000   2 180.0000
+C_A410  core C_A390  core N_A83    core C_A345   core     0.000000   3   0.0000
+C_A344  core C_A390  core N_A83    core C_A410   core     2.300000   1   0.0000
+C_A344  core C_A390  core N_A83    core C_A410   core     6.089000   2 180.0000
+C_A344  core C_A390  core N_A83    core C_A410   core     0.000000   3   0.0000
+C_A344  core C_A390  core N_A83    core C_A344   core     2.300000   1   0.0000
+C_A344  core C_A390  core N_A83    core C_A344   core     6.089000   2 180.0000
+C_A344  core C_A390  core N_A83    core C_A344   core     0.000000   3   0.0000
+C_A344  core C_A390  core N_A83    core C_A345   core     2.300000   1   0.0000
+C_A344  core C_A390  core N_A83    core C_A345   core     6.089000   2 180.0000
+C_A344  core C_A390  core N_A83    core C_A345   core     0.000000   3   0.0000
+C_A345  core C_A390  core N_A83    core C_A410   core     2.300000   1   0.0000
+C_A345  core C_A390  core N_A83    core C_A410   core     6.089000   2 180.0000
+C_A345  core C_A390  core N_A83    core C_A410   core     0.000000   3   0.0000
+C_A345  core C_A390  core N_A83    core C_A344   core     2.300000   1   0.0000
+C_A345  core C_A390  core N_A83    core C_A344   core     6.089000   2 180.0000
+C_A345  core C_A390  core N_A83    core C_A344   core     0.000000   3   0.0000
+C_A345  core C_A390  core N_A83    core C_A345   core     2.300000   1   0.0000
+C_A345  core C_A390  core N_A83    core C_A345   core     6.089000   2 180.0000
+C_A345  core C_A390  core N_A83    core C_A345   core     0.000000   3   0.0000
+X       core C_A390  core C_A415   core C_A418   core     0.900000   1   0.0000
+X       core C_A390  core C_A415   core C_A418   core     0.230000   2 180.0000
+X       core C_A390  core C_A415   core C_A418   core    -0.505000   3   0.0000
+O_A56   core C_A390  core C_A415   core C_A415   core     2.500000   1   0.0000
+O_A56   core C_A390  core C_A415   core C_A415   core     6.000000   2 180.0000
+O_A56   core C_A390  core C_A415   core C_A415   core     0.000000   3   0.0000
+O_A53   core C_A390  core C_A415   core C_A415   core     3.200000   1   0.0000
+O_A53   core C_A390  core C_A415   core C_A415   core    -3.000000   2 180.0000
+O_A53   core C_A390  core C_A415   core C_A415   core     0.000000   3   0.0000
+N_A83   core C_A390  core C_A415   core C_A415   core     2.000000   1   0.0000
+N_A83   core C_A390  core C_A415   core C_A415   core     0.000000   2 180.0000
+N_A83   core C_A390  core C_A415   core C_A415   core     0.000000   3   0.0000
+N_A84   core C_A390  core C_A415   core C_A415   core     2.000000   1   0.0000
+N_A84   core C_A390  core C_A415   core C_A415   core     0.000000   2 180.0000
+N_A84   core C_A390  core C_A415   core C_A415   core     0.000000   3   0.0000
+X       core C_A390  core C_A24    core C_A418   core     0.900000   1   0.0000
+X       core C_A390  core C_A24    core C_A418   core     0.230000   2 180.0000
+X       core C_A390  core C_A24    core C_A418   core    -0.505000   3   0.0000
+O_A56   core C_A390  core C_A24    core C_A415   core     2.500000   1   0.0000
+O_A56   core C_A390  core C_A24    core C_A415   core     6.000000   2 180.0000
+O_A56   core C_A390  core C_A24    core C_A415   core     0.000000   3   0.0000
+O_A53   core C_A390  core C_A24    core C_A415   core     3.200000   1   0.0000
+O_A53   core C_A390  core C_A24    core C_A415   core    -3.000000   2 180.0000
+O_A53   core C_A390  core C_A24    core C_A415   core     0.000000   3   0.0000
+C_A418  core C_A390  core C_A24    core C_A415   core     0.800000   1   0.0000
+C_A418  core C_A390  core C_A24    core C_A415   core    -3.000000   2 180.0000
+C_A418  core C_A390  core C_A24    core C_A415   core     0.000000   3   0.0000
+O_A56   core C_A390  core C_A241   core N_A60    core     2.000000   1   0.0000
+O_A56   core C_A390  core C_A241   core N_A60    core     1.000000   2 180.0000
+O_A56   core C_A390  core C_A241   core N_A60    core     0.000000   3   0.0000
+C_A241  core C_A390  core C_A241   core N_A60    core    -2.000000   1   0.0000
+C_A241  core C_A390  core C_A241   core N_A60    core     1.000000   2 180.0000
+C_A241  core C_A390  core C_A241   core N_A60    core     0.000000   3   0.0000
+O_A56   core C_A390  core C_A344   core O_A51    core    -0.750000   1   0.0000
+O_A56   core C_A390  core C_A344   core O_A51    core     1.500000   2 180.0000
+O_A56   core C_A390  core C_A344   core O_A51    core     0.000000   3   0.0000
+O_A56   core C_A390  core C_A344   core C_A345   core     0.750000   1   0.0000
+O_A56   core C_A390  core C_A344   core C_A345   core     1.500000   2 180.0000
+O_A56   core C_A390  core C_A344   core C_A345   core     0.000000   3   0.0000
+O_A56   core C_A390  core C_A412   core C_A412   core     2.500000   1   0.0000
+O_A56   core C_A390  core C_A412   core C_A412   core     6.000000   2 180.0000
+O_A56   core C_A390  core C_A412   core C_A412   core     0.000000   3   0.0000
+O_A53   core C_A390  core C_A412   core C_A412   core     3.200000   1   0.0000
+O_A53   core C_A390  core C_A412   core C_A412   core    -3.000000   2 180.0000
+O_A53   core C_A390  core C_A412   core C_A412   core     0.000000   3   0.0000
+H_A174  core O_A53   core C_A418   core C_A418   core    -0.356000   1   0.0000
+H_A174  core O_A53   core C_A418   core C_A418   core    -0.174000   2 180.0000
+H_A174  core O_A53   core C_A418   core C_A418   core     0.492000   3   0.0000
+H_A174  core O_A53   core C_A418   core C_A415   core    -0.900000   1   0.0000
+H_A174  core O_A53   core C_A418   core C_A415   core     0.000000   2 180.0000
+H_A174  core O_A53   core C_A418   core C_A415   core     0.000000   3   0.0000
+H_A174  core O_A53   core C_A418   core C_A410   core    -0.900000   1   0.0000
+H_A174  core O_A53   core C_A418   core C_A410   core     0.000000   2 180.0000
+H_A174  core O_A53   core C_A418   core C_A410   core     0.000000   3   0.0000
+H_A174  core O_A53   core C_A418   core C_A24    core    -0.900000   1   0.0000
+H_A174  core O_A53   core C_A418   core C_A24    core     0.000000   2 180.0000
+H_A174  core O_A53   core C_A418   core C_A24    core     0.000000   3   0.0000
+H_A174  core O_A53   core N_A83    core C_A390   core     5.519000   1   0.0000
+H_A174  core O_A53   core N_A83    core C_A390   core    -6.700000   2 180.0000
+H_A174  core O_A53   core N_A83    core C_A390   core     0.581000   3   0.0000
+H_A174  core O_A53   core N_A83    core H_A178   core     2.722000   1   0.0000
+H_A174  core O_A53   core N_A83    core H_A178   core    -5.154000   2 180.0000
+H_A174  core O_A53   core N_A83    core H_A178   core     0.000000   3   0.0000
+H_A174  core O_A53   core C_A338   core O_A51    core    -1.257000   1   0.0000
+H_A174  core O_A53   core C_A338   core O_A51    core    -1.806000   2 180.0000
+H_A174  core O_A53   core C_A338   core O_A51    core     0.003000   3   0.0000
+H_A174  core O_A53   core N_A70    core C_A390   core     3.000000   1   0.0000
+H_A174  core O_A53   core N_A70    core C_A390   core     3.000000   2 180.0000
+H_A174  core O_A53   core N_A70    core C_A390   core     0.000000   3   0.0000
+H_A174  core O_A53   core S_A8     core C_A418   core    -0.750000   1   0.0000
+H_A174  core O_A53   core S_A8     core C_A418   core     0.000000   2 180.0000
+H_A174  core O_A53   core S_A8     core C_A418   core     0.000000   3   0.0000
+H_A174  core O_A53   core S_A8     core O_A40    core     0.750000   1   0.0000
+H_A174  core O_A53   core S_A8     core O_A40    core     0.000000   2 180.0000
+H_A174  core O_A53   core S_A8     core O_A40    core     0.000000   3   0.0000
+H_A174  core O_A53   core S_A8     core C_A410   core     2.000000   1   0.0000
+H_A174  core O_A53   core S_A8     core C_A410   core     0.000000   2 180.0000
+H_A174  core O_A53   core S_A8     core C_A410   core     0.000000   3   0.0000
+X       core C_A418  core C_A418   core C_A390   core    -4.344000   1   0.0000
+X       core C_A418  core C_A418   core C_A390   core    -1.714000   2 180.0000
+X       core C_A418  core C_A418   core C_A390   core     0.000000   3   0.0000
+X       core C_A418  core C_A418   core C_A418   core     1.711000   1   0.0000
+X       core C_A418  core C_A418   core C_A418   core    -0.500000   2 180.0000
+X       core C_A418  core C_A418   core C_A418   core     0.663000   3   0.0000
+X       core C_A418  core C_A418   core N_A83    core     1.428000   1   0.0000
+X       core C_A418  core C_A418   core N_A83    core     0.086000   2 180.0000
+X       core C_A418  core C_A418   core N_A83    core     0.029000   3   0.0000
+F_A12   core C_A418  core C_A418   core F_A12    core    -2.500000   1   0.0000
+F_A12   core C_A418  core C_A418   core F_A12    core     0.000000   2 180.0000
+F_A12   core C_A418  core C_A418   core F_A12    core     0.250000   3   0.0000
+F_A12   core C_A418  core C_A418   core C_A418   core     0.300000   1   0.0000
+F_A12   core C_A418  core C_A418   core C_A418   core    -0.400000   2 180.0000
+F_A12   core C_A418  core C_A418   core C_A418   core     0.400000   3   0.0000
+C_A390  core C_A418  core C_A418   core C_A390   core    -0.550000   1   0.0000
+C_A390  core C_A418  core C_A418   core C_A390   core     0.000000   2 180.0000
+C_A390  core C_A418  core C_A418   core C_A390   core     1.000000   3   0.0000
+C_A390  core C_A418  core C_A418   core O_A53    core    -6.180000   1   0.0000
+C_A390  core C_A418  core C_A418   core O_A53    core     0.000000   2 180.0000
+C_A390  core C_A418  core C_A418   core O_A53    core     0.000000   3   0.0000
+C_A390  core C_A418  core C_A418   core C_A418   core    -2.060000   1   0.0000
+C_A390  core C_A418  core C_A418   core C_A418   core    -0.313000   2 180.0000
+C_A390  core C_A418  core C_A418   core C_A418   core     0.315000   3   0.0000
+C_A390  core C_A418  core C_A418   core S_A14    core    -4.344000   1   0.0000
+C_A390  core C_A418  core C_A418   core S_A14    core    -1.714000   2 180.0000
+C_A390  core C_A418  core C_A418   core S_A14    core     0.000000   3   0.0000
+C_A390  core C_A418  core C_A418   core S_A13    core    -4.344000   1   0.0000
+C_A390  core C_A418  core C_A418   core S_A13    core    -1.714000   2 180.0000
+C_A390  core C_A418  core C_A418   core S_A13    core     0.000000   3   0.0000
+C_A390  core C_A418  core C_A418   core N_A83    core    -9.000000   1   0.0000
+C_A390  core C_A418  core C_A418   core N_A83    core     2.000000   2 180.0000
+C_A390  core C_A418  core C_A418   core N_A83    core     0.800000   3   0.0000
+C_A390  core C_A418  core C_A418   core C_A410   core    -1.697000   1   0.0000
+C_A390  core C_A418  core C_A418   core C_A410   core    -0.456000   2 180.0000
+C_A390  core C_A418  core C_A418   core C_A410   core     0.585000   3   0.0000
+C_A390  core C_A418  core C_A418   core C_A167   core    -1.697000   1   0.0000
+C_A390  core C_A418  core C_A418   core C_A167   core    -0.456000   2 180.0000
+C_A390  core C_A418  core C_A418   core C_A167   core     0.585000   3   0.0000
+O_A53   core C_A418  core C_A418   core O_A53    core     9.508000   1   0.0000
+O_A53   core C_A418  core C_A418   core O_A53    core     0.000000   2 180.0000
+O_A53   core C_A418  core C_A418   core O_A53    core     0.000000   3   0.0000
+O_A53   core C_A418  core C_A418   core C_A418   core    -1.552000   1   0.0000
+O_A53   core C_A418  core C_A418   core C_A418   core     0.000000   2 180.0000
+O_A53   core C_A418  core C_A418   core C_A418   core     0.000000   3   0.0000
+O_A53   core C_A418  core C_A418   core O_A51    core     4.319000   1   0.0000
+O_A53   core C_A418  core C_A418   core O_A51    core     0.000000   2 180.0000
+O_A53   core C_A418  core C_A418   core O_A51    core     0.000000   3   0.0000
+O_A53   core C_A418  core C_A418   core N_A74    core     8.000000   1   0.0000
+O_A53   core C_A418  core C_A418   core N_A74    core     0.000000   2 180.0000
+O_A53   core C_A418  core C_A418   core N_A74    core     0.000000   3   0.0000
+O_A53   core C_A418  core C_A418   core N_A83    core     6.280000   1   0.0000
+O_A53   core C_A418  core C_A418   core N_A83    core    -1.467000   2 180.0000
+O_A53   core C_A418  core C_A418   core N_A83    core     2.030000   3   0.0000
+C_A418  core C_A418  core C_A418   core C_A418   core     1.300000   1   0.0000
+C_A418  core C_A418  core C_A418   core C_A418   core    -0.050000   2 180.0000
+C_A418  core C_A418  core C_A418   core C_A418   core     0.200000   3   0.0000
+C_A418  core C_A418  core C_A418   core S_A14    core     1.262000   1   0.0000
+C_A418  core C_A418  core C_A418   core S_A14    core    -0.198000   2 180.0000
+C_A418  core C_A418  core C_A418   core S_A14    core     0.465000   3   0.0000
+C_A418  core C_A418  core C_A418   core S_A13    core     2.619000   1   0.0000
+C_A418  core C_A418  core C_A418   core S_A13    core    -0.620000   2 180.0000
+C_A418  core C_A418  core C_A418   core S_A13    core     0.258000   3   0.0000
+C_A418  core C_A418  core C_A418   core N_A74    core     2.392000   1   0.0000
+C_A418  core C_A418  core C_A418   core N_A74    core    -0.674000   2 180.0000
+C_A418  core C_A418  core C_A418   core N_A74    core     0.550000   3   0.0000
+C_A418  core C_A418  core C_A418   core N_A83    core     0.845000   1   0.0000
+C_A418  core C_A418  core C_A418   core N_A83    core    -0.962000   2 180.0000
+C_A418  core C_A418  core C_A418   core N_A83    core     0.713000   3   0.0000
+C_A418  core C_A418  core C_A418   core C_A338   core     1.300000   1   0.0000
+C_A418  core C_A418  core C_A418   core C_A338   core    -0.050000   2 180.0000
+C_A418  core C_A418  core C_A418   core C_A338   core     0.200000   3   0.0000
+C_A418  core C_A418  core C_A418   core N_A86    core     2.732000   1   0.0000
+C_A418  core C_A418  core C_A418   core N_A86    core    -0.229000   2 180.0000
+C_A418  core C_A418  core C_A418   core N_A86    core     0.485000   3   0.0000
+C_A418  core C_A418  core C_A418   core S_A8     core     1.262000   1   0.0000
+C_A418  core C_A418  core C_A418   core S_A8     core    -0.198000   2 180.0000
+C_A418  core C_A418  core C_A418   core S_A8     core     0.465000   3   0.0000
+C_A418  core C_A418  core C_A418   core N_A84    core     1.964000   1   0.0000
+C_A418  core C_A418  core C_A418   core N_A84    core     0.000000   2 180.0000
+C_A418  core C_A418  core C_A418   core N_A84    core     0.659000   3   0.0000
+O_A51   core C_A418  core C_A418   core O_A51    core    -0.550000   1   0.0000
+O_A51   core C_A418  core C_A418   core O_A51    core     0.000000   2 180.0000
+O_A51   core C_A418  core C_A418   core O_A51    core     0.000000   3   0.0000
+Cl_A9   core C_A418  core C_A418   core Cl_A9    core    -0.250000   1   0.0000
+Cl_A9   core C_A418  core C_A418   core Cl_A9    core     0.000000   2 180.0000
+Cl_A9   core C_A418  core C_A418   core Cl_A9    core     0.000000   3   0.0000
+Cl_A9   core C_A418  core C_A418   core N_A74    core     2.000000   1   0.0000
+Cl_A9   core C_A418  core C_A418   core N_A74    core     0.000000   2 180.0000
+Cl_A9   core C_A418  core C_A418   core N_A74    core     0.000000   3   0.0000
+N_A74   core C_A418  core C_A418   core N_A74    core    11.035000   1   0.0000
+N_A74   core C_A418  core C_A418   core N_A74    core    -0.968000   2 180.0000
+N_A74   core C_A418  core C_A418   core N_A74    core     0.270000   3   0.0000
+N_A74   core C_A418  core C_A418   core H_A180   core    -1.013000   1   0.0000
+N_A74   core C_A418  core C_A418   core H_A180   core    -0.709000   2 180.0000
+N_A74   core C_A418  core C_A418   core H_A180   core     0.473000   3   0.0000
+N_A74   core C_A418  core C_A418   core C_A410   core    -0.800000   1   0.0000
+N_A74   core C_A418  core C_A418   core C_A410   core     0.000000   2 180.0000
+N_A74   core C_A418  core C_A418   core C_A410   core     0.000000   3   0.0000
+N_A83   core C_A418  core C_A418   core C_A410   core     0.845000   1   0.0000
+N_A83   core C_A418  core C_A418   core C_A410   core    -0.962000   2 180.0000
+N_A83   core C_A418  core C_A418   core C_A410   core     0.713000   3   0.0000
+N_A83   core C_A418  core C_A418   core C_A167   core     0.845000   1   0.0000
+N_A83   core C_A418  core C_A418   core C_A167   core    -0.962000   2 180.0000
+N_A83   core C_A418  core C_A418   core C_A167   core     0.713000   3   0.0000
+C_A410  core C_A418  core C_A418   core N_A86    core     1.000000   1   0.0000
+C_A410  core C_A418  core C_A418   core N_A86    core     0.000000   2 180.0000
+C_A410  core C_A418  core C_A418   core N_A86    core     0.000000   3   0.0000
+Si_A4   core C_A418  core C_A418   core Si_A4    core     5.200000   1   0.0000
+Si_A4   core C_A418  core C_A418   core Si_A4    core    -0.500000   2 180.0000
+Si_A4   core C_A418  core C_A418   core Si_A4    core     0.000000   3   0.0000
+C_A418  core C_A418  core S_A14    core H_A144   core    -0.759000   1   0.0000
+C_A418  core C_A418  core S_A14    core H_A144   core    -0.282000   2 180.0000
+C_A418  core C_A418  core S_A14    core H_A144   core     0.680000   3   0.0000
+C_A418  core C_A418  core S_A13    core C_A418   core     0.925000   1   0.0000
+C_A418  core C_A418  core S_A13    core C_A418   core    -0.576000   2 180.0000
+C_A418  core C_A418  core S_A13    core C_A418   core     0.677000   3   0.0000
+C_A418  core C_A418  core S_A13    core S_A13    core     1.941000   1   0.0000
+C_A418  core C_A418  core S_A13    core S_A13    core    -0.836000   2 180.0000
+C_A418  core C_A418  core S_A13    core S_A13    core     0.935000   3   0.0000
+X       core C_A418  core O_A51    core C_A418   core    -0.521000   1   0.0000
+X       core C_A418  core O_A51    core C_A418   core    -2.018000   2 180.0000
+X       core C_A418  core O_A51    core C_A418   core     1.996000   3   0.0000
+N_A70   core C_A418  core O_A51    core C_A418   core    -0.500000   1   0.0000
+N_A70   core C_A418  core O_A51    core C_A418   core    -1.500000   2 180.0000
+N_A70   core C_A418  core O_A51    core C_A418   core     1.000000   3   0.0000
+N_A60   core C_A418  core O_A51    core C_A418   core    -0.500000   1   0.0000
+N_A60   core C_A418  core O_A51    core C_A418   core    -1.500000   2 180.0000
+N_A60   core C_A418  core O_A51    core C_A418   core     1.000000   3   0.0000
+C_A418  core C_A418  core O_A51    core C_A390   core    -1.220000   1   0.0000
+C_A418  core C_A418  core O_A51    core C_A390   core    -0.126000   2 180.0000
+C_A418  core C_A418  core O_A51    core C_A390   core     0.422000   3   0.0000
+C_A418  core C_A418  core O_A51    core C_A418   core     0.650000   1   0.0000
+C_A418  core C_A418  core O_A51    core C_A418   core    -0.250000   2 180.0000
+C_A418  core C_A418  core O_A51    core C_A418   core     0.670000   3   0.0000
+C_A418  core C_A418  core O_A51    core P_A5     core    -1.420000   1   0.0000
+C_A418  core C_A418  core O_A51    core P_A5     core    -0.620000   2 180.0000
+C_A418  core C_A418  core O_A51    core P_A5     core     0.100000   3   0.0000
+C_A390  core C_A418  core N_A83    core C_A390   core    -2.365000   1   0.0000
+C_A390  core C_A418  core N_A83    core C_A390   core     0.912000   2 180.0000
+C_A390  core C_A418  core N_A83    core C_A390   core    -0.850000   3   0.0000
+C_A390  core C_A418  core N_A83    core C_A418   core    -1.737000   1   0.0000
+C_A390  core C_A418  core N_A83    core C_A418   core     1.251000   2 180.0000
+C_A390  core C_A418  core N_A83    core C_A418   core    -3.501000   3   0.0000
+C_A418  core C_A418  core N_A83    core C_A418   core     4.753000   1   0.0000
+C_A418  core C_A418  core N_A83    core C_A418   core    -0.734000   2 180.0000
+C_A418  core C_A418  core N_A83    core C_A418   core     0.000000   3   0.0000
+C_A418  core C_A418  core N_A83    core S_A8     core     2.929000   1   0.0000
+C_A418  core C_A418  core N_A83    core S_A8     core    -2.533000   2 180.0000
+C_A418  core C_A418  core N_A83    core S_A8     core     0.497000   3   0.0000
+C_A418  core C_A418  core N_A83    core C_A286   core     2.300000   1   0.0000
+C_A418  core C_A418  core N_A83    core C_A286   core     6.089000   2 180.0000
+C_A418  core C_A418  core N_A83    core C_A286   core     0.000000   3   0.0000
+H_A180  core C_A418  core N_A83    core S_A8     core     1.362000   1   0.0000
+H_A180  core C_A418  core N_A83    core S_A8     core    -1.457000   2 180.0000
+H_A180  core C_A418  core N_A83    core S_A8     core     0.149000   3   0.0000
+C_A418  core C_A418  core N_A74    core C_A418   core     0.416000   1   0.0000
+C_A418  core C_A418  core N_A74    core C_A418   core    -0.128000   2 180.0000
+C_A418  core C_A418  core N_A74    core C_A418   core     0.695000   3   0.0000
+C_A418  core C_A418  core N_A74    core H_A178   core    -0.190000   1   0.0000
+C_A418  core C_A418  core N_A74    core H_A178   core    -0.417000   2 180.0000
+C_A418  core C_A418  core N_A74    core H_A178   core     0.418000   3   0.0000
+X       core C_A418  core C_A415   core C_A418   core     1.711000   1   0.0000
+X       core C_A418  core C_A415   core C_A418   core    -0.500000   2 180.0000
+X       core C_A418  core C_A415   core C_A418   core     0.663000   3   0.0000
+X       core C_A418  core C_A415   core C_A415   core     0.500000   1   0.0000
+X       core C_A418  core C_A415   core C_A415   core     0.000000   2 180.0000
+X       core C_A418  core C_A415   core C_A415   core     0.000000   3   0.0000
+X       core C_A418  core C_A415   core C_A24    core     0.500000   1   0.0000
+X       core C_A418  core C_A415   core C_A24    core     0.000000   2 180.0000
+X       core C_A418  core C_A415   core C_A24    core     0.000000   3   0.0000
+F_A12   core C_A418  core C_A415   core C_A415   core     0.500000   1   0.0000
+F_A12   core C_A418  core C_A415   core C_A415   core     0.000000   2 180.0000
+F_A12   core C_A418  core C_A415   core C_A415   core     0.000000   3   0.0000
+C_A418  core C_A418  core C_A415   core C_A418   core     2.817000   1   0.0000
+C_A418  core C_A418  core C_A415   core C_A418   core    -0.169000   2 180.0000
+C_A418  core C_A418  core C_A415   core C_A418   core     0.543000   3   0.0000
+C_A418  core C_A418  core C_A415   core C_A415   core     0.346000   1   0.0000
+C_A418  core C_A418  core C_A415   core C_A415   core     0.405000   2 180.0000
+C_A418  core C_A418  core C_A415   core C_A415   core    -0.904000   3   0.0000
+C_A418  core C_A418  core C_A415   core C_A24    core     0.346000   1   0.0000
+C_A418  core C_A418  core C_A415   core C_A24    core     0.405000   2 180.0000
+C_A418  core C_A418  core C_A415   core C_A24    core    -0.904000   3   0.0000
+C_A418  core C_A418  core C_A410   core N_A70    core    -0.500000   1   0.0000
+C_A418  core C_A418  core C_A410   core N_A70    core     0.500000   2 180.0000
+C_A418  core C_A418  core C_A410   core N_A70    core    -0.500000   3   0.0000
+X       core C_A418  core C_A24    core C_A415   core     0.500000   1   0.0000
+X       core C_A418  core C_A24    core C_A415   core     0.000000   2 180.0000
+X       core C_A418  core C_A24    core C_A415   core     0.000000   3   0.0000
+C_A418  core C_A418  core C_A24    core C_A24    core     0.346000   1   0.0000
+C_A418  core C_A418  core C_A24    core C_A24    core     0.405000   2 180.0000
+C_A418  core C_A418  core C_A24    core C_A24    core    -0.904000   3   0.0000
+C_A418  core C_A418  core C_A338   core X        core     1.711000   1   0.0000
+C_A418  core C_A418  core C_A338   core X        core    -0.500000   2 180.0000
+C_A418  core C_A418  core C_A338   core X        core     0.663000   3   0.0000
+C_A418  core C_A418  core N_A86    core C_A418   core     1.438000   1   0.0000
+C_A418  core C_A418  core N_A86    core C_A418   core    -0.124000   2 180.0000
+C_A418  core C_A418  core N_A86    core C_A418   core     0.264000   3   0.0000
+C_A418  core C_A418  core N_A63    core H_A178   core    -0.190000   1   0.0000
+C_A418  core C_A418  core N_A63    core H_A178   core    -0.417000   2 180.0000
+C_A418  core C_A418  core N_A63    core H_A178   core     0.418000   3   0.0000
+C_A418  core C_A418  core N_A63    core C_A410   core     1.829000   1   0.0000
+C_A418  core C_A418  core N_A63    core C_A410   core     0.243000   2 180.0000
+C_A418  core C_A418  core N_A63    core C_A410   core    -0.498000   3   0.0000
+C_A418  core C_A418  core N_A63    core H_A168   core    -0.190000   1   0.0000
+C_A418  core C_A418  core N_A63    core H_A168   core    -0.417000   2 180.0000
+C_A418  core C_A418  core N_A63    core H_A168   core     0.418000   3   0.0000
+C_A418  core C_A418  core N_A60    core X        core     1.000000   1   0.0000
+C_A418  core C_A418  core N_A60    core X        core    -0.350000   2 180.0000
+C_A418  core C_A418  core N_A60    core X        core     0.000000   3   0.0000
+C_A418  core C_A418  core N_A60    core C_A228   core     2.756000   1   0.0000
+C_A418  core C_A418  core N_A60    core C_A228   core    -0.872000   2 180.0000
+C_A418  core C_A418  core N_A60    core C_A228   core    -3.680000   3   0.0000
+C_A418  core C_A418  core N_A60    core C_A241   core    -1.000000   1   0.0000
+C_A418  core C_A418  core N_A60    core C_A241   core    -0.350000   2 180.0000
+C_A418  core C_A418  core N_A60    core C_A241   core     0.000000   3   0.0000
+O_A51   core C_A418  core N_A60    core X        core     1.500000   1   0.0000
+O_A51   core C_A418  core N_A60    core X        core    -1.500000   2 180.0000
+O_A51   core C_A418  core N_A60    core X        core     0.000000   3   0.0000
+O_A51   core C_A418  core N_A60    core C_A228   core    -1.500000   1   0.0000
+O_A51   core C_A418  core N_A60    core C_A228   core    -1.500000   2 180.0000
+O_A51   core C_A418  core N_A60    core C_A228   core     0.000000   3   0.0000
+O_A51   core C_A418  core N_A60    core C_A241   core    -1.500000   1   0.0000
+O_A51   core C_A418  core N_A60    core C_A241   core    -1.500000   2 180.0000
+O_A51   core C_A418  core N_A60    core C_A241   core     0.000000   3   0.0000
+C_A410  core C_A418  core P_A5     core O_A51    core     2.250000   1   0.0000
+C_A410  core C_A418  core P_A5     core O_A51    core     0.000000   2 180.0000
+C_A410  core C_A418  core P_A5     core O_A51    core     0.000000   3   0.0000
+C_A418  core C_A418  core C_A167   core C_A344   core    -0.714000   1   0.0000
+C_A418  core C_A418  core C_A167   core C_A344   core     0.000000   2 180.0000
+C_A418  core C_A418  core C_A167   core C_A344   core     0.000000   3   0.0000
+C_A418  core C_A418  core C_A344   core N_A60    core     1.700000   1   0.0000
+C_A418  core C_A418  core C_A344   core N_A60    core    -0.600000   2 180.0000
+C_A418  core C_A418  core C_A344   core N_A60    core     0.000000   3   0.0000
+C_A418  core C_A418  core P_A4     core C_A418   core     1.000000   1   0.0000
+C_A418  core C_A418  core P_A4     core C_A418   core    -0.500000   2 180.0000
+C_A418  core C_A418  core P_A4     core C_A418   core     0.500000   3   0.0000
+C_A418  core C_A418  core N_A77    core X        core     1.000000   1   0.0000
+C_A418  core C_A418  core N_A77    core X        core    -0.350000   2 180.0000
+C_A418  core C_A418  core N_A77    core X        core     0.000000   3   0.0000
+C_A418  core C_A418  core N_A77    core C_A228   core    -1.000000   1   0.0000
+C_A418  core C_A418  core N_A77    core C_A228   core    -0.350000   2 180.0000
+C_A418  core C_A418  core N_A77    core C_A228   core     0.000000   3   0.0000
+C_A418  core C_A418  core N_A77    core C_A241   core    -1.000000   1   0.0000
+C_A418  core C_A418  core N_A77    core C_A241   core    -0.350000   2 180.0000
+C_A418  core C_A418  core N_A77    core C_A241   core     0.000000   3   0.0000
+O_A51   core C_A418  core N_A77    core X        core     1.500000   1   0.0000
+O_A51   core C_A418  core N_A77    core X        core    -1.500000   2 180.0000
+O_A51   core C_A418  core N_A77    core X        core     0.000000   3   0.0000
+O_A51   core C_A418  core N_A77    core C_A228   core     3.132000   1   0.0000
+O_A51   core C_A418  core N_A77    core C_A228   core    -1.491000   2 180.0000
+O_A51   core C_A418  core N_A77    core C_A228   core     2.744000   3   0.0000
+O_A51   core C_A418  core N_A77    core C_A241   core    -1.500000   1   0.0000
+O_A51   core C_A418  core N_A77    core C_A241   core    -1.500000   2 180.0000
+O_A51   core C_A418  core N_A77    core C_A241   core     0.000000   3   0.0000
+C_A390  core C_A418  core N_A84    core C_A418   core    -1.737000   1   0.0000
+C_A390  core C_A418  core N_A84    core C_A418   core     1.251000   2 180.0000
+C_A390  core C_A418  core N_A84    core C_A418   core    -3.501000   3   0.0000
+C_A418  core C_A418  core N_A84    core C_A390   core    -1.396000   1   0.0000
+C_A418  core C_A418  core N_A84    core C_A390   core    -0.427000   2 180.0000
+C_A418  core C_A418  core N_A84    core C_A390   core     0.000000   3   0.0000
+C_A418  core C_A418  core N_A84    core C_A418   core     4.753000   1   0.0000
+C_A418  core C_A418  core N_A84    core C_A418   core    -0.734000   2 180.0000
+C_A418  core C_A418  core N_A84    core C_A418   core     0.000000   3   0.0000
+C_A418  core C_A418  core Si_A4    core C_A418   core     1.000000   1   0.0000
+C_A418  core C_A418  core Si_A4    core C_A418   core     0.000000   2 180.0000
+C_A418  core C_A418  core Si_A4    core C_A418   core     0.000000   3   0.0000
+C_A418  core C_A418  core C_A412   core C_A412   core     0.346000   1   0.0000
+C_A418  core C_A418  core C_A412   core C_A412   core     0.405000   2 180.0000
+C_A418  core C_A418  core C_A412   core C_A412   core    -0.904000   3   0.0000
+C_A418  core S_A13   core C_A410   core N_A70    core     1.600000   1   0.0000
+C_A418  core S_A13   core C_A410   core N_A70    core     5.100000   2 180.0000
+C_A418  core S_A13   core C_A410   core N_A70    core     0.000000   3   0.0000
+C_A418  core O_A51   core C_A415   core C_A418   core     0.650000   1   0.0000
+C_A418  core O_A51   core C_A415   core C_A418   core    -0.250000   2 180.0000
+C_A418  core O_A51   core C_A415   core C_A418   core     0.670000   3   0.0000
+C_A418  core O_A51   core C_A415   core C_A415   core    -3.500000   1   0.0000
+C_A418  core O_A51   core C_A415   core C_A415   core     3.000000   2 180.0000
+C_A418  core O_A51   core C_A415   core C_A415   core     0.000000   3   0.0000
+C_A418  core O_A51   core C_A415   core C_A24    core    -3.500000   1   0.0000
+C_A418  core O_A51   core C_A415   core C_A24    core     3.000000   2 180.0000
+C_A418  core O_A51   core C_A415   core C_A24    core     0.000000   3   0.0000
+C_A418  core O_A51   core C_A410   core N_A70    core     0.400000   1   0.0000
+C_A418  core O_A51   core C_A410   core N_A70    core     5.500000   2 180.0000
+C_A418  core O_A51   core C_A410   core N_A70    core     0.000000   3   0.0000
+C_A418  core O_A51   core C_A338   core O_A53    core    -0.375000   1   0.0000
+C_A418  core O_A51   core C_A338   core O_A53    core    -1.358000   2 180.0000
+C_A418  core O_A51   core C_A338   core O_A53    core     0.004000   3   0.0000
+C_A418  core O_A51   core C_A338   core C_A418   core     0.650000   1   0.0000
+C_A418  core O_A51   core C_A338   core C_A418   core    -0.250000   2 180.0000
+C_A418  core O_A51   core C_A338   core C_A418   core     0.670000   3   0.0000
+C_A418  core O_A51   core C_A338   core O_A51    core    -0.375000   1   0.0000
+C_A418  core O_A51   core C_A338   core O_A51    core    -1.358000   2 180.0000
+C_A418  core O_A51   core C_A338   core O_A51    core     0.004000   3   0.0000
+C_A418  core O_A51   core N_A70    core C_A390   core     3.000000   1   0.0000
+C_A418  core O_A51   core N_A70    core C_A390   core     3.000000   2 180.0000
+C_A418  core O_A51   core N_A70    core C_A390   core     0.000000   3   0.0000
+C_A418  core O_A51   core P_A5     core C_A418   core     3.500000   1   0.0000
+C_A418  core O_A51   core P_A5     core C_A418   core    -3.300000   2 180.0000
+C_A418  core O_A51   core P_A5     core C_A418   core     1.500000   3   0.0000
+C_A418  core N_A83   core S_A8     core C_A410   core     2.074000   1   0.0000
+C_A418  core N_A83   core S_A8     core C_A410   core    -2.966000   2 180.0000
+C_A418  core N_A83   core S_A8     core C_A410   core     2.473000   3   0.0000
+H_A178  core N_A83   core S_A8     core C_A410   core     1.671000   1   0.0000
+H_A178  core N_A83   core S_A8     core C_A410   core    -4.901000   2 180.0000
+H_A178  core N_A83   core S_A8     core C_A410   core     0.669000   3   0.0000
+C_A390  core N_A83   core C_A286   core C_A261   core    -1.396000   1   0.0000
+C_A390  core N_A83   core C_A286   core C_A261   core    -0.427000   2 180.0000
+C_A390  core N_A83   core C_A286   core C_A261   core     0.000000   3   0.0000
+C_A390  core N_A83   core C_A286   core C_A286   core    -1.396000   1   0.0000
+C_A390  core N_A83   core C_A286   core C_A286   core    -0.427000   2 180.0000
+C_A390  core N_A83   core C_A286   core C_A286   core     0.000000   3   0.0000
+C_A418  core N_A74   core C_A410   core C_A410   core    -7.582000   1   0.0000
+C_A418  core N_A74   core C_A410   core C_A410   core     3.431000   2 180.0000
+C_A418  core N_A74   core C_A410   core C_A410   core     3.198000   3   0.0000
+Cl_A9   core C_A415  core C_A415   core Cl_A9    core    -1.600000   1   0.0000
+Cl_A9   core C_A415  core C_A415   core Cl_A9    core    14.000000   2 180.0000
+Cl_A9   core C_A415  core C_A415   core Cl_A9    core     0.000000   3   0.0000
+C_A418  core C_A415  core C_A410   core C_A410   core     0.205000   1   0.0000
+C_A418  core C_A415  core C_A410   core C_A410   core    -0.531000   2 180.0000
+C_A418  core C_A415  core C_A410   core C_A410   core     0.000000   3   0.0000
+C_A415  core C_A415  core C_A410   core C_A410   core     1.241000   1   0.0000
+C_A415  core C_A415  core C_A410   core C_A410   core     3.353000   2 180.0000
+C_A415  core C_A415  core C_A410   core C_A410   core    -0.286000   3   0.0000
+C_A410  core C_A410  core C_A24    core C_A415   core     1.241000   1   0.0000
+C_A410  core C_A410  core C_A24    core C_A415   core     3.353000   2 180.0000
+C_A410  core C_A410  core C_A24    core C_A415   core    -0.286000   3   0.0000
+N_A70   core C_A410  core C_A24    core C_A415   core     1.241000   1   0.0000
+N_A70   core C_A410  core C_A24    core C_A415   core     3.353000   2 180.0000
+N_A70   core C_A410  core C_A24    core C_A415   core    -0.286000   3   0.0000
+C_A410  core C_A410  core S_A8     core N_A83    core     1.656000   1   0.0000
+C_A410  core C_A410  core S_A8     core N_A83    core    -0.768000   2 180.0000
+C_A410  core C_A410  core S_A8     core N_A83    core    -0.117000   3   0.0000
+C_A410  core C_A410  core C_A412   core C_A418   core     0.205000   1   0.0000
+C_A410  core C_A410  core C_A412   core C_A418   core    -0.531000   2 180.0000
+C_A410  core C_A410  core C_A412   core C_A418   core     0.000000   3   0.0000
+C_A410  core C_A410  core C_A412   core C_A412   core     1.241000   1   0.0000
+C_A410  core C_A410  core C_A412   core C_A412   core     3.353000   2 180.0000
+C_A410  core C_A410  core C_A412   core C_A412   core    -0.286000   3   0.0000
+C_A415  core C_A24   core C_A24    core C_A415   core     1.423000   1   0.0000
+C_A415  core C_A24   core C_A24    core C_A415   core     4.055000   2 180.0000
+C_A415  core C_A24   core C_A24    core C_A415   core     0.858000   3   0.0000
+C_A415  core C_A24   core C_A412   core C_A412   core     1.423000   1   0.0000
+C_A415  core C_A24   core C_A412   core C_A412   core     4.055000   2 180.0000
+C_A415  core C_A24   core C_A412   core C_A412   core     0.858000   3   0.0000
+C_A286  core C_A261  core N_A62    core C_A418   core     2.300000   1   0.0000
+C_A286  core C_A261  core N_A62    core C_A418   core     6.089000   2 180.0000
+C_A286  core C_A261  core N_A62    core C_A418   core     0.000000   3   0.0000
+C_A286  core C_A261  core N_A62    core C_A410   core     2.300000   1   0.0000
+C_A286  core C_A261  core N_A62    core C_A410   core     6.089000   2 180.0000
+C_A286  core C_A261  core N_A62    core C_A410   core     0.000000   3   0.0000
+C_A286  core C_A261  core N_A62    core C_A286   core     2.300000   1   0.0000
+C_A286  core C_A261  core N_A62    core C_A286   core     6.089000   2 180.0000
+C_A286  core C_A261  core N_A62    core C_A286   core     0.000000   3   0.0000
+C_A412  core C_A412  core C_A412   core C_A412   core     1.423000   1   0.0000
+C_A412  core C_A412  core C_A412   core C_A412   core     4.055000   2 180.0000
+C_A412  core C_A412  core C_A412   core C_A412   core     0.858000   3   0.0000
+N_A83   core C_A390  core C_A418   core N_A86    core     1.816000   1   0.0000
+N_A83   core C_A390  core C_A418   core N_A86    core     1.222000   2 180.0000
+N_A83   core C_A390  core C_A418   core N_A86    core     1.581000   3   0.0000
+C_A390  core C_A418  core C_A418   core N_A86    core     1.000000   1   0.0000
+C_A390  core C_A418  core C_A418   core N_A86    core     0.000000   2 180.0000
+C_A390  core C_A418  core C_A418   core N_A86    core     0.000000   3   0.0000
+C_A390  core C_A418  core C_A418   core C_A242   core    -1.697000   1   0.0000
+C_A390  core C_A418  core C_A418   core C_A242   core    -0.456000   2 180.0000
+C_A390  core C_A418  core C_A418   core C_A242   core     0.585000   3   0.0000
+C_A390  core C_A418  core C_A418   core C_A344   core    -1.697000   1   0.0000
+C_A390  core C_A418  core C_A418   core C_A344   core    -0.456000   2 180.0000
+C_A390  core C_A418  core C_A418   core C_A344   core     0.585000   3   0.0000
+C_A390  core C_A418  core C_A418   core C_A175   core    -1.697000   1   0.0000
+C_A390  core C_A418  core C_A418   core C_A175   core    -0.456000   2 180.0000
+C_A390  core C_A418  core C_A418   core C_A175   core     0.585000   3   0.0000
+O_A53   core C_A418  core C_A418   core N_A86    core     6.280000   1   0.0000
+O_A53   core C_A418  core C_A418   core N_A86    core    -1.467000   2 180.0000
+O_A53   core C_A418  core C_A418   core N_A86    core     2.030000   3   0.0000
+S_A14   core C_A418  core C_A418   core N_A86    core     1.428000   1   0.0000
+S_A14   core C_A418  core C_A418   core N_A86    core     0.086000   2 180.0000
+S_A14   core C_A418  core C_A418   core N_A86    core     0.029000   3   0.0000
+S_A13   core C_A418  core C_A418   core N_A86    core     1.428000   1   0.0000
+S_A13   core C_A418  core C_A418   core N_A86    core     0.086000   2 180.0000
+S_A13   core C_A418  core C_A418   core N_A86    core     0.029000   3   0.0000
+C_A418  core C_A418  core C_A418   core N_A63    core     2.732000   1   0.0000
+C_A418  core C_A418  core C_A418   core N_A63    core    -0.229000   2 180.0000
+C_A418  core C_A418  core C_A418   core N_A63    core     0.485000   3   0.0000
+N_A83   core C_A418  core C_A418   core C_A242   core     0.845000   1   0.0000
+N_A83   core C_A418  core C_A418   core C_A242   core    -0.962000   2 180.0000
+N_A83   core C_A418  core C_A418   core C_A242   core     0.713000   3   0.0000
+N_A86   core C_A418  core C_A418   core C_A242   core     1.000000   1   0.0000
+N_A86   core C_A418  core C_A418   core C_A242   core     0.000000   2 180.0000
+N_A86   core C_A418  core C_A418   core C_A242   core     0.000000   3   0.0000
+N_A83   core C_A418  core C_A418   core C_A344   core     0.845000   1   0.0000
+N_A83   core C_A418  core C_A418   core C_A344   core    -0.962000   2 180.0000
+N_A83   core C_A418  core C_A418   core C_A344   core     0.713000   3   0.0000
+N_A86   core C_A418  core C_A418   core C_A344   core     1.000000   1   0.0000
+N_A86   core C_A418  core C_A418   core C_A344   core     0.000000   2 180.0000
+N_A86   core C_A418  core C_A418   core C_A344   core     0.000000   3   0.0000
+N_A83   core C_A418  core C_A418   core C_A175   core     0.845000   1   0.0000
+N_A83   core C_A418  core C_A418   core C_A175   core    -0.962000   2 180.0000
+N_A83   core C_A418  core C_A418   core C_A175   core     0.713000   3   0.0000
+N_A86   core C_A418  core C_A418   core C_A175   core     1.000000   1   0.0000
+N_A86   core C_A418  core C_A418   core C_A175   core     0.000000   2 180.0000
+N_A86   core C_A418  core C_A418   core C_A175   core     0.000000   3   0.0000
+C_A390  core C_A418  core N_A86    core C_A418   core     1.438000   1   0.0000
+C_A390  core C_A418  core N_A86    core C_A418   core    -0.124000   2 180.0000
+C_A390  core C_A418  core N_A86    core C_A418   core     0.264000   3   0.0000
+C_A418  core C_A418  core C_A175   core N_A60    core     1.700000   1   0.0000
+C_A418  core C_A418  core C_A175   core N_A60    core    -0.600000   2 180.0000
+C_A418  core C_A418  core C_A175   core N_A60    core     0.000000   3   0.0000
+C_A418  core C_A418  core C_A418   core O_A51    core     1.300000   1   0.0000
+C_A418  core C_A418  core C_A418   core O_A51    core    -0.050000   2 180.0000
+C_A418  core C_A418  core C_A418   core O_A51    core     0.200000   3   0.0000
+C_A418  core C_A418  core C_A418   core C_A415   core     1.300000   1   0.0000
+C_A418  core C_A418  core C_A418   core C_A415   core    -0.050000   2 180.0000
+C_A418  core C_A418  core C_A418   core C_A415   core     0.200000   3   0.0000
+
+torsion improper kcal 
+X       core X       core C_A390   core O_A56    core    21.000000   2 180.0000
+X       core X       core C_A390   core O_A50    core    21.000000   2 180.0000
+X       core X       core N_A83    core X        core     5.000000   2 180.0000
+X       core X       core C_A415   core X        core    30.000000   2 180.0000
+X       core X       core C_A410   core X        core     5.000000   2 180.0000
+
+epsilon kcal 
+H3     core     0.030000     2.500000
+H4     core     0.030000     2.420000
+H5     core     0.030000     2.420000
+H7     core     0.030000     2.500000
+H9     core     0.030000     2.500000
+H13    core     0.030000     2.500000
+H14    core     0.030000     2.500000
+H16    core     0.030000     2.500000
+H17    core     0.030000     2.500000
+H18    core     0.030000     2.500000
+H19    core     0.030000     2.500000
+H26    core     0.020000     2.500000
+H28    core     0.015000     2.420000
+H29    core     0.015000     2.420000
+H36    core     0.050000     2.500000
+H37    core     0.050000     2.500000
+H40    core     0.050000     2.500000
+H41    core     0.050000     2.500000
+H42    core     0.050000     2.500000
+H46    core     0.050000     2.500000
+H47    core     0.050000     2.500000
+H48    core     0.050000     2.500000
+H51    core     0.050000     2.500000
+H55    core     0.050000     2.500000
+H56    core     0.050000     2.500000
+H57    core     0.050000     2.500000
+H62    core     0.050000     2.500000
+H63    core     0.050000     2.500000
+H64    core     0.050000     2.500000
+H65    core     0.050000     2.500000
+H66    core     0.050000     2.500000
+H67    core     0.050000     2.500000
+H68    core     0.050000     2.500000
+H69    core     0.050000     2.500000
+H71    core     0.030000     2.500000
+H72    core     0.030000     2.500000
+H73    core     0.030000     2.500000
+H74    core     0.030000     2.500000
+H75    core     0.030000     2.500000
+H76    core     0.030000     2.500000
+H77    core     0.015000     2.420000
+H78    core     0.030000     2.500000
+H81    core     0.030000     2.500000
+H82    core     0.030000     2.500000
+H83    core     0.030000     2.500000
+H86    core     0.030000     2.420000
+H87    core     0.030000     2.420000
+H88    core     0.030000     2.420000
+H89    core     0.030000     2.420000
+H90    core     0.030000     2.420000
+H91    core     0.030000     2.420000
+H92    core     0.030000     2.420000
+H93    core     0.030000     2.420000
+H94    core     0.030000     2.420000
+H96    core     0.030000     2.420000
+H97    core     0.030000     2.420000
+H99    core     0.030000     2.420000
+H100   core     0.030000     2.420000
+H101   core     0.030000     2.420000
+H103   core     0.030000     2.420000
+H104   core     0.030000     2.420000
+H105   core     0.030000     2.420000
+H106   core     0.030000     2.420000
+H107   core     0.030000     2.420000
+H108   core     0.030000     2.420000
+H109   core     0.030000     2.420000
+H110   core     0.030000     2.420000
+H111   core     0.030000     2.420000
+H112   core     0.030000     2.420000
+H113   core     0.030000     2.420000
+H115   core     0.030000     2.420000
+H116   core     0.030000     2.420000
+H117   core     0.030000     2.420000
+H118   core     0.030000     2.420000
+H119   core     0.030000     2.420000
+H120   core     0.030000     2.420000
+H121   core     0.030000     2.420000
+H122   core     0.030000     2.420000
+H123   core     0.030000     2.420000
+H124   core     0.030000     2.420000
+H125   core     0.030000     2.420000
+H126   core     0.030000     2.420000
+H127   core     0.030000     2.420000
+H128   core     0.030000     2.420000
+H129   core     0.030000     2.420000
+H130   core     0.030000     2.420000
+H132   core     0.030000     2.420000
+H133   core     0.030000     2.420000
+H134   core     0.030000     2.420000
+H135   core     0.030000     2.420000
+H136   core     0.030000     2.420000
+H137   core     0.030000     2.420000
+H138   core     0.030000     2.420000
+H139   core     0.030000     2.420000
+H140   core     0.030000     2.420000
+H141   core     0.030000     2.420000
+H142   core     0.030000     2.420000
+H143   core     0.030000     2.500000
+H145   core     0.030000     2.500000
+H146   core     0.030000     2.420000
+H147   core     0.030000     2.420000
+H148   core     0.030000     2.420000
+H149   core     0.030000     2.420000
+H150   core     0.030000     2.420000
+H153   core     0.030000     2.420000
+H154   core     0.015000     2.500000
+H155   core     0.015000     2.500000
+H156   core     0.015000     2.420000
+H157   core     0.015000     2.420000
+H158   core     0.015000     2.420000
+H159   core     0.030000     2.500000
+H162   core     0.015000     2.500000
+H163   core     0.015000     2.420000
+H164   core     0.015000     2.500000
+H167   core     0.030000     2.500000
+H169   core     0.030000     2.500000
+H170   core     0.030000     2.500000
+H171   core     0.030000     2.500000
+H172   core     0.030000     2.500000
+H175   core     0.030000     2.500000
+H176   core     0.015000     2.420000
+H177   core     0.015000     2.420000
+H178   core     0.030000     2.500000
+H179   core     0.030000     2.500000
+H180   core     0.030000     2.420000
+He1    core     0.020000     2.556000
+Li1    core     0.000500     2.870000
+Li2    core     0.018279     2.700000
+C1     core     0.050000     3.800000
+C2     core     0.066000     3.500000
+C3     core     0.066000     3.500000
+C4     core     0.066000     3.500000
+C5     core     0.066000     3.500000
+C6     core     0.066000     3.500000
+C7     core     0.076000     3.550000
+C8     core     0.076000     3.550000
+C9     core     0.076000     3.550000
+C10    core     0.070000     3.550000
+C11    core     0.070000     3.550000
+C12    core     0.066000     3.500000
+C13    core     0.066000     3.500000
+C14    core     0.076000     3.550000
+C15    core     0.066000     3.500000
+C16    core     0.066000     3.500000
+C17    core     0.066000     3.500000
+C18    core     0.066000     3.500000
+C19    core     0.062000     3.250000
+C20    core     0.070000     3.550000
+C21    core     0.066000     3.500000
+C22    core     0.066000     3.500000
+C23    core     0.066000     3.500000
+C24    core     0.076000     3.550000
+C25    core     0.066000     3.500000
+C26    core     0.066000     3.500000
+C27    core     0.066000     3.500000
+C28    core     0.066000     3.500000
+C29    core     0.066000     3.500000
+C30    core     0.066000     3.500000
+C31    core     0.066000     3.500000
+C32    core     0.066000     3.500000
+C33    core     0.066000     3.500000
+C34    core     0.066000     3.500000
+C35    core     0.070000     3.550000
+C36    core     0.066000     3.500000
+C37    core     0.066000     3.500000
+C38    core     0.066000     3.500000
+C39    core     0.066000     3.500000
+C40    core     0.066000     3.500000
+C41    core     0.066000     3.500000
+C42    core     0.066000     3.500000
+C43    core     0.066000     3.500000
+C44    core     0.066000     3.500000
+C45    core     0.066000     3.500000
+C46    core     0.066000     3.500000
+C47    core     0.066000     3.500000
+C48    core     0.066000     3.500000
+C49    core     0.066000     3.500000
+C50    core     0.066000     3.500000
+C51    core     0.070000     3.550000
+C52    core     0.066000     3.500000
+C53    core     0.066000     3.500000
+C54    core     0.066000     3.500000
+C55    core     0.076000     3.550000
+C56    core     0.070000     3.550000
+C57    core     0.066000     3.500000
+C58    core     0.066000     3.500000
+C59    core     0.105000     3.750000
+C60    core     0.105000     3.750000
+C61    core     0.105000     3.750000
+C62    core     0.105000     3.750000
+C63    core     0.105000     3.750000
+C64    core     0.066000     3.500000
+C65    core     0.066000     3.500000
+C66    core     0.066000     3.500000
+C67    core     0.066000     3.500000
+C68    core     0.066000     3.500000
+C69    core     0.105000     3.750000
+C70    core     0.105000     3.750000
+C71    core     0.066000     3.500000
+C72    core     0.066000     3.500000
+C73    core     0.066000     3.500000
+C74    core     0.066000     3.500000
+C75    core     0.070000     3.550000
+C76    core     0.150000     3.650000
+C77    core     0.070000     3.550000
+C78    core     0.070000     3.550000
+C79    core     0.105000     3.750000
+C80    core     0.105000     3.750000
+C81    core     0.066000     3.500000
+C82    core     0.066000     3.500000
+C83    core     0.066000     3.500000
+C84    core     0.066000     3.500000
+C85    core     0.105000     3.750000
+C86    core     0.105000     3.750000
+C87    core     0.066000     3.500000
+C88    core     0.066000     3.500000
+C89    core     0.066000     3.500000
+C90    core     0.066000     3.500000
+C91    core     0.066000     3.500000
+C92    core     0.066000     3.500000
+C93    core     0.066000     3.500000
+C94    core     0.066000     3.500000
+C95    core     0.066000     3.500000
+C96    core     0.066000     3.500000
+C97    core     0.066000     3.500000
+C98    core     0.066000     3.500000
+C99    core     0.066000     3.500000
+C100   core     0.050000     3.550000
+C101   core     0.066000     3.500000
+C102   core     0.066000     3.500000
+C103   core     0.066000     3.500000
+C104   core     0.066000     3.500000
+C105   core     0.080000     3.500000
+C106   core     0.080000     3.500000
+C107   core     0.080000     3.500000
+C108   core     0.105000     3.750000
+C109   core     0.105000     3.750000
+C110   core     0.080000     3.500000
+C111   core     0.080000     3.500000
+C112   core     0.080000     3.500000
+C113   core     0.105000     3.750000
+C114   core     0.080000     3.500000
+C115   core     0.080000     3.500000
+C116   core     0.080000     3.500000
+C117   core     0.080000     3.500000
+C118   core     0.080000     3.500000
+C119   core     0.080000     3.500000
+C120   core     0.080000     3.500000
+C121   core     0.080000     3.500000
+C122   core     0.080000     3.500000
+C123   core     0.080000     3.500000
+C124   core     0.080000     3.500000
+C125   core     0.105000     3.750000
+C126   core     0.080000     3.500000
+C127   core     0.080000     3.500000
+C128   core     0.080000     3.500000
+C129   core     0.105000     3.750000
+C130   core     0.080000     3.500000
+C131   core     0.080000     3.500000
+C132   core     0.080000     3.500000
+C133   core     0.080000     3.500000
+C134   core     0.080000     3.500000
+C135   core     0.076000     3.550000
+C136   core     0.300000     4.200000
+C137   core     0.300000     4.200000
+C138   core     0.300000     4.200000
+C139   core     0.150000     3.650000
+C140   core     0.300000     4.200000
+C141   core     0.066000     3.500000
+C142   core     0.066000     3.500000
+C143   core     0.066000     3.500000
+C144   core     0.066000     3.500000
+C145   core     0.070000     3.550000
+C146   core     0.066000     3.500000
+C147   core     0.070000     3.550000
+C148   core     0.066000     3.500000
+C149   core     0.070000     3.550000
+C150   core     0.066000     3.500000
+C151   core     0.105000     3.750000
+C152   core     0.066000     3.500000
+C153   core     0.105000     3.750000
+C154   core     0.105000     3.750000
+C155   core     0.070000     3.550000
+C156   core     0.066000     3.500000
+C157   core     0.066000     3.500000
+C158   core     0.066000     3.500000
+C159   core     0.066000     3.500000
+C160   core     0.070000     3.550000
+C161   core     0.070000     3.550000
+C162   core     0.066000     3.500000
+C163   core     0.066000     3.500000
+C164   core     0.066000     3.500000
+C165   core     0.066000     3.500000
+C166   core     0.066000     3.500000
+C167   core     0.070000     3.550000
+C168   core     0.070000     3.550000
+C169   core     0.070000     3.550000
+C170   core     0.066000     3.500000
+C171   core     0.070000     3.550000
+C172   core     0.070000     3.550000
+C173   core     0.070000     3.550000
+C174   core     0.070000     3.550000
+C175   core     0.070000     3.550000
+C176   core     0.070000     3.550000
+C177   core     0.066000     3.500000
+C178   core     0.066000     3.500000
+C179   core     0.076000     3.550000
+C180   core     0.076000     3.550000
+C181   core     0.070000     3.550000
+C182   core     0.070000     3.550000
+C183   core     0.070000     3.550000
+C184   core     0.070000     3.550000
+C185   core     0.070000     3.550000
+C186   core     0.070000     3.550000
+C187   core     0.070000     3.550000
+C188   core     0.070000     3.550000
+C189   core     0.070000     3.550000
+C190   core     0.070000     3.550000
+C191   core     0.070000     3.550000
+C192   core     0.070000     3.550000
+C193   core     0.070000     3.550000
+C194   core     0.070000     3.550000
+C195   core     0.070000     3.550000
+C196   core     0.070000     3.550000
+C197   core     0.070000     3.550000
+C198   core     0.070000     3.550000
+C199   core     0.070000     3.550000
+C200   core     0.076000     3.550000
+C201   core     0.070000     3.550000
+C202   core     0.070000     3.550000
+C203   core     0.070000     3.550000
+C204   core     0.070000     3.550000
+C205   core     0.070000     3.550000
+C206   core     0.070000     3.550000
+C207   core     0.070000     3.550000
+C208   core     0.070000     3.550000
+C209   core     0.070000     3.550000
+C210   core     0.070000     3.550000
+C211   core     0.070000     3.550000
+C212   core     0.070000     3.550000
+C213   core     0.070000     3.550000
+C214   core     0.070000     3.550000
+C215   core     0.070000     3.550000
+C216   core     0.070000     3.550000
+C217   core     0.070000     3.550000
+C218   core     0.070000     3.550000
+C219   core     0.070000     3.550000
+C220   core     0.070000     3.550000
+C221   core     0.070000     3.550000
+C222   core     0.070000     3.550000
+C223   core     0.070000     3.550000
+C224   core     0.070000     3.550000
+C225   core     0.070000     3.550000
+C226   core     0.070000     3.550000
+C227   core     0.070000     3.550000
+C228   core     0.070000     3.550000
+C229   core     0.070000     3.550000
+C230   core     0.070000     3.550000
+C231   core     0.070000     3.550000
+C232   core     0.070000     3.550000
+C233   core     0.070000     3.550000
+C234   core     0.066000     3.500000
+C235   core     0.070000     3.550000
+C236   core     0.070000     3.550000
+C237   core     0.070000     3.550000
+C238   core     0.070000     3.550000
+C239   core     0.070000     3.550000
+C240   core     0.070000     3.550000
+C241   core     0.070000     3.550000
+C242   core     0.070000     3.550000
+C243   core     0.070000     3.550000
+C244   core     0.066000     3.500000
+C245   core     0.066000     3.500000
+C246   core     0.066000     3.500000
+C247   core     0.066000     3.500000
+C248   core     0.066000     3.500000
+C249   core     0.066000     3.500000
+C250   core     0.066000     3.500000
+C251   core     0.066000     3.500000
+C252   core     0.066000     3.500000
+C253   core     0.066000     3.500000
+C254   core     0.066000     3.500000
+C255   core     0.066000     3.500000
+C256   core     0.066000     3.500000
+C257   core     0.066000     3.500000
+C258   core     0.066000     3.500000
+C259   core     0.066000     3.500000
+C260   core     0.070000     3.550000
+C261   core     0.105000     3.750000
+C262   core     0.066000     3.500000
+C263   core     0.066000     3.500000
+C264   core     0.066000     3.500000
+C265   core     0.070000     3.550000
+C266   core     0.070000     3.550000
+C267   core     0.070000     3.550000
+C268   core     0.070000     3.550000
+C269   core     0.070000     3.550000
+C270   core     0.070000     3.550000
+C271   core     0.076000     3.550000
+C272   core     0.066000     3.500000
+C273   core     0.076000     3.550000
+C274   core     0.066000     3.500000
+C275   core     0.066000     3.500000
+C276   core     0.066000     3.500000
+C277   core     0.070000     3.550000
+C278   core     0.070000     3.550000
+C279   core     0.070000     3.550000
+C280   core     0.070000     3.550000
+C281   core     0.070000     3.550000
+C282   core     0.062000     3.250000
+C283   core     0.070000     3.550000
+C284   core     0.070000     3.550000
+C285   core     0.070000     3.550000
+C286   core     0.066000     3.500000
+C287   core     0.070000     3.550000
+C288   core     0.070000     3.550000
+C289   core     0.070000     3.550000
+C290   core     0.070000     3.550000
+C291   core     0.070000     3.550000
+C292   core     0.050000     3.550000
+C293   core     0.066000     3.500000
+C294   core     0.066000     3.500000
+C295   core     0.050000     3.550000
+C296   core     0.066000     3.300000
+C297   core     0.066000     3.300000
+C298   core     0.066000     3.300000
+C299   core     0.066000     3.300000
+C300   core     0.066000     3.300000
+C301   core     0.066000     3.500000
+C302   core     0.066000     3.500000
+C303   core     0.066000     3.500000
+C304   core     0.066000     3.500000
+C305   core     0.070000     3.550000
+C306   core     0.066000     3.300000
+C307   core     0.105000     3.750000
+C308   core     0.066000     3.500000
+C309   core     0.066000     3.500000
+C310   core     0.066000     3.500000
+C311   core     0.066000     3.500000
+C312   core     0.066000     3.500000
+C313   core     0.066000     3.500000
+C314   core     0.066000     3.500000
+C315   core     0.066000     3.500000
+C316   core     0.066000     3.500000
+C317   core     0.066000     3.500000
+C318   core     0.066000     3.500000
+C319   core     0.066000     3.500000
+C320   core     0.066000     3.500000
+C321   core     0.066000     3.500000
+C322   core     0.066000     3.500000
+C323   core     0.070000     3.550000
+C324   core     0.070000     3.550000
+C325   core     0.070000     3.550000
+C326   core     0.066000     3.500000
+C327   core     0.066000     3.500000
+C328   core     0.066000     3.500000
+C329   core     0.066000     3.500000
+C330   core     0.066000     3.500000
+C331   core     0.066000     3.500000
+C332   core     0.086000     3.300000
+C333   core     0.210000     3.300000
+C334   core     0.135000     3.300000
+C335   core     0.100000     3.300000
+C336   core     0.066000     3.500000
+C337   core     0.066000     3.500000
+C338   core     0.066000     3.500000
+C339   core     0.210000     3.300000
+C340   core     0.066000     3.500000
+C341   core     0.066000     3.500000
+C342   core     0.066000     3.500000
+C343   core     0.066000     3.500000
+C344   core     0.070000     3.550000
+C345   core     0.076000     3.550000
+C346   core     0.070000     3.550000
+C347   core     0.070000     3.550000
+C348   core     0.066000     3.500000
+C349   core     0.105000     3.750000
+C350   core     0.066000     3.500000
+C351   core     0.066000     3.500000
+C352   core     0.066000     3.500000
+C353   core     0.066000     3.500000
+C354   core     0.066000     3.500000
+C355   core     0.066000     3.500000
+C356   core     0.097000     3.500000
+C357   core     0.062000     3.250000
+C358   core     0.066000     3.500000
+C359   core     0.066000     3.500000
+C360   core     0.066000     3.500000
+C361   core     0.066000     3.500000
+C362   core     0.066000     3.500000
+C363   core     0.066000     3.500000
+C364   core     0.066000     3.500000
+C365   core     0.066000     3.500000
+C366   core     0.070000     3.550000
+C367   core     0.066000     3.500000
+C368   core     0.070000     3.550000
+C369   core     0.066000     3.500000
+C370   core     0.105000     3.750000
+C371   core     0.105000     3.750000
+C372   core     0.066000     3.500000
+C373   core     0.066000     3.500000
+C374   core     0.070000     3.550000
+C375   core     0.070000     3.550000
+C376   core     0.070000     3.550000
+C377   core     0.070000     3.550000
+C378   core     0.070000     3.550000
+C379   core     0.066000     3.500000
+C380   core     0.066000     3.500000
+C381   core     0.066000     3.500000
+C382   core     0.070000     3.550000
+C383   core     0.070000     3.550000
+C384   core     0.070000     3.550000
+C385   core     0.105000     3.750000
+C386   core     0.066000     3.500000
+C387   core     0.066000     3.500000
+C388   core     0.066000     3.500000
+C389   core     0.066000     3.500000
+C390   core     0.105000     3.750000
+C391   core     0.066000     3.500000
+C392   core     0.066000     3.500000
+C393   core     0.066000     3.500000
+C394   core     0.066000     3.500000
+C395   core     0.066000     3.500000
+C396   core     0.066000     3.500000
+C397   core     0.066000     3.500000
+C398   core     0.066000     3.500000
+C399   core     0.066000     3.500000
+C400   core     0.066000     3.500000
+C401   core     0.066000     3.500000
+C402   core     0.066000     3.500000
+C403   core     0.066000     3.500000
+C404   core     0.066000     3.500000
+C405   core     0.066000     3.500000
+C406   core     0.066000     3.500000
+C407   core     0.066000     3.500000
+C408   core     0.066000     3.500000
+C409   core     0.070000     3.550000
+C410   core     0.070000     3.550000
+C411   core     0.076000     3.550000
+C412   core     0.076000     3.550000
+C413   core     0.086000     3.300000
+C414   core     0.086000     3.300000
+C415   core     0.086000     3.300000
+C416   core     0.086000     3.300000
+C417   core     0.086000     3.300000
+C418   core     0.066000     3.500000
+N1     core     0.170000     3.420000
+N2     core     0.170000     3.250000
+N3     core     0.170000     3.250000
+N4     core     0.170000     3.250000
+N5     core     0.170000     3.250000
+N6     core     0.170000     3.250000
+N7     core     0.170000     3.200000
+N8     core     0.170000     3.250000
+N9     core     0.170000     3.250000
+N10    core     0.170000     3.250000
+N11    core     0.170000     3.250000
+N12    core     0.170000     3.250000
+N13    core     0.170000     3.250000
+N14    core     0.170000     3.250000
+N15    core     0.170000     3.250000
+N16    core     0.170000     3.250000
+N17    core     0.170000     3.250000
+N18    core     0.170000     3.250000
+N19    core     0.170000     3.250000
+N20    core     0.170000     3.250000
+N21    core     0.170000     3.250000
+N22    core     0.170000     3.250000
+N23    core     0.170000     3.250000
+N24    core     0.170000     3.250000
+N25    core     0.170000     3.250000
+N26    core     0.170000     3.250000
+N27    core     0.170000     3.250000
+N28    core     0.170000     3.250000
+N29    core     0.170000     3.250000
+N30    core     0.170000     3.250000
+N31    core     0.170000     3.250000
+N32    core     0.170000     3.250000
+N33    core     0.250000     3.400000
+N34    core     0.250000     3.400000
+N35    core     0.170000     3.250000
+N36    core     0.170000     3.250000
+N37    core     0.170000     3.250000
+N38    core     0.170000     3.250000
+N39    core     0.170000     3.250000
+N40    core     0.170000     3.250000
+N41    core     0.170000     3.250000
+N42    core     0.170000     3.250000
+N43    core     0.170000     3.250000
+N44    core     0.170000     3.250000
+N45    core     0.170000     3.250000
+N46    core     0.170000     3.250000
+N47    core     0.170000     3.250000
+N48    core     0.170000     3.250000
+N49    core     0.170000     3.250000
+N50    core     0.170000     3.250000
+N51    core     0.170000     3.250000
+N52    core     0.170000     3.250000
+N53    core     0.170000     3.250000
+N54    core     0.170000     3.250000
+N55    core     0.170000     3.250000
+N56    core     0.170000     3.250000
+N57    core     0.170000     3.250000
+N58    core     0.170000     3.250000
+N59    core     0.170000     3.250000
+N60    core     0.170000     3.250000
+N61    core     0.170000     3.250000
+N62    core     0.170000     3.250000
+N63    core     0.170000     3.250000
+N64    core     0.170000     3.250000
+N65    core     0.170000     3.250000
+N66    core     0.170000     3.250000
+N67    core     0.170000     3.200000
+N68    core     0.120000     3.250000
+N69    core     0.120000     3.250000
+N70    core     0.170000     3.250000
+N71    core     0.170000     3.150000
+N72    core     0.170000     3.300000
+N73    core     0.170000     3.300000
+N74    core     0.170000     3.300000
+N75    core     0.170000     3.250000
+N76    core     0.170000     3.250000
+N77    core     0.170000     3.250000
+N78    core     0.170000     3.250000
+N79    core     0.170000     3.250000
+N80    core     0.170000     3.250000
+N81    core     0.170000     3.250000
+N82    core     0.170000     3.250000
+N83    core     0.170000     3.250000
+N84    core     0.170000     3.250000
+N85    core     0.170000     3.250000
+N86    core     0.170000     3.250000
+O1     core     0.155400     3.165570
+O2     core     0.170000     3.120000
+O3     core     0.170000     3.070000
+O4     core     0.170000     3.070000
+O5     core     0.170000     3.070000
+O6     core     0.170000     3.070000
+O7     core     0.140000     2.900000
+O8     core     0.140000     2.900000
+O9     core     0.140000     2.900000
+O10    core     0.140000     2.900000
+O11    core     0.170000     3.070000
+O12    core     0.210000     2.960000
+O13    core     0.210000     2.960000
+O14    core     0.210000     2.960000
+O15    core     0.210000     2.960000
+O16    core     0.170000     3.000000
+O17    core     0.210000     2.960000
+O18    core     0.210000     2.960000
+O19    core     0.210000     2.960000
+O20    core     0.210000     2.960000
+O21    core     0.210000     2.960000
+O22    core     0.210000     2.960000
+O23    core     0.210000     2.960000
+O24    core     0.210000     2.960000
+O25    core     0.250000     3.150000
+O26    core     0.250000     3.200000
+O27    core     0.200000     3.118150
+O28    core     0.140000     2.900000
+O29    core     0.200000     3.150000
+O30    core     0.140000     2.900000
+O31    core     0.200000     3.150000
+O32    core     0.140000     2.900000
+O33    core     0.200000     3.150000
+O34    core     0.140000     2.900000
+O35    core     0.210000     2.960000
+O36    core     0.170000     3.000000
+O37    core     0.170000     3.000000
+O38    core     0.170000     2.960000
+O39    core     0.170000     2.960000
+O40    core     0.280000     2.930000
+O41    core     0.140000     2.900000
+O42    core     0.140000     2.900000
+O43    core     0.140000     2.900000
+O44    core     0.170000     2.960000
+O45    core     0.210000     2.960000
+O46    core     0.170000     3.000000
+O47    core     0.140000     2.900000
+O48    core     0.210000     2.860000
+O49    core     0.170000     3.120000
+O50    core     0.210000     2.960000
+O51    core     0.140000     2.900000
+O52    core     0.210000     2.960000
+O53    core     0.170000     3.120000
+O54    core     0.210000     2.960000
+O55    core     0.210000     2.960000
+O56    core     0.210000     2.960000
+F1     core     0.061000     2.940000
+F2     core     0.710000     3.050000
+F3     core     0.061000     2.850000
+F4     core     0.061000     2.850000
+F5     core     0.061000     2.940000
+F6     core     0.061000     2.850000
+F7     core     0.061000     3.118100
+F8     core     0.061000     2.940000
+F9     core     0.053000     2.950000
+F10    core     0.061000     2.940000
+F11    core     0.060000     2.900000
+F12    core     0.720000     3.080000
+Ne1    core     0.069000     2.780000
+Na1    core     0.000500     4.070000
+Na2    core     0.002772     3.350000
+Mg1    core     0.875044     1.644471
+Mg2    core     0.875044     2.910000
+Si1    core     0.100000     4.000000
+Si2    core     0.100000     4.000000
+Si3    core     0.100000     4.000000
+Si4    core     0.100000     4.000000
+P1     core     0.200000     3.740000
+P2     core     0.200000     3.740000
+P3     core     0.200000     3.740000
+P4     core     0.200000     3.740000
+P5     core     0.200000     3.740000
+S1     core     0.250000     3.550000
+S2     core     0.250000     3.700000
+S3     core     0.250000     3.550000
+S4     core     0.250000     3.550000
+S5     core     0.250000     3.550000
+S6     core     0.500000     4.250000
+S7     core     0.250000     3.550000
+S8     core     0.250000     3.550000
+S9     core     0.395000     3.560000
+S10    core     0.395000     3.560000
+S11    core     0.250000     3.550000
+S12    core     0.250000     3.550000
+S13    core     0.250000     3.550000
+S14    core     0.250000     3.550000
+Cl1    core     0.266000     3.470000
+Cl2    core     0.300000     3.400000
+Cl3    core     0.300000     3.400000
+Cl4    core     0.300000     3.400000
+Cl5    core     0.710000     4.020000
+Cl6    core     0.300000     3.400000
+Cl7    core     0.300000     3.400000
+Cl8    core     0.300000     3.400000
+Cl9    core     0.117790     4.180000
+Ar1    core     0.233900     3.401000
+K1     core     0.000500     5.170000
+K2     core     0.000328     4.060000
+Ca1    core     0.449657     2.412031
+Ca2    core     0.449657     3.470000
+Zn1    core     0.012500     1.960000
+Br1    core     0.710000     4.280000
+Br2    core     0.470000     3.470000
+Br3    core     0.470000     3.470000
+Br4    core     0.470000     3.470000
+Br5    core     0.090000     4.510000
+Kr1    core     0.317000     3.624000
+Rb1    core     0.000500     5.600000
+Rb2    core     0.000171     4.320000
+Sr1    core     0.118226     3.102688
+Sr2    core     0.118226     3.820000
+I1     core     0.710000     4.810000
+I2     core     0.600000     3.750000
+I3     core     0.600000     3.750000
+I4     core     0.070000     5.150000
+Xe1    core     0.433000     3.935000
+Cs1    core     0.000500     6.200000
+Cs2    core     0.000081     4.820000
+Ba1    core     0.047096     3.816610
+Ba2    core     0.047096     4.180000
+La1    core     0.060000     3.750000
+Nd1    core     0.054000     3.473000
+Eu1    core     0.050000     3.300000
+Gd1    core     0.050000     3.300000
+Yb1    core     0.040000     2.950000
+Ac1    core     0.054000     3.473000
+Th1    core     0.050000     3.300000
+U1     core     0.400000     2.815240
+Am1    core     0.050000     3.300000
+#
+lennard epsilon zero geometric kcal all x13 0.5
+12.0
+#
+coul o14 0.5
+X X 7.0

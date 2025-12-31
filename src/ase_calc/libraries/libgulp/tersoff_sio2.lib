@@ -1,0 +1,27 @@
+#
+#  Tersoff bond order potentials for SiO2 based on the parameters of:
+#
+#  Munetoh et al, Comp. Mat. Sci., 39, 334 (2007)
+#
+#  Inter-species potentials derived using the combination rules of Tersoff.
+#  Where no chi value is available it is assumed to be one.
+#
+#  NB: This Version of the library must be used with GULP 6.0 onwards!!!!
+#
+species
+O  core 0.0
+Si core 0.0
+boonebody
+O  core 0.0 0.00000011632 1.04968 1.04968 
+Si core 0.0 0.00000110000 0.78734 0.78734 
+botwobody
+O  core O  core 1882.550 218.7870 4.17108 2.35692 1.7 2.0
+Si core Si core 1830.800 471.1800 2.47990 1.73222 2.5 2.8
+botwobody combine
+Si core O  core 1.0 1.17945
+borepulsive
+O  core 3 1.0 0.0
+Si core 3 1.0 0.0
+boattractive theta
+O  core 3 1.0 0.0   64692.1  4.11127 -0.845922
+Si core 3 1.0 0.0  100390.0 16.21700 -0.59825 

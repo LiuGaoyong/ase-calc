@@ -1,0 +1,114 @@
+#
+#  Library of potentials for nitrates from Fantauzzo et al, J. Phys. Comm. 6, 055011 (2022)
+#
+#  This library contains the flexible SPC water model of Wu et al
+#
+#  Y. Wu, H.L. Tepper and G.A. Voth, J. Chem. Phys., 124, 024503 (2006)
+#
+#  O2 - oxygen of water
+#  H2 - hydrogen of water
+#
+#  N4 - nitrate nitrogen
+#  O4 - nitrate oxygen
+#
+#  Keywords:
+# 
+keyword mole 
+#
+#  Options:
+#
+species 
+O2     core   -0.82
+H2     core    0.41
+Li     core    1.000000
+Na     core    1.000000
+K      core    1.000000
+Rb     core    1.000000
+Cs     core    2.000000
+N4     core    0.780200
+O4     core   -0.593400
+#
+#  Intermolecular parameters 
+#
+buck
+O4    core Li    core   170.7     0.30063  0.0000000 0.00 9.00
+O4    core Na    core  1842.1     0.24778  0.0000000 0.00 9.00
+O4    core K     core   220.6     0.36777  0.0000000 0.00 9.00
+O4    core Rb    core  2324.9     0.28467  0.0000000 0.00 9.00
+O4    core Cs    core 34792.0     0.22944  0.0000000 0.00 9.00 
+buck
+N4    core Li    core  1155.8     0.260907  0.0000000 0.00 9.00
+N4    core Na    core 10598.7     0.237600  0.0000000 0.00 9.00
+N4    core K     core  4.99e12    0.093850  0.0000000 0.00 9.00
+N4    core Rb    core 81681.5     0.206260  0.0000000 0.00 9.00
+N4    core Cs    core 98642.0     0.227210  0.0000000 0.00 9.00 
+lenn epsilon 12 6
+Li    core Li    core 0.01459 1.582 0.00 9.00
+Na    core Na    core 0.01528 2.424 0.00 9.00
+K     core K     core 0.01860 3.186 0.00 9.00
+Rb    core Rb    core 0.01930 3.474 0.00 9.00
+Cs    core Cs    core 0.00390 4.042 0.00 9.00
+#
+#  Nitrate intramolecular
+#
+harmonic intra bond
+N4    core O4    core  40.8493      1.255     0.00000
+bcross bond intra regular
+N4    cor O4    cor O4    cor  12.818      1.255 1.255
+three bond intra regular
+N4    core O4    core O4    core 13.234     120.00
+bacross intra regular  bond
+N4    core O4    core O4    core  1.533 1.533 1.255 1.255 120.0
+outofplane bond intra
+N4    cor O4    cor O4    cor O4    cor 13.647  360.00
+#
+#  Nitrate intermolecular parameters
+#
+buck inter
+O4    core O4    core 44806.0     0.20659  31.00 0.00 9.00 
+#
+#  Cation - water interactions
+#
+lennard epsilon 12 6
+Li core O2 core 0.009921 2.5676 0.0 9.0
+Na core O2 core 0.010152 2.9886 0.0 9.0
+K  core O2 core 0.011207 3.3696 0.0 9.0
+Rb core O2 core 0.011406 3.5136 0.0 9.0
+Cs core O2 core 0.005125 3.7976 0.0 9.0
+#
+#  Nitrate - water interactions
+#
+buck
+O4 core O2 core 225677.0 0.186610 29.0 0.0 9.0
+O4 core H2 core    577.7 0.226352  0.0 0.0 9.0
+#
+#  Intramolecular for water / hydroxide / hydronium
+#
+harmonic bond 
+O2 core H2 core 45.93 1.012 0.0
+three bond 
+O2 core H2 core H2 core 3.29136 113.24
+#
+#  Water - water intermolecular
+#
+lennard inter epsilon zero 
+O2 core O2 core 0.00674 3.165492 0.0 9.0
+#
+#  Bond exclusions
+#
+nobond O4 H2
+nobond N4 H2
+#
+#  Taper cut-off
+#
+cutp      9.00000 mdf    3.00000
+#
+#  Put radius for cations to 0 so that they doesn't bond
+#
+element
+covalent Li    0.00000
+covalent Na    0.00000
+covalent K     0.00000
+covalent Rb    0.00000
+covalent Cs    0.00000
+end

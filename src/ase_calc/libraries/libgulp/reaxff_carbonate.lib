@@ -1,0 +1,311 @@
+#
+#  ReaxFF force field
+#
+#  Original paper:
+#
+#  A.C.T. van Duin, S. Dasgupta, F. Lorant and W.A. Goddard III,
+#  J. Phys. Chem. A, 105, 9396-9409 (2001)
+#
+#  This set of parameters are for metal carbonates from:
+#
+#  N. Dasgupta, C. Chen and A.C.T. van Duin,
+#  PCCP, 24, 3322-3337 (2022)
+#
+#
+#  Cutoffs for VDW & Coulomb terms
+#
+reaxFFvdwcutoff      10.0000
+reaxFFqcutoff        10.0000
+#
+#  Bond order threshold - check anglemin as this is cutof2 given in control file
+#
+reaxFFtol       0.0010000000 0.001
+#
+#  Species independent parameters 
+#
+reaxff0_bond        50.000000     9.546900
+reaxff0_over        50.000000     0.699100     1.058800    12.117600    13.305600
+reaxff0_valence     33.866700     1.851200     1.056300     2.038400
+reaxff0_penalty      6.929000     0.398900     3.995400
+reaxff0_torsion      5.779600    10.000000     1.948700     2.164500
+reaxff0_vdw          1.559100
+reaxff0_lonepair     6.089100
+#
+#  Species parameters 
+#
+reaxff1_radii 
+C  core   1.3704   1.1294   1.2022
+H  core   0.8930  -0.1000  -0.1000
+O  core   1.2450   1.0548   0.9049
+Na core   1.7878  -1.0000  -1.0000
+Ca core   1.9927   1.0000  -1.3000
+Mg core   1.8330   0.5811  -1.3000
+reaxff1_valence 
+C  core   4.0000   4.0000   4.0000   4.0000
+H  core   1.0000   1.0000   1.0000   1.0000
+O  core   2.0000   4.0000   6.0000   4.0000
+Na core   1.0000   8.0000   1.0000   1.0000
+Ca core   2.0000   6.2998   2.0000   3.0000
+Mg core   2.0000   6.0000   1.0000   3.0000
+reaxff1_over 
+C  core  34.9620   8.9856  13.5366  -2.8983
+H  core   2.4197   3.0408   0.0003 -19.4571
+O  core   0.7640   3.5027   0.0021  -3.5500
+Na core   1.0000 100.0000   0.0000  -4.1479
+Ca core   0.3370  49.9248   0.0000  -2.0000
+Mg core   0.3370  49.9248   0.0000  -8.9223
+reaxff1_under kcal 
+C  core  30.0000
+H  core   0.0000
+O  core  37.5000
+Na core   0.0000
+Ca core  38.0000
+Mg core  38.0000
+reaxff1_lonepair kcal 
+C  core   0.0000   0.0000
+H  core   0.0000   0.0000
+O  core   2.0000   0.4056
+Na core   0.0000   0.0000
+Ca core   0.0000   0.0000
+Mg core  -0.5000   0.0000
+reaxff1_angle 
+C  core   2.3275   2.9663
+H  core   4.2733   2.8793
+O  core   2.9000   2.9225
+Na core   3.9900   2.5791
+Ca core   4.0000   2.9663
+Mg core   2.3663   2.9663
+reaxff1_morse kcal 
+C  core   9.8017   0.1868   1.8907   2.1260
+H  core   8.2230   0.0930   1.3550  33.2894
+O  core   9.7300   0.1000   2.3890  13.8449
+Na core   9.0003   0.2588   2.6441   2.5000
+Ca core  10.6123   0.1848   2.7005  27.5993
+Mg core  11.0272   2.3591  24.3050   4.4030
+#
+#  Element parameters 
+#
+reaxff_chi  
+C  core   4.9730
+H  core   3.7248
+O  core   8.5000
+Na core  -3.4731
+Ca core  -1.8731
+Mg core   1.0577
+reaxff_mu  
+C  core   6.0000
+H  core   9.6093
+O  core   8.3122
+Na core   8.1298
+Ca core   6.3136
+Mg core   6.1399
+reaxff_gamma  
+C  core   0.6388
+H  core   0.8203
+O  core   1.0898
+Na core   0.8476
+Ca core   0.9605
+Mg core   0.1915
+#
+#  Bond parameters 
+#
+reaxff2_bo over bo13
+C  core C  core  -0.0798   6.7209  -0.1073   9.1992  -0.4472  34.9350
+O  core O  core  -0.1225   5.5000  -0.1055   9.0000  -0.1000  29.7503
+C  core Na core  -0.1805   5.6864  -0.3153   9.1227  -0.2034  40.3399
+H  core Na core  -0.2601   6.6137  -0.3500  25.0000  -0.3000  36.0000
+O  core Na core  -0.1391   7.4280  -0.3500  25.0000  -0.3000  36.0000
+O  core Ca core  -0.0422   8.7778  -0.2500  12.0000  -0.3000  36.0000
+O  core Mg core  -0.0545   6.7425  -0.2500  12.0000  -0.3000  36.0000
+reaxff2_bo bo13
+C  core H  core  -0.0572   6.9913   0.0000   0.0000   0.0000   6.0000
+H  core H  core  -0.0790   6.0552   0.0000   0.0000   0.0000   6.0000
+C  core O  core  -0.1708   4.9995  -0.4198   7.9115  -0.3947  18.6775
+H  core O  core  -0.0920   4.2790   0.0000   0.0000   0.0000   6.0000
+H  core Ca core  -0.2692   6.4254  -0.1310   0.0000  -0.1418  13.1260
+Na core Ca core  -0.1000   9.0000  -0.2500  15.0000  -0.3000  16.0000
+H  core Mg core  -0.2692   6.4254  -0.1310   0.0000  -0.1418  13.1260
+reaxff2_bo 
+Na core Na core  -0.0345   5.0063  -0.4000  12.0000   0.3000  25.0000
+C  core Ca core  -0.1000  10.0000  -0.3500  25.0000  -0.3000  36.0000
+Ca core Ca core  -0.0822   4.2104  -0.2000  10.0000  -0.2000  16.0000
+C  core Mg core  -0.1000  10.0000  -0.3500  25.0000  -0.3000  36.0000
+Mg core Mg core  -0.1416   4.4975  -0.2000  10.0000  -0.2000  16.0000
+reaxff2_bond kcal 
+C  core C  core 145.1104  93.6846  57.5621  -0.6831   0.5276
+C  core H  core 166.2175   0.0000   0.0000  -0.5944   5.3662
+H  core H  core 153.2532   0.0000   0.0000  -0.4600   6.2500
+C  core O  core 157.5526 100.1654  61.2014  -0.5755   0.9469
+O  core O  core 142.2858 145.0000  50.8293   0.2506   0.3451
+H  core O  core 160.0000   0.0000   0.0000  -0.5725   1.1150
+C  core Na core   0.0000   0.0000   0.0000   0.4438   0.3296
+H  core Na core  26.7569   0.0000   0.0000   1.0000   0.5785
+O  core Na core  28.0000   0.0000   0.0000   0.4351  18.6859
+Na core Na core  72.6003   0.0000   0.0000  -0.7273   6.6441
+C  core Ca core   0.0000   0.0000   0.0000  -0.6528  10.0663
+H  core Ca core   0.0000   0.0000   0.0000  -0.0203   8.2136
+O  core Ca core  54.7436   0.0000  44.9919   1.0000   0.5457
+Na core Ca core   0.1000   0.0000   0.0000   0.5000   0.5000
+Ca core Ca core  36.9494   0.0000   0.0000  -0.0412   0.3708
+C  core Mg core   0.0000   0.0000   0.0000  -0.6528  10.0663
+H  core Mg core  58.6896   0.0000   0.0000  -0.0203   8.2136
+O  core Mg core  73.0072   0.0000  43.3991   0.8309   0.5015
+Mg core Mg core  40.5111   0.0000   0.0000   0.2563   1.5087
+reaxff2_over 
+C  core C  core   0.3881
+C  core H  core   0.5738
+H  core H  core   0.7300
+C  core O  core   0.4110
+O  core O  core   0.6051
+H  core O  core   0.5626
+C  core Na core   0.6000
+H  core Na core   0.0100
+O  core Na core   0.0656
+Na core Na core   0.1919
+C  core Ca core   0.5000
+H  core Ca core   0.0230
+O  core Ca core  -0.0346
+Na core Ca core   0.5000
+Ca core Ca core   0.3233
+C  core Mg core   0.5000
+H  core Mg core   0.0230
+O  core Mg core   0.2121
+Mg core Mg core   0.2232
+reaxff2_pen kcal
+H  core Ca core  24.4461   2.8793   1.0000
+O  core Ca core  24.4461   2.8793   1.0000
+H  core Mg core  24.4461   2.8793   1.0000
+O  core Mg core  24.4461   2.8793   1.0000
+reaxff2_morse kcal 
+C  core H  core   0.1206   9.8420   1.3998   1.1177  -1.0000  -1.0000
+H  core O  core   0.0283  10.9190   1.2885   0.9215  -1.0000  -1.0000
+C  core O  core   0.0672  10.0991   1.8208   1.4000   1.1705   1.0634
+C  core Na core   0.1923   9.0446   2.4000  -1.0000  -1.0000  -1.0000
+H  core Na core   0.1100   9.1430   1.8410   1.7735  -1.0000  -1.0000
+O  core Na core   0.1497  13.3058   1.5719   1.6111  -1.0000  -1.0000
+C  core Ca core   0.1752  14.0000   1.0003  -1.0000  -1.0000  -1.0000
+H  core Ca core   0.0100  13.2979   1.6000  -1.0000  -1.0000  -1.0000
+O  core Ca core   0.1394  11.8770   1.7472   1.9198  -1.0000  -1.0000
+Na core Ca core   0.0100  10.8031   1.4271  -1.0000  -1.0000  -1.0000
+C  core Mg core   0.4000  14.0000   1.7604  -1.0000  -1.0000  -1.0000
+H  core Mg core   0.0100  13.2979   1.6000   1.8670  -1.0000  -1.0000
+O  core Mg core   0.0566  11.6385   1.7000   1.5120  -1.0000  -1.0000
+#
+#  Angle parameters 
+#
+reaxff3_angle kcal 
+C  core C  core C  core  67.2380  40.0000   0.9471   1.3673   0.6938
+C  core C  core H  core  66.1046  14.4379   6.0443   2.7063   0.9851
+C  core H  core H  core  68.2534  24.9110   3.7590   2.9366   1.5457
+H  core C  core C  core   0.0000   3.4110   7.7350   1.0400   0.0000
+H  core H  core H  core   0.0000  27.9213   5.8635   1.0400   0.0000
+C  core C  core O  core  59.2685  25.8472   1.7572   1.1553   4.4967
+C  core O  core O  core  75.1448  11.4232   5.2677   2.2364   1.1419
+C  core H  core O  core  59.2133  26.6398   1.1864   1.5701   0.1245
+O  core C  core C  core  57.8946  31.9211   0.7959   1.7123   2.4921
+O  core C  core O  core  83.1701  45.0000   1.5698   1.5349   1.1034
+O  core O  core O  core  87.3324  15.8235   2.7528   1.0000   2.9390
+O  core C  core H  core  90.0000   7.3724   5.3059   3.0000   1.2146
+O  core H  core O  core  75.6935  50.0000   2.0000   1.1680   1.0000
+O  core H  core H  core  85.8000   9.8453   2.2720   1.5800   2.8635
+H  core C  core O  core   0.0000  19.9767   1.1358   1.0432   0.6225
+H  core O  core O  core   0.0000  10.7350   5.0000   4.0000   0.0000
+H  core H  core O  core   0.0000   8.5744   3.0000   1.0421   0.0000
+Na core O  core O  core 100.0000  45.9627   3.0941   2.0000   3.2848
+O  core H  core Na core  87.9313   7.1387   3.0639   1.5554   1.5000
+O  core Na core Na core  84.9984   6.4965   1.5553   2.0000   1.0368
+O  core O  core Na core  70.0000  25.0000   1.0000   1.2500   1.0000
+O  core C  core Na core  90.0000   3.3724   3.0000   1.1707   0.5224
+Ca core O  core O  core   0.2500   2.5141   2.9175   1.5658   0.7479
+O  core Ca core Ca core   1.0000   1.3180   3.0871   2.2776   1.9285
+O  core H  core Ca core  51.3829   2.5000   0.2500   1.0000   0.0500
+O  core O  core Ca core  78.9180  19.1144   0.9887   1.2276   1.0012
+O  core Na core Ca core 106.3744  30.0000   3.5000   3.0000   2.8611
+O  core C  core Ca core  52.5052  24.9776   3.0000   1.5611   2.0000
+Mg core H  core H  core   0.0000  49.8261   0.2093   2.2895   2.0870
+H  core H  core Mg core   0.0000  40.0366   3.1505   1.1110   1.1296
+H  core Mg core Mg core   0.0000   0.5047   0.8000   4.6650   0.8933
+Mg core H  core Mg core   0.0000   8.7037   0.0827   1.1198   3.5597
+Mg core O  core O  core   0.0000  14.7597   0.1543   1.0400   1.0000
+O  core Mg core Mg core  26.2240  12.7492   1.9545   3.0000   1.0000
+O  core H  core Mg core  62.5265  13.3742   3.1885   1.6975   1.0000
+Mg core H  core O  core   0.0000  35.0000   0.3447   1.9494   1.0000
+O  core O  core Mg core  70.0000  20.0000   1.0000   1.2500   1.0000
+O  core C  core Mg core  75.7058   4.5836   3.0000   1.9315   0.0500
+reaxff3_penalty kcal 
+C  core C  core C  core  14.9916
+C  core C  core H  core   0.0000
+C  core H  core H  core   0.0000
+H  core C  core H  core   0.0000
+H  core C  core C  core   0.0000
+H  core H  core H  core   0.0000
+C  core C  core O  core  58.6562
+C  core O  core O  core   0.0000
+C  core H  core O  core   0.0000
+O  core C  core C  core   0.0000
+O  core C  core O  core  68.1072
+O  core O  core O  core   0.0000
+O  core C  core H  core   0.0000
+O  core H  core O  core   0.0000
+O  core H  core H  core   0.0000
+H  core C  core O  core   0.0000
+H  core O  core O  core   0.0000
+H  core H  core O  core   0.0000
+Na core O  core O  core   0.0000
+O  core H  core Na core   0.0000
+O  core Na core Na core   0.0000
+O  core O  core Na core   0.0000
+O  core C  core Na core   0.0000
+Ca core O  core O  core   0.0000
+O  core Ca core Ca core   0.0000
+O  core H  core Ca core   0.0000
+O  core O  core Ca core   0.0000
+O  core Na core Ca core   0.0000
+O  core C  core Ca core   0.0000
+Mg core H  core H  core   0.0000
+H  core H  core Mg core   0.0000
+H  core Mg core Mg core   0.0000
+Mg core H  core Mg core   0.0000
+Mg core O  core O  core   0.0000
+O  core Mg core Mg core   0.0000
+O  core H  core Mg core   0.0000
+Mg core H  core O  core   0.0000
+O  core O  core Mg core   0.0000
+O  core C  core Mg core   0.0000
+reaxff3_conjugation kcal 
+C  core O  core O  core -14.2010   1.6725   0.7903   1.7602
+#
+#  Hydrogen bond parameters 
+#
+reaxff3_hbond kcal 
+H  core O  core O  core   2.1200  -3.5800   1.4500  19.5000
+#
+#  Torsion parameters 
+#
+reaxff4_torsion kcal 
+C  core C  core C  core C  core  -0.5000  38.4080   0.5000  -6.1117  -1.9481
+C  core C  core C  core H  core   0.4247  27.7539   0.5000  -6.3112  -1.9452
+H  core C  core C  core H  core  -0.5000  30.7919   0.5000  -5.8539  -3.0000
+C  core C  core C  core O  core  -0.1108  80.0000  -0.5793  -5.4405  -1.1000
+H  core C  core C  core O  core  -0.5732  28.8617   0.8920  -5.1112  -1.0978
+O  core C  core C  core O  core  -1.7931  25.6020  -1.0000  -4.0381  -0.8614
+C  core C  core O  core C  core   1.0000  59.3911  -0.5000  -2.7048  -0.9000
+C  core C  core O  core H  core  -0.1141   5.0000  -1.0000  -8.1021  -0.9000
+H  core C  core O  core C  core   2.5000  15.2653   0.8965  -2.5000  -0.9000
+H  core C  core O  core H  core  -2.5000  37.1322   0.4144  -4.6988  -1.1000
+H  core C  core O  core O  core   0.8151 100.0000   1.0000  -3.4409  -2.8274
+O  core C  core O  core C  core   0.5406  16.8262   0.4979  -8.2524  -3.0437
+O  core C  core O  core H  core   2.4679  16.0446  -0.3246  -2.5000  -3.0476
+C  core O  core O  core H  core  -2.5000   7.3697  -1.0000  -4.1837  -2.9498
+H  core O  core O  core H  core  -2.5000 -25.0000  -1.0000  -2.5000   0.0000
+C  core O  core O  core O  core   2.5000 -24.1204   1.0000  -3.2189  -0.9972
+H  core O  core O  core O  core  -2.0407  80.0000  -0.9677  -7.0890   0.0000
+O  core O  core O  core O  core  -2.5000 -25.0000   1.0000  -2.5000  -0.9000
+X  core C  core H  core X  core   2.0735   0.1000   0.0100  -4.0000   0.0000
+X  core H  core H  core X  core   0.0000   0.1000   0.0100  -4.0000   0.0000
+X  core H  core O  core X  core   0.0000   0.1000   0.0200  -4.0000   0.0000
+X  core C  core C  core X  core   0.0000  50.0000   0.3000  -4.0000  -2.0000
+X  core O  core O  core X  core   0.5511  25.4150   1.1330  -5.1903  -1.0000
+C  core C  core O  core O  core  -0.0002  20.1851   0.1601  -9.0000  -2.0000
+C  core O  core O  core C  core   0.0002  80.0000  -1.5000  -4.4848  -2.0000
+O  core C  core O  core O  core  -0.1583  20.0000   1.5000  -9.0000  -2.0000
